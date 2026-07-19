@@ -1,0 +1,47 @@
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# Variáveis de ambiente / segredos
+.env
+.env.local
+
+# Testes e coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
