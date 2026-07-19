@@ -1,8 +1,30 @@
 # Algoritmos Clássicos de Menor Caminho
 
 ## Grafos
+> Grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Eles são formados por vértices, que representam os pontos ou entidades do problema, e por arestas, que representam as conexões
+> existentes entre esses vértices. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades. 
+
+> Em um **grafo direcionado**, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um vértice (v) não implica necessariamente a existência do caminho inverso.
+> 
+> <img src="/images/grafo-direcionado.png" alt="Grafo Direcionado" width="400">
+
+> Em um **grafo ponderado**, cada aresta recebe um valor numérico que pode representar distância, custo, tempo, consumo de recursos ou qualquer
+> outra medida relevante.
+>
+> <img src="/images/grafo-ponderado.png" alt="Grafo Direcionado" width="400">
+
+
+> Também é possível classificar os grafos de acordo com a quantidade de conexões: **grafos esparsos** possuem poucas arestas em relação ao total possível, enquanto **grafos densos** apresentam um número elevado de conexões.
+> <table><tr><td><img src="/images/grafo-esparso.png" alt="Grafo Esparso" width="300"></td><td><img src="/images/grafo-denso.png" alt="Grafo Denso" width="300"></td></tr></table>
 
 ## Algoritmos de Menor Caminho
+
+> Os grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Eles são formados por vértices, que representam os pontos ou entidades do problema, e por arestas, que representam as conexões existentes 
+> entre esses vértices. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades. Em um grafo direcionado, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um 
+> vértice (v) não implica necessariamente a existência do caminho inverso. Em um grafo ponderado, cada aresta recebe um valor numérico que pode representar distância, custo, tempo, consumo de recursos ou qualquer outra medida relevante.
+> Também é possível classificar os grafos de acordo com a quantidade de conexões: grafos esparsos possuem poucas arestas em relação ao total possível, enquanto grafos densos apresentam um número elevado de conexões. No experimento proposto,
+> serão utilizados grafos direcionados, ponderados, simples e fortemente conectados, com pesos positivos, sem laços e sem arestas duplicadas. Essa escolha permite representar diferentes cenários de redes e, ao mesmo tempo, garantir que 
+> exista pelo menos um caminho entre todos os pares de vértices, tornando possível comparar os algoritmos de forma uniforme.
 
 ### Algoritmo de Floyd-Warshall
 ### Algoritmo de Dijkstra
