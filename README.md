@@ -19,11 +19,8 @@
 
 ## Algoritmos de Menor Caminho
 
-> Os grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades. Em um grafo direcionado, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um 
-> vértice (v) não implica necessariamente a existência do caminho inverso. Em um grafo ponderado, cada aresta recebe um valor numérico que pode representar distância, custo, tempo, consumo de recursos ou qualquer outra medida relevante.
-> Também é possível classificar os grafos de acordo com a quantidade de conexões: grafos esparsos possuem poucas arestas em relação ao total possível, enquanto grafos densos apresentam um número elevado de conexões. No experimento proposto,
-> serão utilizados grafos direcionados, ponderados, simples e fortemente conectados, com pesos positivos, sem laços e sem arestas duplicadas. Essa escolha permite representar diferentes cenários de redes e, ao mesmo tempo, garantir que 
-> exista pelo menos um caminho entre todos os pares de vértices, tornando possível comparar os algoritmos de forma uniforme.
+> Um algoritmo de menor caminho (ou shortest path algorithm) é um método usado para encontrar o caminho de menor custo entre dois pontos (vértices) em um grafo.
+> O objetivo do algoritmo é encontrar a sequência de arestas que liga a origem ao destino com o menor custo total, que pode ser a menor distância, o menor tempo, o menor número de nós visitados.
 
 ### Algoritmo de Floyd-Warshall
 ### Algoritmo de Dijkstra
