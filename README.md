@@ -99,7 +99,7 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 
 ### Levantamento
 
-> Para cada combinação de tamanho e densidade, o grafo será gerado antes da medição e fornecido igualmente aos quatro algoritmos. Cada algoritmo realizará três execuções de aquecimento e, em seguida, trinta execuções oficiais. A memória > será avaliada separadamente, e as operações internas serão contabilizadas por contadores específicos de cada implementação. Os resultados serão armazenados em arquivos CSV para posterior organização em tabelas, gráficos e análise 
+> Para cada combinação de tamanho e densidade, o grafo será gerado antes da medição e fornecido igualmente aos quatro algoritmos. Cada algoritmo realizará três execuções de aquecimento e, em seguida, trinta execuções oficiais. A memória será avaliada separadamente, e as operações internas serão contabilizadas por contadores específicos de cada implementação. Os resultados serão armazenados em arquivos CSV para posterior organização em tabelas, gráficos e análise 
 > comparativa.
 
 
