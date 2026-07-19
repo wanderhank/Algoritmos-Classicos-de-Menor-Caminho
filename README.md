@@ -19,8 +19,7 @@
 
 ## Algoritmos de Menor Caminho
 
-> Os grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Eles são formados por vértices, que representam os pontos ou entidades do problema, e por arestas, que representam as conexões existentes 
-> entre esses vértices. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades. Em um grafo direcionado, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um 
+> Os grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades. Em um grafo direcionado, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um 
 > vértice (v) não implica necessariamente a existência do caminho inverso. Em um grafo ponderado, cada aresta recebe um valor numérico que pode representar distância, custo, tempo, consumo de recursos ou qualquer outra medida relevante.
 > Também é possível classificar os grafos de acordo com a quantidade de conexões: grafos esparsos possuem poucas arestas em relação ao total possível, enquanto grafos densos apresentam um número elevado de conexões. No experimento proposto,
 > serão utilizados grafos direcionados, ponderados, simples e fortemente conectados, com pesos positivos, sem laços e sem arestas duplicadas. Essa escolha permite representar diferentes cenários de redes e, ao mesmo tempo, garantir que 
@@ -30,6 +29,48 @@
 ### Algoritmo de Dijkstra
 ### Algoritmo de Johnson
 ### Algoritmo de Bellman-Ford
+
+#### Origem
+> O algoritmo de Bellman-Ford recebeu esse nome em referência aos matemáticos Richard Bellman e Lester Randolph Ford Jr., que publicaram trabalhos relacionados ao método em 1958 e 1956, respectivamente. Entretanto, uma ideia semelhante já havia 
+> sido apresentada por Alfonso Shimbel, em 1955. Em 1959, Edward F. Moore publicou outra variação, razão pela qual o método também pode ser chamado de algoritmo de Bellman-Ford-Moore.
+
+#### Objetivo
+> O Bellman-Ford é um algoritmo utilizado para encontrar as menores distâncias entre um vértice de origem e todos os demais vértices de um grafo direcionado e ponderado. Sua principal vantagem é funcionar mesmo quando algumas arestas possuem pesos 
+> negativos, desde que não exista um ciclo de peso negativo alcançável a partir da origem.
+> Um ciclo negativo é um caminho fechado cuja soma dos pesos é menor que zero. Quando esse tipo de ciclo existe, não há uma menor distância bem definida, pois seria possível percorrer o ciclo repetidamente e diminuir o custo indefinidamente.
+
+#### Funcionamento
+> Inicialmente, o algoritmo atribui distância zero ao vértice de origem e distância infinita aos demais vértices. Em seguida, percorre todas as arestas do grafo e realiza o processo de relaxamento.
+> Relaxar uma aresta significa verificar se ela oferece uma forma mais barata de chegar ao seu vértice de destino. Para uma aresta que liga o vértice (u) ao vértice (v), com peso (w), é feita a comparação:
+>> **dist[u] + w < dist[v]**
+> 
+> Se essa condição for verdadeira, a distância de (v) é atualizada:
+>> **dist[v] = dist[u] + w**
+> 
+> Por exemplo, considere que a distância conhecida até o vértice (A) seja 4, a distância conhecida até (B) seja 10 e a aresta (A → B) tenha peso 3. Passar por (A) produziria um custo igual a:
+>> **4 + 3 = 7**
+> 
+> Como 7 é menor que 10, a aresta (A → B) é relaxada e a distância de (B) passa a ser 7.
+> O processo de relaxamento de todas as arestas é repetido, no máximo, (V-1) vezes, sendo (V) a quantidade de vértices. Isso ocorre porque um menor caminho simples pode conter, no máximo, (V-1) arestas.
+> Depois dessas repetições, o algoritmo percorre novamente todas as arestas. Se alguma distância ainda puder ser reduzida, isso indica a existência de um ciclo de peso negativo alcançável pela origem.
+#### Complexidade
+> Para uma única origem, o Bellman-Ford percorre todas as (E) arestas até (V-1) vezes. Sua complexidade de tempo é:
+>> O(VE)
+> 
+> Quando o algoritmo é executado a partir de cada vértice para calcular os menores caminhos entre todos os pares, sua complexidade passa a ser:
+>> O(V²E)
+> 
+#### Vantagens e Desvantagens
+> As principais vantagens do algoritmo de Bellman-Ford são:
+>
+>> - aceita arestas com pesos negativos;
+>> - detecta ciclos de peso negativo alcançáveis;
+>> - possui funcionamento relativamente simples;
+>> - permite reconstruir os caminhos por meio dos predecessores;
+>> - pode ser adaptado para calcular menores caminhos entre todos os pares.
+>
+> Em contrapartida, sua principal limitação é o custo computacional elevado. Em grafos que possuem somente pesos positivos, algoritmos como Dijkstra geralmente apresentam desempenho melhor.
+Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode crescer significativamente, sobretudo em grafos grandes e densos.
 
 ## O Experimento
 
