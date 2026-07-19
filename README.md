@@ -2,7 +2,8 @@
 
 ## Grafos
 > Grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Eles são formados por vértices, que representam os pontos ou entidades do problema, e por arestas, que representam as conexões
-> existentes entre esses vértices. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades. 
+> existentes entre esses vértices. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades.
+> <img src="/images/grafo-simples.png" alt="Grafo Direcionado" width="400">
 
 > Em um **grafo direcionado**, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um vértice (v) não implica necessariamente a existência do caminho inverso.
 > 
@@ -12,7 +13,6 @@
 > outra medida relevante.
 >
 > <img src="/images/grafo-ponderado.png" alt="Grafo Direcionado" width="400">
-
 
 > Também é possível classificar os grafos de acordo com a quantidade de conexões: **grafos esparsos** possuem poucas arestas em relação ao total possível, enquanto **grafos densos** apresentam um número elevado de conexões.
 > <table><tr><td><img src="/images/grafo-esparso.png" alt="Grafo Esparso" width="300"></td><td><img src="/images/grafo-denso.png" alt="Grafo Denso" width="300"></td></tr></table>
