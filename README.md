@@ -23,8 +23,61 @@
 > O objetivo do algoritmo é encontrar a sequência de arestas que liga a origem ao destino com o menor custo total, que pode ser a menor distância, o menor tempo, o menor número de nós visitados.
 
 ### Algoritmo de Floyd-Warshall
+
+#### Origem
+
+> O algoritmo de Floyd-Warshall surgiu de duas publicações separadas, no mesmo ano de 1962. Warshall publicou um método para calcular o fecho transitivo de um grafo — basicamente, descobrir quais pares de vértices têm algum caminho entre si, sem se importar com o custo. Floyd, por conta própria, adaptou basicamente a mesma lógica para resolver um problema mais útil aqui: calcular o custo do menor caminho entre cada par de vértices de um grafo ponderado. É por isso que o algoritmo carrega os dois nomes, mesmo eles não tendo trabalhado juntos.
+
+#### Objetivo
+
+> O Floyd-Warshall é um algoritmo utilizado para encontrar as menores distâncias entre **todos** os pares de vértices de um grafo direcionado e ponderado — não parte de uma única origem, como o Dijkstra ou o Bellman-Ford. Na literatura, esse problema é chamado de All-Pairs Shortest Path (APSP): dado um grafo G = (V, E), formalmente, o objetivo é encontrar, para cada par (i, j), o valor do caminho de menor custo entre eles, ou infinito, caso não exista nenhum caminho.
+>
+> Dava pra resolver isso rodando Dijkstra a partir de cada vértice, um de cada vez. O que o Floyd-Warshall faz de diferente é resolver tudo numa formulação só de programação dinâmica, sem tratar cada vértice como um problema separado.
+
+#### Funcionamento
+
+> A ideia central do algoritmo é testar, para cada par (i, j), se passar por um vértice intermediário k encurta o caminho já conhecido:
+>
+>> **dist[i][k] + dist[k][j] < dist[i][j]**
+>
+> Cormen (2009, cap. 25) formaliza isso definindo d_ij^(k) como o menor caminho de i até j usando só os vértices {1, ..., k} como intermediários possíveis. A recorrência sai naturalmente disso: ou o caminho ótimo não passa por k (e o valor não muda em relação à rodada anterior), ou passa por k (e o caminho se quebra em dois pedaços — i até k, e k até j — cada um já resolvido na rodada anterior).
+>
+> Por exemplo, considere um grafo com as arestas C→A (peso 5) e A→B (peso 3), sem aresta direta de C para B. Ao liberar A como intermediário (k = A), o algoritmo testa:
+>
+>> **5 + 3 = 8**
+>
+> Como não existia caminho de C para B antes, esse valor passa a ser a nova distância registrada: dist[C][B] = 8.
+>
+> O processo se repete para cada vértice do grafo como intermediário (k percorre todos os vértices), sempre atualizando a matriz de distâncias quando um caminho mais curto é encontrado. Um detalhe que exige atenção na implementação é que a matriz é atualizada "em cima dela mesma" — um único `dist`, sendo sobrescrito a cada rodada de k, em vez de uma cópia nova por rodada. Isso só é seguro porque, na hora de atualizar dist[i][j], os valores usados (dist[i][k] e dist[k][j]) nunca foram alterados durante essa mesma rodada — para isso acontecer, seria necessário ter i = k ou j = k, e nesse caso a comparação não muda nada (comparar um caminho com ele mesmo).
+>
+> A corretude do algoritmo é provada por indução em k: no caso base (k = 0, nenhum intermediário liberado), a matriz reflete só os pesos das arestas diretas — trivialmente correto. Supondo que até k-1 a matriz esteja certa, a rodada de k testa se vale a pena passar por esse vértice novo. Como nenhum caminho simples num grafo de V vértices passa por mais de V vértices intermediários, depois das V rodadas a matriz reflete o menor caminho de verdade, sem restrição de quais vértices podem ser usados no meio.
+
+#### Complexidade
+
+> O algoritmo tem três laços aninhados percorrendo os V vértices do grafo. Sua complexidade de tempo é:
+>
+>> O(V³)
+>
+> E a complexidade de espaço, referente ao armazenamento da matriz de distâncias, é:
+>
+>> O(V²)
+>
+> Uma característica importante é que essa complexidade **não muda com a quantidade de arestas** — grafo esparso ou denso, o algoritmo realiza a mesma quantidade de operações.
+
+#### Vantagens e Desvantagens
+
+> As principais vantagens do algoritmo de Floyd-Warshall são:
+>
+>> - resolve todos os pares de vértices numa única execução, sem precisar rodar o algoritmo várias vezes;
+>> - funciona mesmo com arestas de peso negativo, desde que não exista ciclo negativo alcançável;
+>> - detecta ciclos de peso negativo de graça: se, ao final, algum valor da diagonal principal (dist[i][i]) ficar negativo, é sinal de que existe um ciclo negativo passando por aquele vértice;
+>> - desempenho previsível e competitivo em grafos densos, onde o número de arestas se aproxima de V².
+>
+> Em contrapartida, sua principal limitação é que o custo O(V³) é fixo, independente da densidade do grafo. Em grafos esparsos, algoritmos como Dijkstra ou Bellman-Ford, que exploram apenas as arestas que existem, tendem a ter desempenho melhor.
+
 ### Algoritmo de Dijkstra
 ### Algoritmo de Johnson
+
 ### Algoritmo de Bellman-Ford
 
 #### Origem
