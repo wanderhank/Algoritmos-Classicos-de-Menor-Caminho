@@ -75,8 +75,66 @@
 >
 > Em contrapartida, sua principal limitação é que o custo O(V³) é fixo, independente da densidade do grafo. Em grafos esparsos, algoritmos como Dijkstra ou Bellman-Ford, que exploram apenas as arestas que existem, tendem a ter desempenho melhor.
 
-### Algoritmo de Dijkstra
-### Algoritmo de Johnson
+### Dijkstra
+
+#### Objetivo
+
+> O objetivo do Dijkstra é determinar a rota de menor custo a partir de um ponto inicial específico para todos os outros pontos de um grafo.
+
+#### Funcionamento
+
+> O algoritmo opera por meio de uma estratégia de exploração em camadas, partindo da origem. Ele mantém uma lista de distâncias provisórias para cada nó, inicializadas como infinitas, exceto a origem, que começa com zero. A mecânica central consiste em selecionar, a cada etapa, o nó ainda não finalizado que possui a menor distância acumulada até o momento — na prática, essa seleção costuma ser feita com uma fila de prioridade (min-heap), o que impacta diretamente a eficiência do algoritmo.
+>
+> Ao fixar esse nó, o algoritmo faz o chamado "relaxamento": ele analisa todos os vizinhos conectados a ele e calcula se chegar até eles passando por esse nó atual é mais barato do que o caminho registrado anteriormente. Em pseudocódigo, o relaxamento de uma aresta (u, v) é:
+>
+> ```
+> se dist[v] > dist[u] + peso(u, v):
+>     dist[v] = dist[u] + peso(u, v)
+> ```
+>
+> Se a condição for verdadeira, a distância é atualizada. Esse processo se repete até que todos os pontos acessíveis tenham sido fixados.
+
+#### Limitação Teórica
+
+> A lógica do Dijkstra assume que caminhar pelo grafo sempre acumula custos positivos. Por conta disso, uma vez que um nó é marcado como "resolvido", o algoritmo nunca mais recalcula sua distância. Se o grafo contiver arestas com valores negativos, essa premissa é quebrada, pois um caminho mais longo no início poderia se tornar mais barato posteriormente através de uma aresta negativa — algo que o Dijkstra é estruturalmente incapaz de detectar.
+
+#### Complexidade
+
+> Com array simples: **O(V²)**
+> Com heap binário: **O((V + E) log V)**
+
+---
+### Johnson
+
+#### Objetivo
+
+> O algoritmo de Johnson é projetado para resolver o problema de caminhos mínimos entre todos os pares de nós de um grafo, sendo uma solução otimizada para cenários onde o grafo possui muitas conexões distribuídas de forma esparsa. Ele combina a segurança do Bellman-Ford contra pesos negativos com a velocidade do Dijkstra.
+
+#### Funcionamento
+
+> O processo ocorre em quatro etapas:
+>
+> **1. Inserção de Vértice Base**
+> Um nó fictício é temporariamente adicionado ao grafo, conectado a todos os outros nós reais por arestas de custo zero.
+>
+> **2. Cálculo dos Potenciais**
+> O algoritmo executa o método de Bellman-Ford a partir desse nó fictício. Os valores resultantes dessas distâncias são armazenados como "potenciais" (h) de cada vértice. Se um ciclo negativo for detectado nesta fase, o processo é interrompido.
+>
+> **3. Reponderação**
+> Utilizando os potenciais calculados, o algoritmo transforma o peso de todas as arestas originais do grafo segundo a fórmula:
+>
+>> **w'(u, v) = w(u, v) + h(u) − h(v)**
+>
+> Essa transformação garante que todas as arestas passem a ter peso ≥ 0, sem alterar qual é o caminho mais curto entre dois nós — isso acontece porque, ao longo de qualquer caminho completo, os termos h(u) e h(v) intermediários se cancelam, preservando a ordem relativa dos custos originais.
+>
+> **4. Mapeamento Total**
+> Com o grafo reconfigurado contendo apenas custos positivos, o algoritmo executa o método de Dijkstra a partir de cada um dos vértices do grafo. Ao final, a alteração nos pesos é revertida aritmeticamente para exibir os custos reais de cada caminho.
+
+#### Complexidade
+
+> **O(V · E)** do Bellman-Ford + **O(V · (V + E) log V)** das V execuções de Dijkstra
+
+---
 
 ### Algoritmo de Bellman-Ford
 
