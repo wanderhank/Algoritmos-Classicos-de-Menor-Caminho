@@ -1,0 +1,56 @@
+services:
+  experimento:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: projeto-menor-caminho:latest
+    volumes:
+      - ./resultados:/app/resultados
+    command:
+      [
+        "python",
+        "main.py",
+        "--tamanhos",
+        "30",
+        "60",
+        "100",
+        "150",
+        "--repeticoes",
+        "30",
+        "--aquecimentos",
+        "3",
+        "--pular-testes"
+      ]
+
+  testes:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: projeto-menor-caminho:latest
+    command:
+      [
+        "python",
+        "main.py",
+        "--somente-testes"
+      ]
+
+  rapido:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: projeto-menor-caminho:latest
+    volumes:
+      - ./resultados:/app/resultados
+    command:
+      [
+        "python",
+        "main.py",
+        "--tamanhos",
+        "30",
+        "60",
+        "--repeticoes",
+        "3",
+        "--aquecimentos",
+        "1",
+        "--pular-testes"
+      ]

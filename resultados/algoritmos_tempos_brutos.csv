@@ -1,0 +1,1441 @@
+﻿algoritmo;vertices;arestas;densidade;semente;repeticao;tempo_ms
+Bellman-Ford repetido;30;60;esparso;42;1;0,796956
+Bellman-Ford repetido;30;60;esparso;42;2;0,778365
+Bellman-Ford repetido;30;60;esparso;42;3;0,736934
+Bellman-Ford repetido;30;60;esparso;42;4;0,744087
+Bellman-Ford repetido;30;60;esparso;42;5;0,742825
+Bellman-Ford repetido;30;60;esparso;42;6;0,741063
+Bellman-Ford repetido;30;60;esparso;42;7;0,757844
+Bellman-Ford repetido;30;60;esparso;42;8;0,738332
+Bellman-Ford repetido;30;60;esparso;42;9;0,739911
+Bellman-Ford repetido;30;60;esparso;42;10;0,762759
+Bellman-Ford repetido;30;60;esparso;42;11;0,714116
+Bellman-Ford repetido;30;60;esparso;42;12;0,728832
+Bellman-Ford repetido;30;60;esparso;42;13;0,723330
+Bellman-Ford repetido;30;60;esparso;42;14;0,728628
+Bellman-Ford repetido;30;60;esparso;42;15;0,744373
+Bellman-Ford repetido;30;60;esparso;42;16;0,720948
+Bellman-Ford repetido;30;60;esparso;42;17;0,736688
+Bellman-Ford repetido;30;60;esparso;42;18;0,732257
+Bellman-Ford repetido;30;60;esparso;42;19;0,755694
+Bellman-Ford repetido;30;60;esparso;42;20;0,740308
+Bellman-Ford repetido;30;60;esparso;42;21;0,791805
+Bellman-Ford repetido;30;60;esparso;42;22;0,725879
+Bellman-Ford repetido;30;60;esparso;42;23;0,718914
+Bellman-Ford repetido;30;60;esparso;42;24;0,718703
+Bellman-Ford repetido;30;60;esparso;42;25;0,736127
+Bellman-Ford repetido;30;60;esparso;42;26;0,732829
+Bellman-Ford repetido;30;60;esparso;42;27;0,731695
+Bellman-Ford repetido;30;60;esparso;42;28;0,748008
+Bellman-Ford repetido;30;60;esparso;42;29;0,740135
+Bellman-Ford repetido;30;60;esparso;42;30;0,730927
+Dijkstra repetido;30;60;esparso;42;1;0,438327
+Dijkstra repetido;30;60;esparso;42;2;0,369154
+Dijkstra repetido;30;60;esparso;42;3;0,376547
+Dijkstra repetido;30;60;esparso;42;4;0,357167
+Dijkstra repetido;30;60;esparso;42;5;0,370224
+Dijkstra repetido;30;60;esparso;42;6;0,365309
+Dijkstra repetido;30;60;esparso;42;7;0,424243
+Dijkstra repetido;30;60;esparso;42;8;0,350196
+Dijkstra repetido;30;60;esparso;42;9;0,356385
+Dijkstra repetido;30;60;esparso;42;10;0,375488
+Dijkstra repetido;30;60;esparso;42;11;0,358059
+Dijkstra repetido;30;60;esparso;42;12;0,351760
+Dijkstra repetido;30;60;esparso;42;13;0,357013
+Dijkstra repetido;30;60;esparso;42;14;0,355710
+Dijkstra repetido;30;60;esparso;42;15;0,364167
+Dijkstra repetido;30;60;esparso;42;16;0,369637
+Dijkstra repetido;30;60;esparso;42;17;0,379877
+Dijkstra repetido;30;60;esparso;42;18;0,367482
+Dijkstra repetido;30;60;esparso;42;19;0,365546
+Dijkstra repetido;30;60;esparso;42;20;0,371813
+Dijkstra repetido;30;60;esparso;42;21;0,361621
+Dijkstra repetido;30;60;esparso;42;22;0,363247
+Dijkstra repetido;30;60;esparso;42;23;0,373070
+Dijkstra repetido;30;60;esparso;42;24;0,398728
+Dijkstra repetido;30;60;esparso;42;25;0,365832
+Dijkstra repetido;30;60;esparso;42;26;0,370493
+Dijkstra repetido;30;60;esparso;42;27;0,366582
+Dijkstra repetido;30;60;esparso;42;28;0,365461
+Dijkstra repetido;30;60;esparso;42;29;0,374982
+Dijkstra repetido;30;60;esparso;42;30;0,366073
+Floyd-Warshall;30;60;esparso;42;1;1,046917
+Floyd-Warshall;30;60;esparso;42;2;1,000385
+Floyd-Warshall;30;60;esparso;42;3;1,010765
+Floyd-Warshall;30;60;esparso;42;4;0,991566
+Floyd-Warshall;30;60;esparso;42;5;0,965767
+Floyd-Warshall;30;60;esparso;42;6;0,999700
+Floyd-Warshall;30;60;esparso;42;7;0,968904
+Floyd-Warshall;30;60;esparso;42;8;0,990170
+Floyd-Warshall;30;60;esparso;42;9;0,974809
+Floyd-Warshall;30;60;esparso;42;10;0,969567
+Floyd-Warshall;30;60;esparso;42;11;0,995932
+Floyd-Warshall;30;60;esparso;42;12;1,002306
+Floyd-Warshall;30;60;esparso;42;13;0,952153
+Floyd-Warshall;30;60;esparso;42;14;0,950403
+Floyd-Warshall;30;60;esparso;42;15;0,956667
+Floyd-Warshall;30;60;esparso;42;16;0,954717
+Floyd-Warshall;30;60;esparso;42;17;0,973362
+Floyd-Warshall;30;60;esparso;42;18;1,005568
+Floyd-Warshall;30;60;esparso;42;19;0,971123
+Floyd-Warshall;30;60;esparso;42;20;0,961633
+Floyd-Warshall;30;60;esparso;42;21;0,973795
+Floyd-Warshall;30;60;esparso;42;22;0,956547
+Floyd-Warshall;30;60;esparso;42;23;0,954377
+Floyd-Warshall;30;60;esparso;42;24;0,974404
+Floyd-Warshall;30;60;esparso;42;25;1,016255
+Floyd-Warshall;30;60;esparso;42;26;0,978513
+Floyd-Warshall;30;60;esparso;42;27;1,032106
+Floyd-Warshall;30;60;esparso;42;28;0,928144
+Floyd-Warshall;30;60;esparso;42;29;0,987334
+Floyd-Warshall;30;60;esparso;42;30;1,020918
+Johnson;30;60;esparso;42;1;0,528356
+Johnson;30;60;esparso;42;2;0,493838
+Johnson;30;60;esparso;42;3;0,482743
+Johnson;30;60;esparso;42;4;0,460888
+Johnson;30;60;esparso;42;5;0,492457
+Johnson;30;60;esparso;42;6;0,478480
+Johnson;30;60;esparso;42;7;0,473105
+Johnson;30;60;esparso;42;8;0,453131
+Johnson;30;60;esparso;42;9;0,469039
+Johnson;30;60;esparso;42;10;0,599119
+Johnson;30;60;esparso;42;11;0,490716
+Johnson;30;60;esparso;42;12;0,452796
+Johnson;30;60;esparso;42;13;0,530936
+Johnson;30;60;esparso;42;14;0,448616
+Johnson;30;60;esparso;42;15;0,473428
+Johnson;30;60;esparso;42;16;0,443894
+Johnson;30;60;esparso;42;17;0,505906
+Johnson;30;60;esparso;42;18;0,449920
+Johnson;30;60;esparso;42;19;0,462666
+Johnson;30;60;esparso;42;20;0,478861
+Johnson;30;60;esparso;42;21;0,462140
+Johnson;30;60;esparso;42;22;0,456704
+Johnson;30;60;esparso;42;23;0,480361
+Johnson;30;60;esparso;42;24;0,468433
+Johnson;30;60;esparso;42;25;0,453083
+Johnson;30;60;esparso;42;26;0,495622
+Johnson;30;60;esparso;42;27;0,458068
+Johnson;30;60;esparso;42;28;0,493434
+Johnson;30;60;esparso;42;29;0,557880
+Johnson;30;60;esparso;42;30;0,497443
+Bellman-Ford repetido;30;174;intermediario;43;1;1,840581
+Bellman-Ford repetido;30;174;intermediario;43;2;1,776461
+Bellman-Ford repetido;30;174;intermediario;43;3;1,745706
+Bellman-Ford repetido;30;174;intermediario;43;4;1,719238
+Bellman-Ford repetido;30;174;intermediario;43;5;1,810729
+Bellman-Ford repetido;30;174;intermediario;43;6;1,842413
+Bellman-Ford repetido;30;174;intermediario;43;7;1,747634
+Bellman-Ford repetido;30;174;intermediario;43;8;1,806614
+Bellman-Ford repetido;30;174;intermediario;43;9;1,803638
+Bellman-Ford repetido;30;174;intermediario;43;10;1,804603
+Bellman-Ford repetido;30;174;intermediario;43;11;1,835542
+Bellman-Ford repetido;30;174;intermediario;43;12;1,788488
+Bellman-Ford repetido;30;174;intermediario;43;13;1,821248
+Bellman-Ford repetido;30;174;intermediario;43;14;1,826596
+Bellman-Ford repetido;30;174;intermediario;43;15;1,888766
+Bellman-Ford repetido;30;174;intermediario;43;16;1,828518
+Bellman-Ford repetido;30;174;intermediario;43;17;1,827418
+Bellman-Ford repetido;30;174;intermediario;43;18;1,784280
+Bellman-Ford repetido;30;174;intermediario;43;19;1,832548
+Bellman-Ford repetido;30;174;intermediario;43;20;1,735284
+Bellman-Ford repetido;30;174;intermediario;43;21;1,797267
+Bellman-Ford repetido;30;174;intermediario;43;22;1,776763
+Bellman-Ford repetido;30;174;intermediario;43;23;1,783469
+Bellman-Ford repetido;30;174;intermediario;43;24;1,768723
+Bellman-Ford repetido;30;174;intermediario;43;25;1,785419
+Bellman-Ford repetido;30;174;intermediario;43;26;1,760529
+Bellman-Ford repetido;30;174;intermediario;43;27;1,771588
+Bellman-Ford repetido;30;174;intermediario;43;28;1,804691
+Bellman-Ford repetido;30;174;intermediario;43;29;1,757272
+Bellman-Ford repetido;30;174;intermediario;43;30;1,776977
+Dijkstra repetido;30;174;intermediario;43;1;0,701253
+Dijkstra repetido;30;174;intermediario;43;2;0,687034
+Dijkstra repetido;30;174;intermediario;43;3;0,704621
+Dijkstra repetido;30;174;intermediario;43;4;0,711844
+Dijkstra repetido;30;174;intermediario;43;5;0,662940
+Dijkstra repetido;30;174;intermediario;43;6;0,664676
+Dijkstra repetido;30;174;intermediario;43;7;0,654039
+Dijkstra repetido;30;174;intermediario;43;8;0,761433
+Dijkstra repetido;30;174;intermediario;43;9;0,644157
+Dijkstra repetido;30;174;intermediario;43;10;0,639154
+Dijkstra repetido;30;174;intermediario;43;11;0,677733
+Dijkstra repetido;30;174;intermediario;43;12;0,641443
+Dijkstra repetido;30;174;intermediario;43;13;0,665396
+Dijkstra repetido;30;174;intermediario;43;14;0,646491
+Dijkstra repetido;30;174;intermediario;43;15;0,709708
+Dijkstra repetido;30;174;intermediario;43;16;0,662811
+Dijkstra repetido;30;174;intermediario;43;17;0,662624
+Dijkstra repetido;30;174;intermediario;43;18;0,645985
+Dijkstra repetido;30;174;intermediario;43;19;0,657514
+Dijkstra repetido;30;174;intermediario;43;20;0,640876
+Dijkstra repetido;30;174;intermediario;43;21;0,642338
+Dijkstra repetido;30;174;intermediario;43;22;0,660507
+Dijkstra repetido;30;174;intermediario;43;23;0,657830
+Dijkstra repetido;30;174;intermediario;43;24;0,649531
+Dijkstra repetido;30;174;intermediario;43;25;0,648647
+Dijkstra repetido;30;174;intermediario;43;26;0,671361
+Dijkstra repetido;30;174;intermediario;43;27;0,647258
+Dijkstra repetido;30;174;intermediario;43;28;0,648365
+Dijkstra repetido;30;174;intermediario;43;29;0,641379
+Dijkstra repetido;30;174;intermediario;43;30;0,655745
+Floyd-Warshall;30;174;intermediario;43;1;1,412063
+Floyd-Warshall;30;174;intermediario;43;2;1,434210
+Floyd-Warshall;30;174;intermediario;43;3;1,438423
+Floyd-Warshall;30;174;intermediario;43;4;1,382999
+Floyd-Warshall;30;174;intermediario;43;5;1,341387
+Floyd-Warshall;30;174;intermediario;43;6;1,400691
+Floyd-Warshall;30;174;intermediario;43;7;1,439586
+Floyd-Warshall;30;174;intermediario;43;8;1,453498
+Floyd-Warshall;30;174;intermediario;43;9;1,378157
+Floyd-Warshall;30;174;intermediario;43;10;1,363081
+Floyd-Warshall;30;174;intermediario;43;11;1,380969
+Floyd-Warshall;30;174;intermediario;43;12;1,369914
+Floyd-Warshall;30;174;intermediario;43;13;1,402197
+Floyd-Warshall;30;174;intermediario;43;14;1,432416
+Floyd-Warshall;30;174;intermediario;43;15;1,458136
+Floyd-Warshall;30;174;intermediario;43;16;1,427167
+Floyd-Warshall;30;174;intermediario;43;17;1,399432
+Floyd-Warshall;30;174;intermediario;43;18;1,400198
+Floyd-Warshall;30;174;intermediario;43;19;1,406666
+Floyd-Warshall;30;174;intermediario;43;20;1,367870
+Floyd-Warshall;30;174;intermediario;43;21;1,379278
+Floyd-Warshall;30;174;intermediario;43;22;1,373213
+Floyd-Warshall;30;174;intermediario;43;23;1,350561
+Floyd-Warshall;30;174;intermediario;43;24;1,374014
+Floyd-Warshall;30;174;intermediario;43;25;1,386724
+Floyd-Warshall;30;174;intermediario;43;26;1,381090
+Floyd-Warshall;30;174;intermediario;43;27;1,382277
+Floyd-Warshall;30;174;intermediario;43;28;1,419690
+Floyd-Warshall;30;174;intermediario;43;29;1,376377
+Floyd-Warshall;30;174;intermediario;43;30;1,500342
+Johnson;30;174;intermediario;43;1;0,808545
+Johnson;30;174;intermediario;43;2;0,761512
+Johnson;30;174;intermediario;43;3;0,764562
+Johnson;30;174;intermediario;43;4;0,815858
+Johnson;30;174;intermediario;43;5;0,762593
+Johnson;30;174;intermediario;43;6;0,806110
+Johnson;30;174;intermediario;43;7;0,766227
+Johnson;30;174;intermediario;43;8;0,782428
+Johnson;30;174;intermediario;43;9;0,753696
+Johnson;30;174;intermediario;43;10;0,871925
+Johnson;30;174;intermediario;43;11;0,738605
+Johnson;30;174;intermediario;43;12;0,742901
+Johnson;30;174;intermediario;43;13;0,752050
+Johnson;30;174;intermediario;43;14;0,732711
+Johnson;30;174;intermediario;43;15;0,746311
+Johnson;30;174;intermediario;43;16;0,764184
+Johnson;30;174;intermediario;43;17;0,783032
+Johnson;30;174;intermediario;43;18;0,824034
+Johnson;30;174;intermediario;43;19;0,760502
+Johnson;30;174;intermediario;43;20;0,788096
+Johnson;30;174;intermediario;43;21;0,765479
+Johnson;30;174;intermediario;43;22;0,767547
+Johnson;30;174;intermediario;43;23;0,727550
+Johnson;30;174;intermediario;43;24;0,750764
+Johnson;30;174;intermediario;43;25;0,791894
+Johnson;30;174;intermediario;43;26;0,797363
+Johnson;30;174;intermediario;43;27;0,828151
+Johnson;30;174;intermediario;43;28;0,754840
+Johnson;30;174;intermediario;43;29;0,747668
+Johnson;30;174;intermediario;43;30;0,730318
+Bellman-Ford repetido;30;435;denso;44;1;4,251616
+Bellman-Ford repetido;30;435;denso;44;2;4,215869
+Bellman-Ford repetido;30;435;denso;44;3;4,180144
+Bellman-Ford repetido;30;435;denso;44;4;4,173031
+Bellman-Ford repetido;30;435;denso;44;5;4,124925
+Bellman-Ford repetido;30;435;denso;44;6;4,160386
+Bellman-Ford repetido;30;435;denso;44;7;4,178800
+Bellman-Ford repetido;30;435;denso;44;8;4,116185
+Bellman-Ford repetido;30;435;denso;44;9;4,143262
+Bellman-Ford repetido;30;435;denso;44;10;4,201468
+Bellman-Ford repetido;30;435;denso;44;11;4,172873
+Bellman-Ford repetido;30;435;denso;44;12;6,468103
+Bellman-Ford repetido;30;435;denso;44;13;4,304149
+Bellman-Ford repetido;30;435;denso;44;14;4,168250
+Bellman-Ford repetido;30;435;denso;44;15;4,209654
+Bellman-Ford repetido;30;435;denso;44;16;4,165612
+Bellman-Ford repetido;30;435;denso;44;17;4,152262
+Bellman-Ford repetido;30;435;denso;44;18;4,223136
+Bellman-Ford repetido;30;435;denso;44;19;4,169864
+Bellman-Ford repetido;30;435;denso;44;20;4,206794
+Bellman-Ford repetido;30;435;denso;44;21;4,127306
+Bellman-Ford repetido;30;435;denso;44;22;4,175130
+Bellman-Ford repetido;30;435;denso;44;23;4,168672
+Bellman-Ford repetido;30;435;denso;44;24;4,175319
+Bellman-Ford repetido;30;435;denso;44;25;4,148704
+Bellman-Ford repetido;30;435;denso;44;26;4,089581
+Bellman-Ford repetido;30;435;denso;44;27;4,079006
+Bellman-Ford repetido;30;435;denso;44;28;4,208901
+Bellman-Ford repetido;30;435;denso;44;29;4,146703
+Bellman-Ford repetido;30;435;denso;44;30;4,211248
+Dijkstra repetido;30;435;denso;44;1;1,262219
+Dijkstra repetido;30;435;denso;44;2;1,192321
+Dijkstra repetido;30;435;denso;44;3;1,190055
+Dijkstra repetido;30;435;denso;44;4;1,204373
+Dijkstra repetido;30;435;denso;44;5;1,157587
+Dijkstra repetido;30;435;denso;44;6;1,149372
+Dijkstra repetido;30;435;denso;44;7;1,163548
+Dijkstra repetido;30;435;denso;44;8;1,157565
+Dijkstra repetido;30;435;denso;44;9;1,166810
+Dijkstra repetido;30;435;denso;44;10;1,202022
+Dijkstra repetido;30;435;denso;44;11;1,192539
+Dijkstra repetido;30;435;denso;44;12;1,142254
+Dijkstra repetido;30;435;denso;44;13;1,145154
+Dijkstra repetido;30;435;denso;44;14;1,187514
+Dijkstra repetido;30;435;denso;44;15;1,161709
+Dijkstra repetido;30;435;denso;44;16;1,156737
+Dijkstra repetido;30;435;denso;44;17;1,141112
+Dijkstra repetido;30;435;denso;44;18;1,214175
+Dijkstra repetido;30;435;denso;44;19;1,146818
+Dijkstra repetido;30;435;denso;44;20;1,147530
+Dijkstra repetido;30;435;denso;44;21;1,144210
+Dijkstra repetido;30;435;denso;44;22;1,143384
+Dijkstra repetido;30;435;denso;44;23;1,175223
+Dijkstra repetido;30;435;denso;44;24;1,149589
+Dijkstra repetido;30;435;denso;44;25;1,189506
+Dijkstra repetido;30;435;denso;44;26;1,149322
+Dijkstra repetido;30;435;denso;44;27;1,217693
+Dijkstra repetido;30;435;denso;44;28;1,173894
+Dijkstra repetido;30;435;denso;44;29;1,141739
+Dijkstra repetido;30;435;denso;44;30;1,148216
+Floyd-Warshall;30;435;denso;44;1;1,648979
+Floyd-Warshall;30;435;denso;44;2;1,654765
+Floyd-Warshall;30;435;denso;44;3;1,628895
+Floyd-Warshall;30;435;denso;44;4;1,662215
+Floyd-Warshall;30;435;denso;44;5;1,664538
+Floyd-Warshall;30;435;denso;44;6;1,640873
+Floyd-Warshall;30;435;denso;44;7;1,793455
+Floyd-Warshall;30;435;denso;44;8;1,640424
+Floyd-Warshall;30;435;denso;44;9;1,653988
+Floyd-Warshall;30;435;denso;44;10;1,555152
+Floyd-Warshall;30;435;denso;44;11;1,587711
+Floyd-Warshall;30;435;denso;44;12;1,553092
+Floyd-Warshall;30;435;denso;44;13;1,665749
+Floyd-Warshall;30;435;denso;44;14;1,677731
+Floyd-Warshall;30;435;denso;44;15;1,660442
+Floyd-Warshall;30;435;denso;44;16;1,604999
+Floyd-Warshall;30;435;denso;44;17;1,531065
+Floyd-Warshall;30;435;denso;44;18;1,588364
+Floyd-Warshall;30;435;denso;44;19;1,561701
+Floyd-Warshall;30;435;denso;44;20;1,564724
+Floyd-Warshall;30;435;denso;44;21;1,616589
+Floyd-Warshall;30;435;denso;44;22;1,632225
+Floyd-Warshall;30;435;denso;44;23;1,561828
+Floyd-Warshall;30;435;denso;44;24;1,594063
+Floyd-Warshall;30;435;denso;44;25;1,656397
+Floyd-Warshall;30;435;denso;44;26;1,574718
+Floyd-Warshall;30;435;denso;44;27;1,552533
+Floyd-Warshall;30;435;denso;44;28;1,623142
+Floyd-Warshall;30;435;denso;44;29;1,688578
+Floyd-Warshall;30;435;denso;44;30;1,637943
+Johnson;30;435;denso;44;1;1,345868
+Johnson;30;435;denso;44;2;1,310006
+Johnson;30;435;denso;44;3;1,305882
+Johnson;30;435;denso;44;4;1,309454
+Johnson;30;435;denso;44;5;1,297612
+Johnson;30;435;denso;44;6;1,364926
+Johnson;30;435;denso;44;7;1,281227
+Johnson;30;435;denso;44;8;1,267801
+Johnson;30;435;denso;44;9;1,298055
+Johnson;30;435;denso;44;10;1,291078
+Johnson;30;435;denso;44;11;1,331839
+Johnson;30;435;denso;44;12;1,262539
+Johnson;30;435;denso;44;13;1,277095
+Johnson;30;435;denso;44;14;1,297064
+Johnson;30;435;denso;44;15;1,302663
+Johnson;30;435;denso;44;16;1,274081
+Johnson;30;435;denso;44;17;1,274588
+Johnson;30;435;denso;44;18;1,264256
+Johnson;30;435;denso;44;19;1,300222
+Johnson;30;435;denso;44;20;1,260034
+Johnson;30;435;denso;44;21;1,266819
+Johnson;30;435;denso;44;22;1,287488
+Johnson;30;435;denso;44;23;1,275678
+Johnson;30;435;denso;44;24;1,257073
+Johnson;30;435;denso;44;25;1,272029
+Johnson;30;435;denso;44;26;1,258123
+Johnson;30;435;denso;44;27;1,354565
+Johnson;30;435;denso;44;28;1,333110
+Johnson;30;435;denso;44;29;1,339101
+Johnson;30;435;denso;44;30;1,329041
+Bellman-Ford repetido;60;120;esparso;45;1;3,672073
+Bellman-Ford repetido;60;120;esparso;45;2;3,683193
+Bellman-Ford repetido;60;120;esparso;45;3;3,672779
+Bellman-Ford repetido;60;120;esparso;45;4;3,570697
+Bellman-Ford repetido;60;120;esparso;45;5;3,558502
+Bellman-Ford repetido;60;120;esparso;45;6;3,545942
+Bellman-Ford repetido;60;120;esparso;45;7;3,602712
+Bellman-Ford repetido;60;120;esparso;45;8;3,462694
+Bellman-Ford repetido;60;120;esparso;45;9;3,450377
+Bellman-Ford repetido;60;120;esparso;45;10;3,589567
+Bellman-Ford repetido;60;120;esparso;45;11;3,555797
+Bellman-Ford repetido;60;120;esparso;45;12;3,564875
+Bellman-Ford repetido;60;120;esparso;45;13;3,575724
+Bellman-Ford repetido;60;120;esparso;45;14;3,622836
+Bellman-Ford repetido;60;120;esparso;45;15;3,570002
+Bellman-Ford repetido;60;120;esparso;45;16;3,577407
+Bellman-Ford repetido;60;120;esparso;45;17;3,557009
+Bellman-Ford repetido;60;120;esparso;45;18;3,593131
+Bellman-Ford repetido;60;120;esparso;45;19;3,591644
+Bellman-Ford repetido;60;120;esparso;45;20;3,615040
+Bellman-Ford repetido;60;120;esparso;45;21;3,529824
+Bellman-Ford repetido;60;120;esparso;45;22;3,587601
+Bellman-Ford repetido;60;120;esparso;45;23;3,526889
+Bellman-Ford repetido;60;120;esparso;45;24;3,635632
+Bellman-Ford repetido;60;120;esparso;45;25;3,520026
+Bellman-Ford repetido;60;120;esparso;45;26;3,581128
+Bellman-Ford repetido;60;120;esparso;45;27;3,534658
+Bellman-Ford repetido;60;120;esparso;45;28;3,592796
+Bellman-Ford repetido;60;120;esparso;45;29;3,464154
+Bellman-Ford repetido;60;120;esparso;45;30;3,567828
+Dijkstra repetido;60;120;esparso;45;1;1,642441
+Dijkstra repetido;60;120;esparso;45;2;1,626665
+Dijkstra repetido;60;120;esparso;45;3;1,618526
+Dijkstra repetido;60;120;esparso;45;4;1,601457
+Dijkstra repetido;60;120;esparso;45;5;1,617904
+Dijkstra repetido;60;120;esparso;45;6;1,599185
+Dijkstra repetido;60;120;esparso;45;7;1,567882
+Dijkstra repetido;60;120;esparso;45;8;1,628411
+Dijkstra repetido;60;120;esparso;45;9;1,569436
+Dijkstra repetido;60;120;esparso;45;10;1,588365
+Dijkstra repetido;60;120;esparso;45;11;1,629422
+Dijkstra repetido;60;120;esparso;45;12;1,613763
+Dijkstra repetido;60;120;esparso;45;13;1,594387
+Dijkstra repetido;60;120;esparso;45;14;1,554043
+Dijkstra repetido;60;120;esparso;45;15;1,631868
+Dijkstra repetido;60;120;esparso;45;16;1,642890
+Dijkstra repetido;60;120;esparso;45;17;1,602991
+Dijkstra repetido;60;120;esparso;45;18;1,612962
+Dijkstra repetido;60;120;esparso;45;19;1,602445
+Dijkstra repetido;60;120;esparso;45;20;1,562591
+Dijkstra repetido;60;120;esparso;45;21;1,553427
+Dijkstra repetido;60;120;esparso;45;22;1,575564
+Dijkstra repetido;60;120;esparso;45;23;1,619135
+Dijkstra repetido;60;120;esparso;45;24;1,602078
+Dijkstra repetido;60;120;esparso;45;25;1,581737
+Dijkstra repetido;60;120;esparso;45;26;1,595404
+Dijkstra repetido;60;120;esparso;45;27;1,625244
+Dijkstra repetido;60;120;esparso;45;28;1,585119
+Dijkstra repetido;60;120;esparso;45;29;1,644519
+Dijkstra repetido;60;120;esparso;45;30;1,631577
+Floyd-Warshall;60;120;esparso;45;1;5,929687
+Floyd-Warshall;60;120;esparso;45;2;5,928918
+Floyd-Warshall;60;120;esparso;45;3;5,853051
+Floyd-Warshall;60;120;esparso;45;4;5,867691
+Floyd-Warshall;60;120;esparso;45;5;5,863231
+Floyd-Warshall;60;120;esparso;45;6;5,902811
+Floyd-Warshall;60;120;esparso;45;7;5,838082
+Floyd-Warshall;60;120;esparso;45;8;5,874246
+Floyd-Warshall;60;120;esparso;45;9;6,159773
+Floyd-Warshall;60;120;esparso;45;10;5,915988
+Floyd-Warshall;60;120;esparso;45;11;5,906999
+Floyd-Warshall;60;120;esparso;45;12;5,811343
+Floyd-Warshall;60;120;esparso;45;13;5,890993
+Floyd-Warshall;60;120;esparso;45;14;5,796299
+Floyd-Warshall;60;120;esparso;45;15;5,831791
+Floyd-Warshall;60;120;esparso;45;16;5,880647
+Floyd-Warshall;60;120;esparso;45;17;5,832857
+Floyd-Warshall;60;120;esparso;45;18;5,857316
+Floyd-Warshall;60;120;esparso;45;19;5,928760
+Floyd-Warshall;60;120;esparso;45;20;5,876704
+Floyd-Warshall;60;120;esparso;45;21;5,852224
+Floyd-Warshall;60;120;esparso;45;22;5,841140
+Floyd-Warshall;60;120;esparso;45;23;5,900700
+Floyd-Warshall;60;120;esparso;45;24;5,888127
+Floyd-Warshall;60;120;esparso;45;25;5,818181
+Floyd-Warshall;60;120;esparso;45;26;5,940484
+Floyd-Warshall;60;120;esparso;45;27;5,882109
+Floyd-Warshall;60;120;esparso;45;28;5,865784
+Floyd-Warshall;60;120;esparso;45;29;5,863679
+Floyd-Warshall;60;120;esparso;45;30;5,879881
+Johnson;60;120;esparso;45;1;1,980016
+Johnson;60;120;esparso;45;2;1,989033
+Johnson;60;120;esparso;45;3;1,931899
+Johnson;60;120;esparso;45;4;1,928432
+Johnson;60;120;esparso;45;5;2,068883
+Johnson;60;120;esparso;45;6;1,950503
+Johnson;60;120;esparso;45;7;1,965391
+Johnson;60;120;esparso;45;8;1,957089
+Johnson;60;120;esparso;45;9;1,938702
+Johnson;60;120;esparso;45;10;1,917228
+Johnson;60;120;esparso;45;11;1,925018
+Johnson;60;120;esparso;45;12;1,931695
+Johnson;60;120;esparso;45;13;1,957724
+Johnson;60;120;esparso;45;14;1,941203
+Johnson;60;120;esparso;45;15;1,930162
+Johnson;60;120;esparso;45;16;1,889833
+Johnson;60;120;esparso;45;17;1,993707
+Johnson;60;120;esparso;45;18;1,946682
+Johnson;60;120;esparso;45;19;1,937238
+Johnson;60;120;esparso;45;20;2,001163
+Johnson;60;120;esparso;45;21;1,958311
+Johnson;60;120;esparso;45;22;1,926337
+Johnson;60;120;esparso;45;23;1,943362
+Johnson;60;120;esparso;45;24;1,915510
+Johnson;60;120;esparso;45;25;1,943809
+Johnson;60;120;esparso;45;26;1,991889
+Johnson;60;120;esparso;45;27;1,964676
+Johnson;60;120;esparso;45;28;2,164382
+Johnson;60;120;esparso;45;29;1,908053
+Johnson;60;120;esparso;45;30;1,919378
+Bellman-Ford repetido;60;708;intermediario;46;1;15,973915
+Bellman-Ford repetido;60;708;intermediario;46;2;16,017038
+Bellman-Ford repetido;60;708;intermediario;46;3;16,223898
+Bellman-Ford repetido;60;708;intermediario;46;4;15,837154
+Bellman-Ford repetido;60;708;intermediario;46;5;15,940621
+Bellman-Ford repetido;60;708;intermediario;46;6;15,917410
+Bellman-Ford repetido;60;708;intermediario;46;7;16,092226
+Bellman-Ford repetido;60;708;intermediario;46;8;15,994693
+Bellman-Ford repetido;60;708;intermediario;46;9;16,129502
+Bellman-Ford repetido;60;708;intermediario;46;10;16,102320
+Bellman-Ford repetido;60;708;intermediario;46;11;15,928330
+Bellman-Ford repetido;60;708;intermediario;46;12;16,008568
+Bellman-Ford repetido;60;708;intermediario;46;13;15,944746
+Bellman-Ford repetido;60;708;intermediario;46;14;15,962871
+Bellman-Ford repetido;60;708;intermediario;46;15;15,960640
+Bellman-Ford repetido;60;708;intermediario;46;16;15,836544
+Bellman-Ford repetido;60;708;intermediario;46;17;16,063517
+Bellman-Ford repetido;60;708;intermediario;46;18;15,840129
+Bellman-Ford repetido;60;708;intermediario;46;19;16,045734
+Bellman-Ford repetido;60;708;intermediario;46;20;15,920145
+Bellman-Ford repetido;60;708;intermediario;46;21;16,220717
+Bellman-Ford repetido;60;708;intermediario;46;22;15,896961
+Bellman-Ford repetido;60;708;intermediario;46;23;15,862000
+Bellman-Ford repetido;60;708;intermediario;46;24;15,952855
+Bellman-Ford repetido;60;708;intermediario;46;25;16,073690
+Bellman-Ford repetido;60;708;intermediario;46;26;15,793584
+Bellman-Ford repetido;60;708;intermediario;46;27;15,950144
+Bellman-Ford repetido;60;708;intermediario;46;28;15,862094
+Bellman-Ford repetido;60;708;intermediario;46;29;16,028437
+Bellman-Ford repetido;60;708;intermediario;46;30;15,948571
+Dijkstra repetido;60;708;intermediario;46;1;4,327494
+Dijkstra repetido;60;708;intermediario;46;2;4,246396
+Dijkstra repetido;60;708;intermediario;46;3;4,236203
+Dijkstra repetido;60;708;intermediario;46;4;4,286455
+Dijkstra repetido;60;708;intermediario;46;5;4,347156
+Dijkstra repetido;60;708;intermediario;46;6;4,330050
+Dijkstra repetido;60;708;intermediario;46;7;4,323197
+Dijkstra repetido;60;708;intermediario;46;8;4,315748
+Dijkstra repetido;60;708;intermediario;46;9;4,386428
+Dijkstra repetido;60;708;intermediario;46;10;4,322833
+Dijkstra repetido;60;708;intermediario;46;11;4,318450
+Dijkstra repetido;60;708;intermediario;46;12;4,332099
+Dijkstra repetido;60;708;intermediario;46;13;4,330219
+Dijkstra repetido;60;708;intermediario;46;14;4,331733
+Dijkstra repetido;60;708;intermediario;46;15;4,338837
+Dijkstra repetido;60;708;intermediario;46;16;4,351387
+Dijkstra repetido;60;708;intermediario;46;17;4,378136
+Dijkstra repetido;60;708;intermediario;46;18;4,314672
+Dijkstra repetido;60;708;intermediario;46;19;4,324490
+Dijkstra repetido;60;708;intermediario;46;20;4,388278
+Dijkstra repetido;60;708;intermediario;46;21;4,331762
+Dijkstra repetido;60;708;intermediario;46;22;4,336930
+Dijkstra repetido;60;708;intermediario;46;23;4,389942
+Dijkstra repetido;60;708;intermediario;46;24;4,333445
+Dijkstra repetido;60;708;intermediario;46;25;4,323045
+Dijkstra repetido;60;708;intermediario;46;26;4,327597
+Dijkstra repetido;60;708;intermediario;46;27;4,423011
+Dijkstra repetido;60;708;intermediario;46;28;4,353936
+Dijkstra repetido;60;708;intermediario;46;29;4,316931
+Dijkstra repetido;60;708;intermediario;46;30;4,410037
+Floyd-Warshall;60;708;intermediario;46;1;11,178261
+Floyd-Warshall;60;708;intermediario;46;2;11,212096
+Floyd-Warshall;60;708;intermediario;46;3;11,346678
+Floyd-Warshall;60;708;intermediario;46;4;11,328134
+Floyd-Warshall;60;708;intermediario;46;5;11,307795
+Floyd-Warshall;60;708;intermediario;46;6;11,350600
+Floyd-Warshall;60;708;intermediario;46;7;11,376307
+Floyd-Warshall;60;708;intermediario;46;8;11,306700
+Floyd-Warshall;60;708;intermediario;46;9;11,433187
+Floyd-Warshall;60;708;intermediario;46;10;11,294633
+Floyd-Warshall;60;708;intermediario;46;11;11,430246
+Floyd-Warshall;60;708;intermediario;46;12;11,233200
+Floyd-Warshall;60;708;intermediario;46;13;11,328001
+Floyd-Warshall;60;708;intermediario;46;14;11,303001
+Floyd-Warshall;60;708;intermediario;46;15;11,273727
+Floyd-Warshall;60;708;intermediario;46;16;11,266467
+Floyd-Warshall;60;708;intermediario;46;17;11,383993
+Floyd-Warshall;60;708;intermediario;46;18;11,282077
+Floyd-Warshall;60;708;intermediario;46;19;11,423449
+Floyd-Warshall;60;708;intermediario;46;20;11,208756
+Floyd-Warshall;60;708;intermediario;46;21;11,409221
+Floyd-Warshall;60;708;intermediario;46;22;11,324809
+Floyd-Warshall;60;708;intermediario;46;23;11,310767
+Floyd-Warshall;60;708;intermediario;46;24;11,327367
+Floyd-Warshall;60;708;intermediario;46;25;11,450566
+Floyd-Warshall;60;708;intermediario;46;26;11,421009
+Floyd-Warshall;60;708;intermediario;46;27;11,323669
+Floyd-Warshall;60;708;intermediario;46;28;11,266983
+Floyd-Warshall;60;708;intermediario;46;29;11,495009
+Floyd-Warshall;60;708;intermediario;46;30;11,287674
+Johnson;60;708;intermediario;46;1;4,666922
+Johnson;60;708;intermediario;46;2;4,633375
+Johnson;60;708;intermediario;46;3;4,601843
+Johnson;60;708;intermediario;46;4;4,642731
+Johnson;60;708;intermediario;46;5;4,609109
+Johnson;60;708;intermediario;46;6;4,640243
+Johnson;60;708;intermediario;46;7;4,621524
+Johnson;60;708;intermediario;46;8;4,622717
+Johnson;60;708;intermediario;46;9;4,637176
+Johnson;60;708;intermediario;46;10;4,627552
+Johnson;60;708;intermediario;46;11;4,625096
+Johnson;60;708;intermediario;46;12;4,629080
+Johnson;60;708;intermediario;46;13;4,681751
+Johnson;60;708;intermediario;46;14;4,702542
+Johnson;60;708;intermediario;46;15;4,633149
+Johnson;60;708;intermediario;46;16;4,645915
+Johnson;60;708;intermediario;46;17;4,709847
+Johnson;60;708;intermediario;46;18;4,690230
+Johnson;60;708;intermediario;46;19;4,642309
+Johnson;60;708;intermediario;46;20;4,627920
+Johnson;60;708;intermediario;46;21;4,635375
+Johnson;60;708;intermediario;46;22;4,656183
+Johnson;60;708;intermediario;46;23;4,842292
+Johnson;60;708;intermediario;46;24;4,676424
+Johnson;60;708;intermediario;46;25;4,559309
+Johnson;60;708;intermediario;46;26;4,617207
+Johnson;60;708;intermediario;46;27;4,629400
+Johnson;60;708;intermediario;46;28;4,622039
+Johnson;60;708;intermediario;46;29;4,677519
+Johnson;60;708;intermediario;46;30;4,761019
+Bellman-Ford repetido;60;1770;denso;47;1;35,105990
+Bellman-Ford repetido;60;1770;denso;47;2;34,765539
+Bellman-Ford repetido;60;1770;denso;47;3;34,877252
+Bellman-Ford repetido;60;1770;denso;47;4;35,119074
+Bellman-Ford repetido;60;1770;denso;47;5;34,959858
+Bellman-Ford repetido;60;1770;denso;47;6;34,979484
+Bellman-Ford repetido;60;1770;denso;47;7;35,094165
+Bellman-Ford repetido;60;1770;denso;47;8;34,482499
+Bellman-Ford repetido;60;1770;denso;47;9;34,667633
+Bellman-Ford repetido;60;1770;denso;47;10;34,639096
+Bellman-Ford repetido;60;1770;denso;47;11;35,189112
+Bellman-Ford repetido;60;1770;denso;47;12;34,962470
+Bellman-Ford repetido;60;1770;denso;47;13;34,892343
+Bellman-Ford repetido;60;1770;denso;47;14;34,682293
+Bellman-Ford repetido;60;1770;denso;47;15;34,782362
+Bellman-Ford repetido;60;1770;denso;47;16;34,752175
+Bellman-Ford repetido;60;1770;denso;47;17;35,057929
+Bellman-Ford repetido;60;1770;denso;47;18;34,855510
+Bellman-Ford repetido;60;1770;denso;47;19;34,792744
+Bellman-Ford repetido;60;1770;denso;47;20;34,991906
+Bellman-Ford repetido;60;1770;denso;47;21;34,746629
+Bellman-Ford repetido;60;1770;denso;47;22;34,909727
+Bellman-Ford repetido;60;1770;denso;47;23;34,803549
+Bellman-Ford repetido;60;1770;denso;47;24;34,768672
+Bellman-Ford repetido;60;1770;denso;47;25;34,805568
+Bellman-Ford repetido;60;1770;denso;47;26;35,187289
+Bellman-Ford repetido;60;1770;denso;47;27;35,271475
+Bellman-Ford repetido;60;1770;denso;47;28;34,955492
+Bellman-Ford repetido;60;1770;denso;47;29;35,138720
+Bellman-Ford repetido;60;1770;denso;47;30;34,870977
+Dijkstra repetido;60;1770;denso;47;1;7,467625
+Dijkstra repetido;60;1770;denso;47;2;7,476498
+Dijkstra repetido;60;1770;denso;47;3;7,380496
+Dijkstra repetido;60;1770;denso;47;4;7,455285
+Dijkstra repetido;60;1770;denso;47;5;7,477240
+Dijkstra repetido;60;1770;denso;47;6;7,490869
+Dijkstra repetido;60;1770;denso;47;7;7,367973
+Dijkstra repetido;60;1770;denso;47;8;7,432808
+Dijkstra repetido;60;1770;denso;47;9;7,545079
+Dijkstra repetido;60;1770;denso;47;10;7,473105
+Dijkstra repetido;60;1770;denso;47;11;7,450327
+Dijkstra repetido;60;1770;denso;47;12;7,426631
+Dijkstra repetido;60;1770;denso;47;13;7,542312
+Dijkstra repetido;60;1770;denso;47;14;7,521226
+Dijkstra repetido;60;1770;denso;47;15;7,480796
+Dijkstra repetido;60;1770;denso;47;16;7,418588
+Dijkstra repetido;60;1770;denso;47;17;7,620661
+Dijkstra repetido;60;1770;denso;47;18;7,444425
+Dijkstra repetido;60;1770;denso;47;19;7,458420
+Dijkstra repetido;60;1770;denso;47;20;7,491712
+Dijkstra repetido;60;1770;denso;47;21;7,466679
+Dijkstra repetido;60;1770;denso;47;22;7,469277
+Dijkstra repetido;60;1770;denso;47;23;7,465026
+Dijkstra repetido;60;1770;denso;47;24;7,460625
+Dijkstra repetido;60;1770;denso;47;25;7,460029
+Dijkstra repetido;60;1770;denso;47;26;7,510254
+Dijkstra repetido;60;1770;denso;47;27;7,456308
+Dijkstra repetido;60;1770;denso;47;28;7,451869
+Dijkstra repetido;60;1770;denso;47;29;7,558824
+Dijkstra repetido;60;1770;denso;47;30;7,516671
+Floyd-Warshall;60;1770;denso;47;1;12,999833
+Floyd-Warshall;60;1770;denso;47;2;12,967836
+Floyd-Warshall;60;1770;denso;47;3;12,975138
+Floyd-Warshall;60;1770;denso;47;4;13,033799
+Floyd-Warshall;60;1770;denso;47;5;12,859113
+Floyd-Warshall;60;1770;denso;47;6;12,990700
+Floyd-Warshall;60;1770;denso;47;7;12,820631
+Floyd-Warshall;60;1770;denso;47;8;13,056704
+Floyd-Warshall;60;1770;denso;47;9;12,962198
+Floyd-Warshall;60;1770;denso;47;10;12,895095
+Floyd-Warshall;60;1770;denso;47;11;13,016538
+Floyd-Warshall;60;1770;denso;47;12;12,922265
+Floyd-Warshall;60;1770;denso;47;13;13,059126
+Floyd-Warshall;60;1770;denso;47;14;13,062748
+Floyd-Warshall;60;1770;denso;47;15;12,923227
+Floyd-Warshall;60;1770;denso;47;16;12,885883
+Floyd-Warshall;60;1770;denso;47;17;12,913225
+Floyd-Warshall;60;1770;denso;47;18;13,008020
+Floyd-Warshall;60;1770;denso;47;19;12,745758
+Floyd-Warshall;60;1770;denso;47;20;12,989860
+Floyd-Warshall;60;1770;denso;47;21;12,863472
+Floyd-Warshall;60;1770;denso;47;22;12,797050
+Floyd-Warshall;60;1770;denso;47;23;13,006485
+Floyd-Warshall;60;1770;denso;47;24;12,917291
+Floyd-Warshall;60;1770;denso;47;25;12,871391
+Floyd-Warshall;60;1770;denso;47;26;12,881157
+Floyd-Warshall;60;1770;denso;47;27;12,991996
+Floyd-Warshall;60;1770;denso;47;28;12,992161
+Floyd-Warshall;60;1770;denso;47;29;12,818879
+Floyd-Warshall;60;1770;denso;47;30;12,981054
+Johnson;60;1770;denso;47;1;8,016056
+Johnson;60;1770;denso;47;2;7,878431
+Johnson;60;1770;denso;47;3;7,785695
+Johnson;60;1770;denso;47;4;7,836937
+Johnson;60;1770;denso;47;5;7,888773
+Johnson;60;1770;denso;47;6;8,018307
+Johnson;60;1770;denso;47;7;7,947231
+Johnson;60;1770;denso;47;8;7,808842
+Johnson;60;1770;denso;47;9;8,011129
+Johnson;60;1770;denso;47;10;7,912744
+Johnson;60;1770;denso;47;11;7,871226
+Johnson;60;1770;denso;47;12;7,940823
+Johnson;60;1770;denso;47;13;7,942789
+Johnson;60;1770;denso;47;14;7,862489
+Johnson;60;1770;denso;47;15;7,854556
+Johnson;60;1770;denso;47;16;8,056470
+Johnson;60;1770;denso;47;17;7,938353
+Johnson;60;1770;denso;47;18;7,801529
+Johnson;60;1770;denso;47;19;7,950107
+Johnson;60;1770;denso;47;20;8,003011
+Johnson;60;1770;denso;47;21;7,913683
+Johnson;60;1770;denso;47;22;7,844873
+Johnson;60;1770;denso;47;23;7,856042
+Johnson;60;1770;denso;47;24;7,969690
+Johnson;60;1770;denso;47;25;7,905226
+Johnson;60;1770;denso;47;26;7,915530
+Johnson;60;1770;denso;47;27;7,884743
+Johnson;60;1770;denso;47;28;7,878065
+Johnson;60;1770;denso;47;29;7,931766
+Johnson;60;1770;denso;47;30;7,865192
+Bellman-Ford repetido;100;200;esparso;48;1;11,446395
+Bellman-Ford repetido;100;200;esparso;48;2;11,480844
+Bellman-Ford repetido;100;200;esparso;48;3;11,549936
+Bellman-Ford repetido;100;200;esparso;48;4;11,498077
+Bellman-Ford repetido;100;200;esparso;48;5;11,443482
+Bellman-Ford repetido;100;200;esparso;48;6;11,508212
+Bellman-Ford repetido;100;200;esparso;48;7;11,564518
+Bellman-Ford repetido;100;200;esparso;48;8;11,482842
+Bellman-Ford repetido;100;200;esparso;48;9;11,520146
+Bellman-Ford repetido;100;200;esparso;48;10;11,315101
+Bellman-Ford repetido;100;200;esparso;48;11;11,342086
+Bellman-Ford repetido;100;200;esparso;48;12;11,632216
+Bellman-Ford repetido;100;200;esparso;48;13;11,509356
+Bellman-Ford repetido;100;200;esparso;48;14;11,568404
+Bellman-Ford repetido;100;200;esparso;48;15;11,478665
+Bellman-Ford repetido;100;200;esparso;48;16;11,443043
+Bellman-Ford repetido;100;200;esparso;48;17;11,532163
+Bellman-Ford repetido;100;200;esparso;48;18;11,460084
+Bellman-Ford repetido;100;200;esparso;48;19;11,480455
+Bellman-Ford repetido;100;200;esparso;48;20;11,439668
+Bellman-Ford repetido;100;200;esparso;48;21;11,528429
+Bellman-Ford repetido;100;200;esparso;48;22;11,500714
+Bellman-Ford repetido;100;200;esparso;48;23;11,542244
+Bellman-Ford repetido;100;200;esparso;48;24;11,402453
+Bellman-Ford repetido;100;200;esparso;48;25;11,579102
+Bellman-Ford repetido;100;200;esparso;48;26;11,557527
+Bellman-Ford repetido;100;200;esparso;48;27;11,414413
+Bellman-Ford repetido;100;200;esparso;48;28;11,580339
+Bellman-Ford repetido;100;200;esparso;48;29;11,573166
+Bellman-Ford repetido;100;200;esparso;48;30;11,299005
+Dijkstra repetido;100;200;esparso;48;1;5,043462
+Dijkstra repetido;100;200;esparso;48;2;5,003710
+Dijkstra repetido;100;200;esparso;48;3;4,944066
+Dijkstra repetido;100;200;esparso;48;4;4,947512
+Dijkstra repetido;100;200;esparso;48;5;4,984035
+Dijkstra repetido;100;200;esparso;48;6;5,057855
+Dijkstra repetido;100;200;esparso;48;7;4,954209
+Dijkstra repetido;100;200;esparso;48;8;5,057036
+Dijkstra repetido;100;200;esparso;48;9;5,021316
+Dijkstra repetido;100;200;esparso;48;10;4,944310
+Dijkstra repetido;100;200;esparso;48;11;5,156522
+Dijkstra repetido;100;200;esparso;48;12;4,997199
+Dijkstra repetido;100;200;esparso;48;13;5,084662
+Dijkstra repetido;100;200;esparso;48;14;4,981326
+Dijkstra repetido;100;200;esparso;48;15;4,963644
+Dijkstra repetido;100;200;esparso;48;16;4,998533
+Dijkstra repetido;100;200;esparso;48;17;5,042210
+Dijkstra repetido;100;200;esparso;48;18;4,954839
+Dijkstra repetido;100;200;esparso;48;19;4,979295
+Dijkstra repetido;100;200;esparso;48;20;5,061578
+Dijkstra repetido;100;200;esparso;48;21;5,098032
+Dijkstra repetido;100;200;esparso;48;22;5,060279
+Dijkstra repetido;100;200;esparso;48;23;4,938605
+Dijkstra repetido;100;200;esparso;48;24;5,006659
+Dijkstra repetido;100;200;esparso;48;25;5,011762
+Dijkstra repetido;100;200;esparso;48;26;4,914651
+Dijkstra repetido;100;200;esparso;48;27;5,086487
+Dijkstra repetido;100;200;esparso;48;28;4,954398
+Dijkstra repetido;100;200;esparso;48;29;4,984701
+Dijkstra repetido;100;200;esparso;48;30;5,019731
+Floyd-Warshall;100;200;esparso;48;1;20,771205
+Floyd-Warshall;100;200;esparso;48;2;20,905572
+Floyd-Warshall;100;200;esparso;48;3;21,027717
+Floyd-Warshall;100;200;esparso;48;4;20,983493
+Floyd-Warshall;100;200;esparso;48;5;21,033014
+Floyd-Warshall;100;200;esparso;48;6;20,964994
+Floyd-Warshall;100;200;esparso;48;7;20,818748
+Floyd-Warshall;100;200;esparso;48;8;20,833846
+Floyd-Warshall;100;200;esparso;48;9;20,775667
+Floyd-Warshall;100;200;esparso;48;10;20,975207
+Floyd-Warshall;100;200;esparso;48;11;21,050848
+Floyd-Warshall;100;200;esparso;48;12;20,894214
+Floyd-Warshall;100;200;esparso;48;13;21,014547
+Floyd-Warshall;100;200;esparso;48;14;21,045690
+Floyd-Warshall;100;200;esparso;48;15;20,909806
+Floyd-Warshall;100;200;esparso;48;16;20,855752
+Floyd-Warshall;100;200;esparso;48;17;21,022098
+Floyd-Warshall;100;200;esparso;48;18;21,016142
+Floyd-Warshall;100;200;esparso;48;19;20,735500
+Floyd-Warshall;100;200;esparso;48;20;20,994555
+Floyd-Warshall;100;200;esparso;48;21;21,005261
+Floyd-Warshall;100;200;esparso;48;22;20,946279
+Floyd-Warshall;100;200;esparso;48;23;20,866933
+Floyd-Warshall;100;200;esparso;48;24;20,981344
+Floyd-Warshall;100;200;esparso;48;25;21,012665
+Floyd-Warshall;100;200;esparso;48;26;20,812889
+Floyd-Warshall;100;200;esparso;48;27;20,745835
+Floyd-Warshall;100;200;esparso;48;28;21,024285
+Floyd-Warshall;100;200;esparso;48;29;21,048982
+Floyd-Warshall;100;200;esparso;48;30;20,797427
+Johnson;100;200;esparso;48;1;6,006333
+Johnson;100;200;esparso;48;2;5,922638
+Johnson;100;200;esparso;48;3;5,893808
+Johnson;100;200;esparso;48;4;5,935902
+Johnson;100;200;esparso;48;5;5,913169
+Johnson;100;200;esparso;48;6;6,025921
+Johnson;100;200;esparso;48;7;5,973800
+Johnson;100;200;esparso;48;8;5,962353
+Johnson;100;200;esparso;48;9;5,952417
+Johnson;100;200;esparso;48;10;6,027751
+Johnson;100;200;esparso;48;11;5,976224
+Johnson;100;200;esparso;48;12;5,910460
+Johnson;100;200;esparso;48;13;6,049451
+Johnson;100;200;esparso;48;14;5,890848
+Johnson;100;200;esparso;48;15;5,901005
+Johnson;100;200;esparso;48;16;5,923313
+Johnson;100;200;esparso;48;17;6,021155
+Johnson;100;200;esparso;48;18;6,022542
+Johnson;100;200;esparso;48;19;5,919359
+Johnson;100;200;esparso;48;20;5,987788
+Johnson;100;200;esparso;48;21;5,955330
+Johnson;100;200;esparso;48;22;5,878019
+Johnson;100;200;esparso;48;23;5,920502
+Johnson;100;200;esparso;48;24;5,950910
+Johnson;100;200;esparso;48;25;5,979519
+Johnson;100;200;esparso;48;26;5,901585
+Johnson;100;200;esparso;48;27;5,936182
+Johnson;100;200;esparso;48;28;5,906597
+Johnson;100;200;esparso;48;29;5,954167
+Johnson;100;200;esparso;48;30;6,062988
+Bellman-Ford repetido;100;1980;intermediario;49;1;78,244433
+Bellman-Ford repetido;100;1980;intermediario;49;2;78,419847
+Bellman-Ford repetido;100;1980;intermediario;49;3;78,162508
+Bellman-Ford repetido;100;1980;intermediario;49;4;78,752972
+Bellman-Ford repetido;100;1980;intermediario;49;5;78,652517
+Bellman-Ford repetido;100;1980;intermediario;49;6;79,034684
+Bellman-Ford repetido;100;1980;intermediario;49;7;78,100259
+Bellman-Ford repetido;100;1980;intermediario;49;8;79,133421
+Bellman-Ford repetido;100;1980;intermediario;49;9;78,206725
+Bellman-Ford repetido;100;1980;intermediario;49;10;78,259018
+Bellman-Ford repetido;100;1980;intermediario;49;11;78,390235
+Bellman-Ford repetido;100;1980;intermediario;49;12;79,278818
+Bellman-Ford repetido;100;1980;intermediario;49;13;78,364816
+Bellman-Ford repetido;100;1980;intermediario;49;14;79,220372
+Bellman-Ford repetido;100;1980;intermediario;49;15;78,227583
+Bellman-Ford repetido;100;1980;intermediario;49;16;78,726571
+Bellman-Ford repetido;100;1980;intermediario;49;17;78,414996
+Bellman-Ford repetido;100;1980;intermediario;49;18;78,870403
+Bellman-Ford repetido;100;1980;intermediario;49;19;78,609315
+Bellman-Ford repetido;100;1980;intermediario;49;20;78,776482
+Bellman-Ford repetido;100;1980;intermediario;49;21;78,724468
+Bellman-Ford repetido;100;1980;intermediario;49;22;78,568576
+Bellman-Ford repetido;100;1980;intermediario;49;23;78,478461
+Bellman-Ford repetido;100;1980;intermediario;49;24;78,667255
+Bellman-Ford repetido;100;1980;intermediario;49;25;78,387502
+Bellman-Ford repetido;100;1980;intermediario;49;26;78,598200
+Bellman-Ford repetido;100;1980;intermediario;49;27;78,557210
+Bellman-Ford repetido;100;1980;intermediario;49;28;79,159044
+Bellman-Ford repetido;100;1980;intermediario;49;29;78,705035
+Bellman-Ford repetido;100;1980;intermediario;49;30;79,078098
+Dijkstra repetido;100;1980;intermediario;49;1;17,417092
+Dijkstra repetido;100;1980;intermediario;49;2;17,369315
+Dijkstra repetido;100;1980;intermediario;49;3;17,382376
+Dijkstra repetido;100;1980;intermediario;49;4;17,412186
+Dijkstra repetido;100;1980;intermediario;49;5;17,467845
+Dijkstra repetido;100;1980;intermediario;49;6;17,518295
+Dijkstra repetido;100;1980;intermediario;49;7;17,459857
+Dijkstra repetido;100;1980;intermediario;49;8;17,311378
+Dijkstra repetido;100;1980;intermediario;49;9;17,600069
+Dijkstra repetido;100;1980;intermediario;49;10;17,459532
+Dijkstra repetido;100;1980;intermediario;49;11;17,514075
+Dijkstra repetido;100;1980;intermediario;49;12;17,592183
+Dijkstra repetido;100;1980;intermediario;49;13;17,331170
+Dijkstra repetido;100;1980;intermediario;49;14;17,527846
+Dijkstra repetido;100;1980;intermediario;49;15;17,352839
+Dijkstra repetido;100;1980;intermediario;49;16;17,387489
+Dijkstra repetido;100;1980;intermediario;49;17;17,359264
+Dijkstra repetido;100;1980;intermediario;49;18;17,479972
+Dijkstra repetido;100;1980;intermediario;49;19;17,404795
+Dijkstra repetido;100;1980;intermediario;49;20;17,490293
+Dijkstra repetido;100;1980;intermediario;49;21;17,484937
+Dijkstra repetido;100;1980;intermediario;49;22;17,459887
+Dijkstra repetido;100;1980;intermediario;49;23;17,478528
+Dijkstra repetido;100;1980;intermediario;49;24;17,427735
+Dijkstra repetido;100;1980;intermediario;49;25;17,366015
+Dijkstra repetido;100;1980;intermediario;49;26;17,398159
+Dijkstra repetido;100;1980;intermediario;49;27;17,395291
+Dijkstra repetido;100;1980;intermediario;49;28;17,571342
+Dijkstra repetido;100;1980;intermediario;49;29;17,351755
+Dijkstra repetido;100;1980;intermediario;49;30;17,267876
+Floyd-Warshall;100;1980;intermediario;49;1;55,222431
+Floyd-Warshall;100;1980;intermediario;49;2;55,503611
+Floyd-Warshall;100;1980;intermediario;49;3;55,197390
+Floyd-Warshall;100;1980;intermediario;49;4;55,687108
+Floyd-Warshall;100;1980;intermediario;49;5;55,247030
+Floyd-Warshall;100;1980;intermediario;49;6;55,047317
+Floyd-Warshall;100;1980;intermediario;49;7;54,799138
+Floyd-Warshall;100;1980;intermediario;49;8;54,976795
+Floyd-Warshall;100;1980;intermediario;49;9;54,742183
+Floyd-Warshall;100;1980;intermediario;49;10;55,475937
+Floyd-Warshall;100;1980;intermediario;49;11;55,693763
+Floyd-Warshall;100;1980;intermediario;49;12;54,986016
+Floyd-Warshall;100;1980;intermediario;49;13;55,104240
+Floyd-Warshall;100;1980;intermediario;49;14;55,026812
+Floyd-Warshall;100;1980;intermediario;49;15;55,127268
+Floyd-Warshall;100;1980;intermediario;49;16;55,283799
+Floyd-Warshall;100;1980;intermediario;49;17;54,952876
+Floyd-Warshall;100;1980;intermediario;49;18;54,733170
+Floyd-Warshall;100;1980;intermediario;49;19;55,900808
+Floyd-Warshall;100;1980;intermediario;49;20;55,041674
+Floyd-Warshall;100;1980;intermediario;49;21;54,832691
+Floyd-Warshall;100;1980;intermediario;49;22;55,060575
+Floyd-Warshall;100;1980;intermediario;49;23;54,963359
+Floyd-Warshall;100;1980;intermediario;49;24;55,476027
+Floyd-Warshall;100;1980;intermediario;49;25;55,255005
+Floyd-Warshall;100;1980;intermediario;49;26;55,114025
+Floyd-Warshall;100;1980;intermediario;49;27;55,741937
+Floyd-Warshall;100;1980;intermediario;49;28;55,171174
+Floyd-Warshall;100;1980;intermediario;49;29;55,285394
+Floyd-Warshall;100;1980;intermediario;49;30;55,113867
+Johnson;100;1980;intermediario;49;1;18,015690
+Johnson;100;1980;intermediario;49;2;18,137103
+Johnson;100;1980;intermediario;49;3;18,281510
+Johnson;100;1980;intermediario;49;4;18,221012
+Johnson;100;1980;intermediario;49;5;18,086859
+Johnson;100;1980;intermediario;49;6;18,333428
+Johnson;100;1980;intermediario;49;7;18,053445
+Johnson;100;1980;intermediario;49;8;18,333894
+Johnson;100;1980;intermediario;49;9;18,064995
+Johnson;100;1980;intermediario;49;10;18,326476
+Johnson;100;1980;intermediario;49;11;18,102505
+Johnson;100;1980;intermediario;49;12;18,300072
+Johnson;100;1980;intermediario;49;13;18,145205
+Johnson;100;1980;intermediario;49;14;18,235113
+Johnson;100;1980;intermediario;49;15;18,300444
+Johnson;100;1980;intermediario;49;16;18,196831
+Johnson;100;1980;intermediario;49;17;18,391518
+Johnson;100;1980;intermediario;49;18;18,078114
+Johnson;100;1980;intermediario;49;19;18,059244
+Johnson;100;1980;intermediario;49;20;18,258460
+Johnson;100;1980;intermediario;49;21;18,254715
+Johnson;100;1980;intermediario;49;22;18,261732
+Johnson;100;1980;intermediario;49;23;18,205886
+Johnson;100;1980;intermediario;49;24;18,263468
+Johnson;100;1980;intermediario;49;25;18,125825
+Johnson;100;1980;intermediario;49;26;18,136769
+Johnson;100;1980;intermediario;49;27;18,301754
+Johnson;100;1980;intermediario;49;28;18,402233
+Johnson;100;1980;intermediario;49;29;18,001000
+Johnson;100;1980;intermediario;49;30;18,100730
+Bellman-Ford repetido;100;4950;denso;50;1;170,671680
+Bellman-Ford repetido;100;4950;denso;50;2;170,755717
+Bellman-Ford repetido;100;4950;denso;50;3;170,879489
+Bellman-Ford repetido;100;4950;denso;50;4;170,989199
+Bellman-Ford repetido;100;4950;denso;50;5;170,698672
+Bellman-Ford repetido;100;4950;denso;50;6;170,621562
+Bellman-Ford repetido;100;4950;denso;50;7;171,168946
+Bellman-Ford repetido;100;4950;denso;50;8;171,211334
+Bellman-Ford repetido;100;4950;denso;50;9;171,148719
+Bellman-Ford repetido;100;4950;denso;50;10;172,299064
+Bellman-Ford repetido;100;4950;denso;50;11;171,593836
+Bellman-Ford repetido;100;4950;denso;50;12;171,694627
+Bellman-Ford repetido;100;4950;denso;50;13;171,110426
+Bellman-Ford repetido;100;4950;denso;50;14;171,146866
+Bellman-Ford repetido;100;4950;denso;50;15;171,638177
+Bellman-Ford repetido;100;4950;denso;50;16;171,454900
+Bellman-Ford repetido;100;4950;denso;50;17;171,149326
+Bellman-Ford repetido;100;4950;denso;50;18;171,518979
+Bellman-Ford repetido;100;4950;denso;50;19;171,180372
+Bellman-Ford repetido;100;4950;denso;50;20;171,999905
+Bellman-Ford repetido;100;4950;denso;50;21;171,472058
+Bellman-Ford repetido;100;4950;denso;50;22;175,390294
+Bellman-Ford repetido;100;4950;denso;50;23;174,363464
+Bellman-Ford repetido;100;4950;denso;50;24;171,834314
+Bellman-Ford repetido;100;4950;denso;50;25;171,739777
+Bellman-Ford repetido;100;4950;denso;50;26;171,612671
+Bellman-Ford repetido;100;4950;denso;50;27;172,423840
+Bellman-Ford repetido;100;4950;denso;50;28;172,833056
+Bellman-Ford repetido;100;4950;denso;50;29;172,025495
+Bellman-Ford repetido;100;4950;denso;50;30;171,915838
+Dijkstra repetido;100;4950;denso;50;1;30,454826
+Dijkstra repetido;100;4950;denso;50;2;30,333241
+Dijkstra repetido;100;4950;denso;50;3;30,238251
+Dijkstra repetido;100;4950;denso;50;4;30,725879
+Dijkstra repetido;100;4950;denso;50;5;30,576849
+Dijkstra repetido;100;4950;denso;50;6;30,415343
+Dijkstra repetido;100;4950;denso;50;7;30,642429
+Dijkstra repetido;100;4950;denso;50;8;30,366777
+Dijkstra repetido;100;4950;denso;50;9;30,571756
+Dijkstra repetido;100;4950;denso;50;10;30,385243
+Dijkstra repetido;100;4950;denso;50;11;30,656973
+Dijkstra repetido;100;4950;denso;50;12;30,306229
+Dijkstra repetido;100;4950;denso;50;13;30,441734
+Dijkstra repetido;100;4950;denso;50;14;30,482379
+Dijkstra repetido;100;4950;denso;50;15;30,437488
+Dijkstra repetido;100;4950;denso;50;16;30,680369
+Dijkstra repetido;100;4950;denso;50;17;30,281455
+Dijkstra repetido;100;4950;denso;50;18;30,410781
+Dijkstra repetido;100;4950;denso;50;19;30,481198
+Dijkstra repetido;100;4950;denso;50;20;30,517599
+Dijkstra repetido;100;4950;denso;50;21;30,301418
+Dijkstra repetido;100;4950;denso;50;22;30,623982
+Dijkstra repetido;100;4950;denso;50;23;30,589735
+Dijkstra repetido;100;4950;denso;50;24;30,397166
+Dijkstra repetido;100;4950;denso;50;25;30,471477
+Dijkstra repetido;100;4950;denso;50;26;30,628259
+Dijkstra repetido;100;4950;denso;50;27;30,225080
+Dijkstra repetido;100;4950;denso;50;28;30,371284
+Dijkstra repetido;100;4950;denso;50;29;30,342286
+Dijkstra repetido;100;4950;denso;50;30;30,412046
+Floyd-Warshall;100;4950;denso;50;1;60,651748
+Floyd-Warshall;100;4950;denso;50;2;60,412446
+Floyd-Warshall;100;4950;denso;50;3;60,455923
+Floyd-Warshall;100;4950;denso;50;4;60,457723
+Floyd-Warshall;100;4950;denso;50;5;60,746704
+Floyd-Warshall;100;4950;denso;50;6;60,844022
+Floyd-Warshall;100;4950;denso;50;7;60,158677
+Floyd-Warshall;100;4950;denso;50;8;60,824280
+Floyd-Warshall;100;4950;denso;50;9;60,541216
+Floyd-Warshall;100;4950;denso;50;10;60,425068
+Floyd-Warshall;100;4950;denso;50;11;60,420935
+Floyd-Warshall;100;4950;denso;50;12;60,800380
+Floyd-Warshall;100;4950;denso;50;13;60,613660
+Floyd-Warshall;100;4950;denso;50;14;60,799881
+Floyd-Warshall;100;4950;denso;50;15;63,141483
+Floyd-Warshall;100;4950;denso;50;16;60,663946
+Floyd-Warshall;100;4950;denso;50;17;60,425463
+Floyd-Warshall;100;4950;denso;50;18;60,147594
+Floyd-Warshall;100;4950;denso;50;19;60,538147
+Floyd-Warshall;100;4950;denso;50;20;60,340240
+Floyd-Warshall;100;4950;denso;50;21;60,596932
+Floyd-Warshall;100;4950;denso;50;22;63,349326
+Floyd-Warshall;100;4950;denso;50;23;60,401223
+Floyd-Warshall;100;4950;denso;50;24;60,835757
+Floyd-Warshall;100;4950;denso;50;25;61,117482
+Floyd-Warshall;100;4950;denso;50;26;60,508887
+Floyd-Warshall;100;4950;denso;50;27;60,483363
+Floyd-Warshall;100;4950;denso;50;28;60,796450
+Floyd-Warshall;100;4950;denso;50;29;60,813098
+Floyd-Warshall;100;4950;denso;50;30;65,749972
+Johnson;100;4950;denso;50;1;31,335322
+Johnson;100;4950;denso;50;2;31,246762
+Johnson;100;4950;denso;50;3;31,547972
+Johnson;100;4950;denso;50;4;31,341089
+Johnson;100;4950;denso;50;5;31,654484
+Johnson;100;4950;denso;50;6;31,510254
+Johnson;100;4950;denso;50;7;31,268398
+Johnson;100;4950;denso;50;8;34,381047
+Johnson;100;4950;denso;50;9;31,499410
+Johnson;100;4950;denso;50;10;31,393589
+Johnson;100;4950;denso;50;11;31,596149
+Johnson;100;4950;denso;50;12;31,205239
+Johnson;100;4950;denso;50;13;31,177245
+Johnson;100;4950;denso;50;14;31,435383
+Johnson;100;4950;denso;50;15;31,553310
+Johnson;100;4950;denso;50;16;38,269857
+Johnson;100;4950;denso;50;17;31,477042
+Johnson;100;4950;denso;50;18;31,385060
+Johnson;100;4950;denso;50;19;31,558188
+Johnson;100;4950;denso;50;20;31,560399
+Johnson;100;4950;denso;50;21;31,112607
+Johnson;100;4950;denso;50;22;31,471882
+Johnson;100;4950;denso;50;23;34,508627
+Johnson;100;4950;denso;50;24;31,444696
+Johnson;100;4950;denso;50;25;31,570887
+Johnson;100;4950;denso;50;26;31,320066
+Johnson;100;4950;denso;50;27;31,405102
+Johnson;100;4950;denso;50;28;31,506011
+Johnson;100;4950;denso;50;29;31,347372
+Johnson;100;4950;denso;50;30;31,391326
+Bellman-Ford repetido;150;300;esparso;51;1;27,380288
+Bellman-Ford repetido;150;300;esparso;51;2;27,432102
+Bellman-Ford repetido;150;300;esparso;51;3;27,706303
+Bellman-Ford repetido;150;300;esparso;51;4;27,294639
+Bellman-Ford repetido;150;300;esparso;51;5;27,438500
+Bellman-Ford repetido;150;300;esparso;51;6;27,431016
+Bellman-Ford repetido;150;300;esparso;51;7;27,594662
+Bellman-Ford repetido;150;300;esparso;51;8;27,419138
+Bellman-Ford repetido;150;300;esparso;51;9;27,482410
+Bellman-Ford repetido;150;300;esparso;51;10;27,455390
+Bellman-Ford repetido;150;300;esparso;51;11;27,516000
+Bellman-Ford repetido;150;300;esparso;51;12;27,594995
+Bellman-Ford repetido;150;300;esparso;51;13;27,648886
+Bellman-Ford repetido;150;300;esparso;51;14;27,496482
+Bellman-Ford repetido;150;300;esparso;51;15;27,495300
+Bellman-Ford repetido;150;300;esparso;51;16;27,736701
+Bellman-Ford repetido;150;300;esparso;51;17;30,769691
+Bellman-Ford repetido;150;300;esparso;51;18;27,512719
+Bellman-Ford repetido;150;300;esparso;51;19;27,463036
+Bellman-Ford repetido;150;300;esparso;51;20;27,525772
+Bellman-Ford repetido;150;300;esparso;51;21;27,709519
+Bellman-Ford repetido;150;300;esparso;51;22;27,427615
+Bellman-Ford repetido;150;300;esparso;51;23;27,498404
+Bellman-Ford repetido;150;300;esparso;51;24;27,710566
+Bellman-Ford repetido;150;300;esparso;51;25;27,488214
+Bellman-Ford repetido;150;300;esparso;51;26;27,644402
+Bellman-Ford repetido;150;300;esparso;51;27;27,633534
+Bellman-Ford repetido;150;300;esparso;51;28;27,383058
+Bellman-Ford repetido;150;300;esparso;51;29;27,613343
+Bellman-Ford repetido;150;300;esparso;51;30;27,570306
+Dijkstra repetido;150;300;esparso;51;1;12,053018
+Dijkstra repetido;150;300;esparso;51;2;11,728333
+Dijkstra repetido;150;300;esparso;51;3;11,900878
+Dijkstra repetido;150;300;esparso;51;4;11,955477
+Dijkstra repetido;150;300;esparso;51;5;11,838247
+Dijkstra repetido;150;300;esparso;51;6;12,258473
+Dijkstra repetido;150;300;esparso;51;7;12,208298
+Dijkstra repetido;150;300;esparso;51;8;11,849660
+Dijkstra repetido;150;300;esparso;51;9;11,981977
+Dijkstra repetido;150;300;esparso;51;10;11,752271
+Dijkstra repetido;150;300;esparso;51;11;12,032139
+Dijkstra repetido;150;300;esparso;51;12;11,912526
+Dijkstra repetido;150;300;esparso;51;13;11,844776
+Dijkstra repetido;150;300;esparso;51;14;12,137370
+Dijkstra repetido;150;300;esparso;51;15;11,788546
+Dijkstra repetido;150;300;esparso;51;16;12,112522
+Dijkstra repetido;150;300;esparso;51;17;11,822080
+Dijkstra repetido;150;300;esparso;51;18;11,987880
+Dijkstra repetido;150;300;esparso;51;19;12,006766
+Dijkstra repetido;150;300;esparso;51;20;12,022418
+Dijkstra repetido;150;300;esparso;51;21;11,785346
+Dijkstra repetido;150;300;esparso;51;22;12,043733
+Dijkstra repetido;150;300;esparso;51;23;11,934812
+Dijkstra repetido;150;300;esparso;51;24;12,082292
+Dijkstra repetido;150;300;esparso;51;25;11,831996
+Dijkstra repetido;150;300;esparso;51;26;12,155781
+Dijkstra repetido;150;300;esparso;51;27;13,684740
+Dijkstra repetido;150;300;esparso;51;28;12,020057
+Dijkstra repetido;150;300;esparso;51;29;11,843211
+Dijkstra repetido;150;300;esparso;51;30;11,845812
+Floyd-Warshall;150;300;esparso;51;1;78,318264
+Floyd-Warshall;150;300;esparso;51;2;79,679296
+Floyd-Warshall;150;300;esparso;51;3;78,429764
+Floyd-Warshall;150;300;esparso;51;4;78,647983
+Floyd-Warshall;150;300;esparso;51;5;79,112814
+Floyd-Warshall;150;300;esparso;51;6;78,768251
+Floyd-Warshall;150;300;esparso;51;7;78,577531
+Floyd-Warshall;150;300;esparso;51;8;80,342048
+Floyd-Warshall;150;300;esparso;51;9;78,553705
+Floyd-Warshall;150;300;esparso;51;10;80,698234
+Floyd-Warshall;150;300;esparso;51;11;80,187859
+Floyd-Warshall;150;300;esparso;51;12;79,826917
+Floyd-Warshall;150;300;esparso;51;13;78,477113
+Floyd-Warshall;150;300;esparso;51;14;80,029030
+Floyd-Warshall;150;300;esparso;51;15;79,324104
+Floyd-Warshall;150;300;esparso;51;16;79,475956
+Floyd-Warshall;150;300;esparso;51;17;80,203199
+Floyd-Warshall;150;300;esparso;51;18;79,718795
+Floyd-Warshall;150;300;esparso;51;19;78,459643
+Floyd-Warshall;150;300;esparso;51;20;80,408789
+Floyd-Warshall;150;300;esparso;51;21;79,782197
+Floyd-Warshall;150;300;esparso;51;22;78,782561
+Floyd-Warshall;150;300;esparso;51;23;80,332369
+Floyd-Warshall;150;300;esparso;51;24;79,742463
+Floyd-Warshall;150;300;esparso;51;25;79,624280
+Floyd-Warshall;150;300;esparso;51;26;80,351598
+Floyd-Warshall;150;300;esparso;51;27;79,525344
+Floyd-Warshall;150;300;esparso;51;28;78,888067
+Floyd-Warshall;150;300;esparso;51;29;80,448584
+Floyd-Warshall;150;300;esparso;51;30;79,504526
+Johnson;150;300;esparso;51;1;14,417439
+Johnson;150;300;esparso;51;2;14,318393
+Johnson;150;300;esparso;51;3;14,596264
+Johnson;150;300;esparso;51;4;14,273047
+Johnson;150;300;esparso;51;5;14,309239
+Johnson;150;300;esparso;51;6;14,515605
+Johnson;150;300;esparso;51;7;14,400473
+Johnson;150;300;esparso;51;8;14,442334
+Johnson;150;300;esparso;51;9;14,241462
+Johnson;150;300;esparso;51;10;14,559713
+Johnson;150;300;esparso;51;11;14,409601
+Johnson;150;300;esparso;51;12;14,628721
+Johnson;150;300;esparso;51;13;14,352510
+Johnson;150;300;esparso;51;14;14,289350
+Johnson;150;300;esparso;51;15;14,491942
+Johnson;150;300;esparso;51;16;14,431032
+Johnson;150;300;esparso;51;17;14,416085
+Johnson;150;300;esparso;51;18;14,378573
+Johnson;150;300;esparso;51;19;14,356401
+Johnson;150;300;esparso;51;20;14,691330
+Johnson;150;300;esparso;51;21;14,465100
+Johnson;150;300;esparso;51;22;14,501130
+Johnson;150;300;esparso;51;23;14,417242
+Johnson;150;300;esparso;51;24;14,574266
+Johnson;150;300;esparso;51;25;14,636026
+Johnson;150;300;esparso;51;26;14,603893
+Johnson;150;300;esparso;51;27;14,768629
+Johnson;150;300;esparso;51;28;14,321203
+Johnson;150;300;esparso;51;29;14,655281
+Johnson;150;300;esparso;51;30;14,496902
+Bellman-Ford repetido;150;4470;intermediario;52;1;302,634044
+Bellman-Ford repetido;150;4470;intermediario;52;2;303,404817
+Bellman-Ford repetido;150;4470;intermediario;52;3;303,095579
+Bellman-Ford repetido;150;4470;intermediario;52;4;303,748290
+Bellman-Ford repetido;150;4470;intermediario;52;5;303,851258
+Bellman-Ford repetido;150;4470;intermediario;52;6;304,206527
+Bellman-Ford repetido;150;4470;intermediario;52;7;303,254470
+Bellman-Ford repetido;150;4470;intermediario;52;8;303,974268
+Bellman-Ford repetido;150;4470;intermediario;52;9;303,634395
+Bellman-Ford repetido;150;4470;intermediario;52;10;303,473373
+Bellman-Ford repetido;150;4470;intermediario;52;11;303,520718
+Bellman-Ford repetido;150;4470;intermediario;52;12;304,285427
+Bellman-Ford repetido;150;4470;intermediario;52;13;303,177002
+Bellman-Ford repetido;150;4470;intermediario;52;14;309,561133
+Bellman-Ford repetido;150;4470;intermediario;52;15;304,471604
+Bellman-Ford repetido;150;4470;intermediario;52;16;304,406609
+Bellman-Ford repetido;150;4470;intermediario;52;17;305,498131
+Bellman-Ford repetido;150;4470;intermediario;52;18;304,488487
+Bellman-Ford repetido;150;4470;intermediario;52;19;304,440026
+Bellman-Ford repetido;150;4470;intermediario;52;20;304,385142
+Bellman-Ford repetido;150;4470;intermediario;52;21;318,924269
+Bellman-Ford repetido;150;4470;intermediario;52;22;304,417330
+Bellman-Ford repetido;150;4470;intermediario;52;23;304,252414
+Bellman-Ford repetido;150;4470;intermediario;52;24;303,905685
+Bellman-Ford repetido;150;4470;intermediario;52;25;303,790807
+Bellman-Ford repetido;150;4470;intermediario;52;26;303,590543
+Bellman-Ford repetido;150;4470;intermediario;52;27;307,008779
+Bellman-Ford repetido;150;4470;intermediario;52;28;304,399844
+Bellman-Ford repetido;150;4470;intermediario;52;29;303,675035
+Bellman-Ford repetido;150;4470;intermediario;52;30;304,749624
+Dijkstra repetido;150;4470;intermediario;52;1;53,514520
+Dijkstra repetido;150;4470;intermediario;52;2;53,449126
+Dijkstra repetido;150;4470;intermediario;52;3;54,036322
+Dijkstra repetido;150;4470;intermediario;52;4;53,922675
+Dijkstra repetido;150;4470;intermediario;52;5;53,695921
+Dijkstra repetido;150;4470;intermediario;52;6;53,720368
+Dijkstra repetido;150;4470;intermediario;52;7;53,997160
+Dijkstra repetido;150;4470;intermediario;52;8;53,631412
+Dijkstra repetido;150;4470;intermediario;52;9;53,797714
+Dijkstra repetido;150;4470;intermediario;52;10;53,944063
+Dijkstra repetido;150;4470;intermediario;52;11;53,760968
+Dijkstra repetido;150;4470;intermediario;52;12;53,578775
+Dijkstra repetido;150;4470;intermediario;52;13;53,638011
+Dijkstra repetido;150;4470;intermediario;52;14;53,455996
+Dijkstra repetido;150;4470;intermediario;52;15;54,033421
+Dijkstra repetido;150;4470;intermediario;52;16;53,575942
+Dijkstra repetido;150;4470;intermediario;52;17;53,771205
+Dijkstra repetido;150;4470;intermediario;52;18;53,861340
+Dijkstra repetido;150;4470;intermediario;52;19;53,909502
+Dijkstra repetido;150;4470;intermediario;52;20;53,412405
+Dijkstra repetido;150;4470;intermediario;52;21;53,718147
+Dijkstra repetido;150;4470;intermediario;52;22;53,931847
+Dijkstra repetido;150;4470;intermediario;52;23;53,755733
+Dijkstra repetido;150;4470;intermediario;52;24;53,610846
+Dijkstra repetido;150;4470;intermediario;52;25;53,544009
+Dijkstra repetido;150;4470;intermediario;52;26;53,837734
+Dijkstra repetido;150;4470;intermediario;52;27;53,693005
+Dijkstra repetido;150;4470;intermediario;52;28;54,229655
+Dijkstra repetido;150;4470;intermediario;52;29;53,829238
+Dijkstra repetido;150;4470;intermediario;52;30;53,566027
+Floyd-Warshall;150;4470;intermediario;52;1;200,804629
+Floyd-Warshall;150;4470;intermediario;52;2;200,799463
+Floyd-Warshall;150;4470;intermediario;52;3;199,852286
+Floyd-Warshall;150;4470;intermediario;52;4;200,752638
+Floyd-Warshall;150;4470;intermediario;52;5;203,190863
+Floyd-Warshall;150;4470;intermediario;52;6;200,785799
+Floyd-Warshall;150;4470;intermediario;52;7;201,184052
+Floyd-Warshall;150;4470;intermediario;52;8;200,855552
+Floyd-Warshall;150;4470;intermediario;52;9;201,676455
+Floyd-Warshall;150;4470;intermediario;52;10;206,514510
+Floyd-Warshall;150;4470;intermediario;52;11;202,362742
+Floyd-Warshall;150;4470;intermediario;52;12;200,774903
+Floyd-Warshall;150;4470;intermediario;52;13;200,432915
+Floyd-Warshall;150;4470;intermediario;52;14;201,144035
+Floyd-Warshall;150;4470;intermediario;52;15;201,329265
+Floyd-Warshall;150;4470;intermediario;52;16;201,649627
+Floyd-Warshall;150;4470;intermediario;52;17;200,631907
+Floyd-Warshall;150;4470;intermediario;52;18;201,909404
+Floyd-Warshall;150;4470;intermediario;52;19;201,564005
+Floyd-Warshall;150;4470;intermediario;52;20;201,362556
+Floyd-Warshall;150;4470;intermediario;52;21;201,326444
+Floyd-Warshall;150;4470;intermediario;52;22;200,771950
+Floyd-Warshall;150;4470;intermediario;52;23;201,639371
+Floyd-Warshall;150;4470;intermediario;52;24;201,333591
+Floyd-Warshall;150;4470;intermediario;52;25;202,274006
+Floyd-Warshall;150;4470;intermediario;52;26;201,809652
+Floyd-Warshall;150;4470;intermediario;52;27;201,392229
+Floyd-Warshall;150;4470;intermediario;52;28;201,838523
+Floyd-Warshall;150;4470;intermediario;52;29;201,403234
+Floyd-Warshall;150;4470;intermediario;52;30;201,584001
+Johnson;150;4470;intermediario;52;1;55,411328
+Johnson;150;4470;intermediario;52;2;54,988215
+Johnson;150;4470;intermediario;52;3;54,890325
+Johnson;150;4470;intermediario;52;4;54,912455
+Johnson;150;4470;intermediario;52;5;54,774984
+Johnson;150;4470;intermediario;52;6;55,283051
+Johnson;150;4470;intermediario;52;7;54,871222
+Johnson;150;4470;intermediario;52;8;55,245317
+Johnson;150;4470;intermediario;52;9;54,974788
+Johnson;150;4470;intermediario;52;10;55,482096
+Johnson;150;4470;intermediario;52;11;55,281048
+Johnson;150;4470;intermediario;52;12;55,018771
+Johnson;150;4470;intermediario;52;13;54,994580
+Johnson;150;4470;intermediario;52;14;55,281895
+Johnson;150;4470;intermediario;52;15;55,142103
+Johnson;150;4470;intermediario;52;16;55,128843
+Johnson;150;4470;intermediario;52;17;55,110563
+Johnson;150;4470;intermediario;52;18;54,839537
+Johnson;150;4470;intermediario;52;19;55,388430
+Johnson;150;4470;intermediario;52;20;54,944773
+Johnson;150;4470;intermediario;52;21;55,043321
+Johnson;150;4470;intermediario;52;22;54,977803
+Johnson;150;4470;intermediario;52;23;55,013250
+Johnson;150;4470;intermediario;52;24;55,090788
+Johnson;150;4470;intermediario;52;25;55,207612
+Johnson;150;4470;intermediario;52;26;54,853566
+Johnson;150;4470;intermediario;52;27;55,017120
+Johnson;150;4470;intermediario;52;28;55,547890
+Johnson;150;4470;intermediario;52;29;54,920807
+Johnson;150;4470;intermediario;52;30;54,848399
+Bellman-Ford repetido;150;11175;denso;53;1;633,036732
+Bellman-Ford repetido;150;11175;denso;53;2;635,294961
+Bellman-Ford repetido;150;11175;denso;53;3;635,271006
+Bellman-Ford repetido;150;11175;denso;53;4;636,666716
+Bellman-Ford repetido;150;11175;denso;53;5;635,718296
+Bellman-Ford repetido;150;11175;denso;53;6;634,962772
+Bellman-Ford repetido;150;11175;denso;53;7;642,872801
+Bellman-Ford repetido;150;11175;denso;53;8;646,394589
+Bellman-Ford repetido;150;11175;denso;53;9;637,486921
+Bellman-Ford repetido;150;11175;denso;53;10;635,970549
+Bellman-Ford repetido;150;11175;denso;53;11;637,820085
+Bellman-Ford repetido;150;11175;denso;53;12;643,386055
+Bellman-Ford repetido;150;11175;denso;53;13;644,658792
+Bellman-Ford repetido;150;11175;denso;53;14;656,004361
+Bellman-Ford repetido;150;11175;denso;53;15;637,632247
+Bellman-Ford repetido;150;11175;denso;53;16;635,581043
+Bellman-Ford repetido;150;11175;denso;53;17;636,755113
+Bellman-Ford repetido;150;11175;denso;53;18;638,599538
+Bellman-Ford repetido;150;11175;denso;53;19;637,765304
+Bellman-Ford repetido;150;11175;denso;53;20;638,064641
+Bellman-Ford repetido;150;11175;denso;53;21;637,361800
+Bellman-Ford repetido;150;11175;denso;53;22;638,044809
+Bellman-Ford repetido;150;11175;denso;53;23;637,058858
+Bellman-Ford repetido;150;11175;denso;53;24;636,118507
+Bellman-Ford repetido;150;11175;denso;53;25;641,526406
+Bellman-Ford repetido;150;11175;denso;53;26;636,278125
+Bellman-Ford repetido;150;11175;denso;53;27;640,581746
+Bellman-Ford repetido;150;11175;denso;53;28;639,141556
+Bellman-Ford repetido;150;11175;denso;53;29;639,978411
+Bellman-Ford repetido;150;11175;denso;53;30;640,000023
+Dijkstra repetido;150;11175;denso;53;1;97,700286
+Dijkstra repetido;150;11175;denso;53;2;97,723155
+Dijkstra repetido;150;11175;denso;53;3;98,037154
+Dijkstra repetido;150;11175;denso;53;4;98,215276
+Dijkstra repetido;150;11175;denso;53;5;97,454645
+Dijkstra repetido;150;11175;denso;53;6;98,050503
+Dijkstra repetido;150;11175;denso;53;7;97,985932
+Dijkstra repetido;150;11175;denso;53;8;97,459105
+Dijkstra repetido;150;11175;denso;53;9;97,638036
+Dijkstra repetido;150;11175;denso;53;10;97,942429
+Dijkstra repetido;150;11175;denso;53;11;97,613327
+Dijkstra repetido;150;11175;denso;53;12;98,081513
+Dijkstra repetido;150;11175;denso;53;13;98,014642
+Dijkstra repetido;150;11175;denso;53;14;97,614233
+Dijkstra repetido;150;11175;denso;53;15;101,386853
+Dijkstra repetido;150;11175;denso;53;16;97,709986
+Dijkstra repetido;150;11175;denso;53;17;97,709623
+Dijkstra repetido;150;11175;denso;53;18;118,603648
+Dijkstra repetido;150;11175;denso;53;19;108,040018
+Dijkstra repetido;150;11175;denso;53;20;98,000042
+Dijkstra repetido;150;11175;denso;53;21;98,042521
+Dijkstra repetido;150;11175;denso;53;22;97,802306
+Dijkstra repetido;150;11175;denso;53;23;97,646325
+Dijkstra repetido;150;11175;denso;53;24;97,663118
+Dijkstra repetido;150;11175;denso;53;25;97,063230
+Dijkstra repetido;150;11175;denso;53;26;97,674768
+Dijkstra repetido;150;11175;denso;53;27;97,319631
+Dijkstra repetido;150;11175;denso;53;28;96,836402
+Dijkstra repetido;150;11175;denso;53;29;98,188887
+Dijkstra repetido;150;11175;denso;53;30;97,653079
+Floyd-Warshall;150;11175;denso;53;1;214,152756
+Floyd-Warshall;150;11175;denso;53;2;217,589004
+Floyd-Warshall;150;11175;denso;53;3;225,851276
+Floyd-Warshall;150;11175;denso;53;4;220,571862
+Floyd-Warshall;150;11175;denso;53;5;213,653820
+Floyd-Warshall;150;11175;denso;53;6;215,999577
+Floyd-Warshall;150;11175;denso;53;7;214,703102
+Floyd-Warshall;150;11175;denso;53;8;215,932753
+Floyd-Warshall;150;11175;denso;53;9;214,559897
+Floyd-Warshall;150;11175;denso;53;10;216,121716
+Floyd-Warshall;150;11175;denso;53;11;215,620109
+Floyd-Warshall;150;11175;denso;53;12;215,797608
+Floyd-Warshall;150;11175;denso;53;13;213,899474
+Floyd-Warshall;150;11175;denso;53;14;216,740142
+Floyd-Warshall;150;11175;denso;53;15;213,432825
+Floyd-Warshall;150;11175;denso;53;16;216,088364
+Floyd-Warshall;150;11175;denso;53;17;213,585414
+Floyd-Warshall;150;11175;denso;53;18;215,010465
+Floyd-Warshall;150;11175;denso;53;19;214,231456
+Floyd-Warshall;150;11175;denso;53;20;216,976102
+Floyd-Warshall;150;11175;denso;53;21;213,786564
+Floyd-Warshall;150;11175;denso;53;22;216,014547
+Floyd-Warshall;150;11175;denso;53;23;214,137819
+Floyd-Warshall;150;11175;denso;53;24;216,147086
+Floyd-Warshall;150;11175;denso;53;25;214,121080
+Floyd-Warshall;150;11175;denso;53;26;216,041524
+Floyd-Warshall;150;11175;denso;53;27;220,230000
+Floyd-Warshall;150;11175;denso;53;28;220,457986
+Floyd-Warshall;150;11175;denso;53;29;220,253358
+Floyd-Warshall;150;11175;denso;53;30;222,602128
+Johnson;150;11175;denso;53;1;99,762082
+Johnson;150;11175;denso;53;2;99,775488
+Johnson;150;11175;denso;53;3;99,913220
+Johnson;150;11175;denso;53;4;99,391808
+Johnson;150;11175;denso;53;5;99,162809
+Johnson;150;11175;denso;53;6;99,301288
+Johnson;150;11175;denso;53;7;100,266552
+Johnson;150;11175;denso;53;8;99,665476
+Johnson;150;11175;denso;53;9;99,022813
+Johnson;150;11175;denso;53;10;99,189367
+Johnson;150;11175;denso;53;11;99,363258
+Johnson;150;11175;denso;53;12;99,563047
+Johnson;150;11175;denso;53;13;99,546609
+Johnson;150;11175;denso;53;14;98,685791
+Johnson;150;11175;denso;53;15;99,119638
+Johnson;150;11175;denso;53;16;98,831403
+Johnson;150;11175;denso;53;17;99,017416
+Johnson;150;11175;denso;53;18;99,293576
+Johnson;150;11175;denso;53;19;99,863999
+Johnson;150;11175;denso;53;20;99,575833
+Johnson;150;11175;denso;53;21;99,659626
+Johnson;150;11175;denso;53;22;101,591949
+Johnson;150;11175;denso;53;23;101,687341
+Johnson;150;11175;denso;53;24;100,986609
+Johnson;150;11175;denso;53;25;101,117462
+Johnson;150;11175;denso;53;26;101,777234
+Johnson;150;11175;denso;53;27;104,670787
+Johnson;150;11175;denso;53;28;100,586837
+Johnson;150;11175;denso;53;29;100,952188
+Johnson;150;11175;denso;53;30;100,592991
