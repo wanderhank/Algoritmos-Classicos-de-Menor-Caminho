@@ -11,6 +11,8 @@ __pycache__/*
 *$py.class
 *.so
 
+resultados/*.csv
+
 # Distribuição / build
 build/
 dist/
