@@ -1,70 +1,62 @@
-from __future__ import annotations
+se algoritmo?from __future__ import annotations
 
+import heapq
 from math import inf
 
-from algoritmos.comum import Aresta, MatrizDistancias, validar_grafo
-from algoritmos.dijkstra import construir_lista_adjacencia, dijkstra_origem_unica
+from algoritmos.bellman_ford import _bellman_ford
+from algoritmos.comum import Aresta, MatrizDistancias
 
 
-def _bellman_ford_origem_unica(
-    origem: int,
+def johnson(
     numero_vertices: int,
-    arestas: list,
-) -> list:
-    distancias = [inf] * numero_vertices
-    distancias[origem] = 0
-
-    for _ in range(numero_vertices - 1):
-        houve_atualizacao = False
-        for u, v, peso in arestas:
-            if distancias[u] == inf:
-                continue
-            nova_distancia = distancias[u] + peso
-            if nova_distancia < distancias[v]:
-                distancias[v] = nova_distancia
-                houve_atualizacao = True
-        if not houve_atualizacao:
-            break
-
-    for u, v, peso in arestas:
-        if distancias[u] != inf and distancias[u] + peso < distancias[v]:
-            raise ValueError("O grafo possui ciclo de peso negativo.")
-
-    return distancias
-
-
-def johnson(numero_vertices: int, arestas: list) -> MatrizDistancias:
-    validar_grafo(numero_vertices, arestas)
-
-    # 1. vertice virtual, conectado a todos com peso 0
-    vertice_virtual = numero_vertices
-    arestas_aumentadas = list(arestas) + [
-        (vertice_virtual, v, 0) for v in range(numero_vertices)
+    arestas: list[Aresta],
+) -> MatrizDistancias:
+    super_origem = numero_vertices
+    arestas_estendidas = arestas + [
+        (super_origem, vertice, 0) for vertice in range(numero_vertices)
     ]
 
-    # 2. Bellman-Ford a partir do vertice virtual
-    h = _bellman_ford_origem_unica(
-        vertice_virtual, numero_vertices + 1, arestas_aumentadas
+    potenciais, _ = _bellman_ford(
+        numero_vertices + 1,
+        arestas_estendidas,
+        super_origem,
     )
 
-    # 3. reponderacao das arestas originais
-    arestas_repesadas = [
-        (u, v, peso + h[u] - h[v]) for u, v, peso in arestas
+    adjacencia: list[list[tuple[int, float]]] = [
+        [] for _ in range(numero_vertices)
     ]
 
-    # 4. Dijkstra a partir de cada vertice, no grafo reponderado
-    adjacencia = construir_lista_adjacencia(numero_vertices, arestas_repesadas)
+    for u, v, peso in arestas:
+        peso_reponderado = peso + potenciais[u] - potenciais[v]
+        if peso_reponderado < -1e-12:
+            raise RuntimeError("A reponderação de Johnson produziu peso negativo.")
+        adjacencia[u].append((v, peso_reponderado))
 
-    distancias: MatrizDistancias = []
+    matriz: MatrizDistancias = []
+
     for origem in range(numero_vertices):
-        distancias_reponderadas = dijkstra_origem_unica(origem, numero_vertices, adjacencia)
+        distancias_reponderadas = [inf] * numero_vertices
+        distancias_reponderadas[origem] = 0
+        fila: list[tuple[float, int]] = [(0, origem)]
 
-        # 5. desfaz a reponderacao
-        distancias_origem = [
-            (distancias_reponderadas[destino] - h[origem] + h[destino])
-            if distancias_reponderadas[destino] != inf else inf
-            for destino in range(numero_vertices)
-        ]
-        distancias.append(distancias_origem)
+        while fila:
+            distancia_atual, u = heapq.heappop(fila)
+            if distancia_atual != distancias_reponderadas[u]:
+                continue
 
-    return distancias
+            for v, peso in adjacencia[u]:
+                nova_distancia = distancia_atual + peso
+                if nova_distancia < distancias_reponderadas[v]:
+                    distancias_reponderadas[v] = nova_distancia
+                    heapq.heappush(fila, (nova_distancia, v))
+
+        distancias_originais = [inf] * numero_vertices
+        for destino, distancia in enumerate(distancias_reponderadas):
+            if distancia != inf:
+                distancias_originais[destino] = (
+                    distancia - potenciais[origem] + potenciais[destino]
+                )
+
+        matriz.append(distancias_originais)
+
+    return matriz
