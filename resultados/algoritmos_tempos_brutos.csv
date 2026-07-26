@@ -1,0 +1,1081 @@
+algoritmo,vertices,arestas,densidade,semente,repeticao,tempo_segundos
+Bellman-Ford repetido,10,20,esparso,42,1,6.810600007156609e-05
+Bellman-Ford repetido,10,20,esparso,42,2,6.473299981735181e-05
+Bellman-Ford repetido,10,20,esparso,42,3,5.590999990090495e-05
+Bellman-Ford repetido,10,20,esparso,42,4,5.7842999922286253e-05
+Bellman-Ford repetido,10,20,esparso,42,5,8.887600006346474e-05
+Bellman-Ford repetido,10,20,esparso,42,6,5.682599976353231e-05
+Bellman-Ford repetido,10,20,esparso,42,7,5.906999967919546e-05
+Bellman-Ford repetido,10,20,esparso,42,8,5.477699960465543e-05
+Bellman-Ford repetido,10,20,esparso,42,9,5.6489999678888125e-05
+Bellman-Ford repetido,10,20,esparso,42,10,5.587700024989317e-05
+Bellman-Ford repetido,10,20,esparso,42,11,5.595900029220502e-05
+Bellman-Ford repetido,10,20,esparso,42,12,6.148000011307886e-05
+Bellman-Ford repetido,10,20,esparso,42,13,5.6333999964408576e-05
+Bellman-Ford repetido,10,20,esparso,42,14,5.419200033429661e-05
+Bellman-Ford repetido,10,20,esparso,42,15,5.685699989044224e-05
+Bellman-Ford repetido,10,20,esparso,42,16,5.625300036626868e-05
+Bellman-Ford repetido,10,20,esparso,42,17,5.607699995380244e-05
+Bellman-Ford repetido,10,20,esparso,42,18,5.558600014410331e-05
+Bellman-Ford repetido,10,20,esparso,42,19,5.7606999689596705e-05
+Bellman-Ford repetido,10,20,esparso,42,20,5.911999960517278e-05
+Bellman-Ford repetido,10,20,esparso,42,21,5.52110000171524e-05
+Bellman-Ford repetido,10,20,esparso,42,22,5.59879999855184e-05
+Bellman-Ford repetido,10,20,esparso,42,23,5.532099976335303e-05
+Bellman-Ford repetido,10,20,esparso,42,24,5.581300001722411e-05
+Bellman-Ford repetido,10,20,esparso,42,25,5.625099993267213e-05
+Bellman-Ford repetido,10,20,esparso,42,26,6.244799988053273e-05
+Bellman-Ford repetido,10,20,esparso,42,27,5.583000029218965e-05
+Bellman-Ford repetido,10,20,esparso,42,28,5.5125000017142156e-05
+Bellman-Ford repetido,10,20,esparso,42,29,5.677500030287774e-05
+Bellman-Ford repetido,10,20,esparso,42,30,5.742499979533022e-05
+Dijkstra repetido,10,20,esparso,42,1,4.291699997338583e-05
+Dijkstra repetido,10,20,esparso,42,2,4.6688000111316796e-05
+Dijkstra repetido,10,20,esparso,42,3,3.55160000253818e-05
+Dijkstra repetido,10,20,esparso,42,4,3.773300022658077e-05
+Dijkstra repetido,10,20,esparso,42,5,3.6875000205327524e-05
+Dijkstra repetido,10,20,esparso,42,6,3.760500021599e-05
+Dijkstra repetido,10,20,esparso,42,7,3.7123000311112264e-05
+Dijkstra repetido,10,20,esparso,42,8,3.912700003638747e-05
+Dijkstra repetido,10,20,esparso,42,9,3.703299989865627e-05
+Dijkstra repetido,10,20,esparso,42,10,3.7694999718951294e-05
+Dijkstra repetido,10,20,esparso,42,11,3.9385000036418205e-05
+Dijkstra repetido,10,20,esparso,42,12,3.665899976112996e-05
+Dijkstra repetido,10,20,esparso,42,13,3.797899989876896e-05
+Dijkstra repetido,10,20,esparso,42,14,4.258499984644004e-05
+Dijkstra repetido,10,20,esparso,42,15,3.727900002559181e-05
+Dijkstra repetido,10,20,esparso,42,16,3.7353000152506866e-05
+Dijkstra repetido,10,20,esparso,42,17,3.835600000456907e-05
+Dijkstra repetido,10,20,esparso,42,18,3.806299991993001e-05
+Dijkstra repetido,10,20,esparso,42,19,3.720800032169791e-05
+Dijkstra repetido,10,20,esparso,42,20,3.710999999384512e-05
+Dijkstra repetido,10,20,esparso,42,21,3.682300030050101e-05
+Dijkstra repetido,10,20,esparso,42,22,3.66829999620677e-05
+Dijkstra repetido,10,20,esparso,42,23,3.7819999761268264e-05
+Dijkstra repetido,10,20,esparso,42,24,4.067899999427027e-05
+Dijkstra repetido,10,20,esparso,42,25,4.1894999867508886e-05
+Dijkstra repetido,10,20,esparso,42,26,3.79950001843099e-05
+Dijkstra repetido,10,20,esparso,42,27,3.8208000205486314e-05
+Dijkstra repetido,10,20,esparso,42,28,3.704100026880042e-05
+Dijkstra repetido,10,20,esparso,42,29,3.674200024761376e-05
+Dijkstra repetido,10,20,esparso,42,30,3.655000000435393e-05
+Floyd-Warshall,10,20,esparso,42,1,5.402300030254992e-05
+Floyd-Warshall,10,20,esparso,42,2,5.558799966820516e-05
+Floyd-Warshall,10,20,esparso,42,3,4.677400011132704e-05
+Floyd-Warshall,10,20,esparso,42,4,4.8303999847121304e-05
+Floyd-Warshall,10,20,esparso,42,5,4.461799971977598e-05
+Floyd-Warshall,10,20,esparso,42,6,4.499199985730229e-05
+Floyd-Warshall,10,20,esparso,42,7,4.626600002666237e-05
+Floyd-Warshall,10,20,esparso,42,8,4.409000030136667e-05
+Floyd-Warshall,10,20,esparso,42,9,4.790399998455541e-05
+Floyd-Warshall,10,20,esparso,42,10,4.4084999899496324e-05
+Floyd-Warshall,10,20,esparso,42,11,4.436900007931399e-05
+Floyd-Warshall,10,20,esparso,42,12,4.517800016401452e-05
+Floyd-Warshall,10,20,esparso,42,13,4.725099961433443e-05
+Floyd-Warshall,10,20,esparso,42,14,4.5539999973698286e-05
+Floyd-Warshall,10,20,esparso,42,15,4.556400017463602e-05
+Floyd-Warshall,10,20,esparso,42,16,4.6335000206454424e-05
+Floyd-Warshall,10,20,esparso,42,17,4.810299969904008e-05
+Floyd-Warshall,10,20,esparso,42,18,4.655700013245223e-05
+Floyd-Warshall,10,20,esparso,42,19,4.5540999963122886e-05
+Floyd-Warshall,10,20,esparso,42,20,4.544000012174365e-05
+Floyd-Warshall,10,20,esparso,42,21,4.821899983653566e-05
+Floyd-Warshall,10,20,esparso,42,22,4.651199969885056e-05
+Floyd-Warshall,10,20,esparso,42,23,0.00015937800026222249
+Floyd-Warshall,10,20,esparso,42,24,4.3773000015789876e-05
+Floyd-Warshall,10,20,esparso,42,25,4.674799993154011e-05
+Floyd-Warshall,10,20,esparso,42,26,4.3974000163871096e-05
+Floyd-Warshall,10,20,esparso,42,27,4.508700021688128e-05
+Floyd-Warshall,10,20,esparso,42,28,4.469499981496483e-05
+Floyd-Warshall,10,20,esparso,42,29,4.8289000005752314e-05
+Floyd-Warshall,10,20,esparso,42,30,4.431300021678908e-05
+Johnson,10,20,esparso,42,1,9.114199974646908e-05
+Johnson,10,20,esparso,42,2,5.904199997530668e-05
+Johnson,10,20,esparso,42,3,5.237000004854053e-05
+Johnson,10,20,esparso,42,4,5.476400019688299e-05
+Johnson,10,20,esparso,42,5,5.160899991096812e-05
+Johnson,10,20,esparso,42,6,5.3247999858285766e-05
+Johnson,10,20,esparso,42,7,5.286900022838381e-05
+Johnson,10,20,esparso,42,8,5.324399990058737e-05
+Johnson,10,20,esparso,42,9,5.7715999901120085e-05
+Johnson,10,20,esparso,42,10,5.214499969952158e-05
+Johnson,10,20,esparso,42,11,5.331000011210563e-05
+Johnson,10,20,esparso,42,12,5.189100011193659e-05
+Johnson,10,20,esparso,42,13,5.075700028100982e-05
+Johnson,10,20,esparso,42,14,5.14910002493707e-05
+Johnson,10,20,esparso,42,15,5.1311999868630664e-05
+Johnson,10,20,esparso,42,16,5.1185999836889096e-05
+Johnson,10,20,esparso,42,17,5.147900037627551e-05
+Johnson,10,20,esparso,42,18,5.336999993232894e-05
+Johnson,10,20,esparso,42,19,5.166399978406844e-05
+Johnson,10,20,esparso,42,20,5.005999992135912e-05
+Johnson,10,20,esparso,42,21,5.215199962549377e-05
+Johnson,10,20,esparso,42,22,5.02499997310224e-05
+Johnson,10,20,esparso,42,23,5.3658000069845e-05
+Johnson,10,20,esparso,42,24,5.8523000006971415e-05
+Johnson,10,20,esparso,42,25,5.225299992162036e-05
+Johnson,10,20,esparso,42,26,5.2582000080292346e-05
+Johnson,10,20,esparso,42,27,5.3030999879410956e-05
+Johnson,10,20,esparso,42,28,6.251500008147559e-05
+Johnson,10,20,esparso,42,29,5.167700010133558e-05
+Johnson,10,20,esparso,42,30,5.277299987938022e-05
+Bellman-Ford repetido,10,21,intermediario,43,1,6.950499982849578e-05
+Bellman-Ford repetido,10,21,intermediario,43,2,7.005199995546718e-05
+Bellman-Ford repetido,10,21,intermediario,43,3,6.096300012359279e-05
+Bellman-Ford repetido,10,21,intermediario,43,4,6.116299982750206e-05
+Bellman-Ford repetido,10,21,intermediario,43,5,6.152000014481018e-05
+Bellman-Ford repetido,10,21,intermediario,43,6,6.17949999650591e-05
+Bellman-Ford repetido,10,21,intermediario,43,7,6.864799979666714e-05
+Bellman-Ford repetido,10,21,intermediario,43,8,6.194599973241566e-05
+Bellman-Ford repetido,10,21,intermediario,43,9,6.216300016603782e-05
+Bellman-Ford repetido,10,21,intermediario,43,10,6.02569998591207e-05
+Bellman-Ford repetido,10,21,intermediario,43,11,5.957300027148449e-05
+Bellman-Ford repetido,10,21,intermediario,43,12,6.0759000007237773e-05
+Bellman-Ford repetido,10,21,intermediario,43,13,6.476399994426174e-05
+Bellman-Ford repetido,10,21,intermediario,43,14,6.263199975364842e-05
+Bellman-Ford repetido,10,21,intermediario,43,15,6.026299979566829e-05
+Bellman-Ford repetido,10,21,intermediario,43,16,6.112199980634614e-05
+Bellman-Ford repetido,10,21,intermediario,43,17,6.0381999901437666e-05
+Bellman-Ford repetido,10,21,intermediario,43,18,6.229100017662859e-05
+Bellman-Ford repetido,10,21,intermediario,43,19,6.005300019751303e-05
+Bellman-Ford repetido,10,21,intermediario,43,20,5.972799999653944e-05
+Bellman-Ford repetido,10,21,intermediario,43,21,6.217099962668726e-05
+Bellman-Ford repetido,10,21,intermediario,43,22,6.135700004961109e-05
+Bellman-Ford repetido,10,21,intermediario,43,23,6.214399991222308e-05
+Bellman-Ford repetido,10,21,intermediario,43,24,6.201099995450932e-05
+Bellman-Ford repetido,10,21,intermediario,43,25,6.07240003773768e-05
+Bellman-Ford repetido,10,21,intermediario,43,26,6.176799979584757e-05
+Bellman-Ford repetido,10,21,intermediario,43,27,6.707600005029235e-05
+Bellman-Ford repetido,10,21,intermediario,43,28,6.076399995436077e-05
+Bellman-Ford repetido,10,21,intermediario,43,29,6.014200016579707e-05
+Bellman-Ford repetido,10,21,intermediario,43,30,6.139200013421942e-05
+Dijkstra repetido,10,21,intermediario,43,1,4.4391999836079776e-05
+Dijkstra repetido,10,21,intermediario,43,2,4.4536000132211484e-05
+Dijkstra repetido,10,21,intermediario,43,3,3.8162000237207394e-05
+Dijkstra repetido,10,21,intermediario,43,4,3.860600008920301e-05
+Dijkstra repetido,10,21,intermediario,43,5,4.000099988843431e-05
+Dijkstra repetido,10,21,intermediario,43,6,3.809200006799074e-05
+Dijkstra repetido,10,21,intermediario,43,7,3.8036000205465825e-05
+Dijkstra repetido,10,21,intermediario,43,8,3.765099972952157e-05
+Dijkstra repetido,10,21,intermediario,43,9,3.5879999813914765e-05
+Dijkstra repetido,10,21,intermediario,43,10,3.907200016328716e-05
+Dijkstra repetido,10,21,intermediario,43,11,5.021400011173682e-05
+Dijkstra repetido,10,21,intermediario,43,12,3.770300008909544e-05
+Dijkstra repetido,10,21,intermediario,43,13,3.7680999867006904e-05
+Dijkstra repetido,10,21,intermediario,43,14,4.2114999814657494e-05
+Dijkstra repetido,10,21,intermediario,43,15,3.679900009956327e-05
+Dijkstra repetido,10,21,intermediario,43,16,3.697700003613136e-05
+Dijkstra repetido,10,21,intermediario,43,17,3.6733999877469614e-05
+Dijkstra repetido,10,21,intermediario,43,18,3.8131000110297464e-05
+Dijkstra repetido,10,21,intermediario,43,19,3.836999985651346e-05
+Dijkstra repetido,10,21,intermediario,43,20,3.736100006790366e-05
+Dijkstra repetido,10,21,intermediario,43,21,3.69059998774901e-05
+Dijkstra repetido,10,21,intermediario,43,22,3.756100022656028e-05
+Dijkstra repetido,10,21,intermediario,43,23,3.580700013117166e-05
+Dijkstra repetido,10,21,intermediario,43,24,4.0534000163461315e-05
+Dijkstra repetido,10,21,intermediario,43,25,3.7263000194798224e-05
+Dijkstra repetido,10,21,intermediario,43,26,3.8251999740168685e-05
+Dijkstra repetido,10,21,intermediario,43,27,3.805999995165621e-05
+Dijkstra repetido,10,21,intermediario,43,28,3.873700006806757e-05
+Dijkstra repetido,10,21,intermediario,43,29,3.856800003632088e-05
+Dijkstra repetido,10,21,intermediario,43,30,3.8360999951692065e-05
+Floyd-Warshall,10,21,intermediario,43,1,6.160900011309423e-05
+Floyd-Warshall,10,21,intermediario,43,2,6.25000002401066e-05
+Floyd-Warshall,10,21,intermediario,43,3,5.682499977410771e-05
+Floyd-Warshall,10,21,intermediario,43,4,5.504199998540571e-05
+Floyd-Warshall,10,21,intermediario,43,5,5.362699994293507e-05
+Floyd-Warshall,10,21,intermediario,43,6,5.520000013348181e-05
+Floyd-Warshall,10,21,intermediario,43,7,5.488700026035076e-05
+Floyd-Warshall,10,21,intermediario,43,8,5.555300003834418e-05
+Floyd-Warshall,10,21,intermediario,43,9,5.5108999731601216e-05
+Floyd-Warshall,10,21,intermediario,43,10,5.480900017573731e-05
+Floyd-Warshall,10,21,intermediario,43,11,5.459299973153975e-05
+Floyd-Warshall,10,21,intermediario,43,12,5.42849998055317e-05
+Floyd-Warshall,10,21,intermediario,43,13,5.4435000038211e-05
+Floyd-Warshall,10,21,intermediario,43,14,5.486700001711142e-05
+Floyd-Warshall,10,21,intermediario,43,15,5.448199999591452e-05
+Floyd-Warshall,10,21,intermediario,43,16,5.590799992205575e-05
+Floyd-Warshall,10,21,intermediario,43,17,5.566299978454481e-05
+Floyd-Warshall,10,21,intermediario,43,18,5.522699984794599e-05
+Floyd-Warshall,10,21,intermediario,43,19,5.94729999647825e-05
+Floyd-Warshall,10,21,intermediario,43,20,5.877800003872835e-05
+Floyd-Warshall,10,21,intermediario,43,21,5.5607999911444495e-05
+Floyd-Warshall,10,21,intermediario,43,22,5.888899977435358e-05
+Floyd-Warshall,10,21,intermediario,43,23,5.685599990101764e-05
+Floyd-Warshall,10,21,intermediario,43,24,5.5607999911444495e-05
+Floyd-Warshall,10,21,intermediario,43,25,5.657400015479652e-05
+Floyd-Warshall,10,21,intermediario,43,26,5.410699986896361e-05
+Floyd-Warshall,10,21,intermediario,43,27,5.268799986879458e-05
+Floyd-Warshall,10,21,intermediario,43,28,5.6692999805818545e-05
+Floyd-Warshall,10,21,intermediario,43,29,5.7172000197169837e-05
+Floyd-Warshall,10,21,intermediario,43,30,5.670300015481189e-05
+Johnson,10,21,intermediario,43,1,5.930299994361121e-05
+Johnson,10,21,intermediario,43,2,6.026999972164049e-05
+Johnson,10,21,intermediario,43,3,5.349200000637211e-05
+Johnson,10,21,intermediario,43,4,5.422300000645919e-05
+Johnson,10,21,intermediario,43,5,5.2751999646716285e-05
+Johnson,10,21,intermediario,43,6,5.2801000038016355e-05
+Johnson,10,21,intermediario,43,7,5.376599983719643e-05
+Johnson,10,21,intermediario,43,8,5.4352999995899154e-05
+Johnson,10,21,intermediario,43,9,5.4584999816142954e-05
+Johnson,10,21,intermediario,43,10,5.466600032377755e-05
+Johnson,10,21,intermediario,43,11,5.406400032370584e-05
+Johnson,10,21,intermediario,43,12,5.4011999964131974e-05
+Johnson,10,21,intermediario,43,13,5.6631000006746035e-05
+Johnson,10,21,intermediario,43,14,5.2347999826451996e-05
+Johnson,10,21,intermediario,43,15,6.21979997958988e-05
+Johnson,10,21,intermediario,43,16,5.401399994298117e-05
+Johnson,10,21,intermediario,43,17,5.558000020755571e-05
+Johnson,10,21,intermediario,43,18,5.572700001721387e-05
+Johnson,10,21,intermediario,43,19,5.3513000239036046e-05
+Johnson,10,21,intermediario,43,20,5.378900004870957e-05
+Johnson,10,21,intermediario,43,21,5.4132000059325946e-05
+Johnson,10,21,intermediario,43,22,5.494899960467592e-05
+Johnson,10,21,intermediario,43,23,5.381199980547535e-05
+Johnson,10,21,intermediario,43,24,5.342699978427845e-05
+Johnson,10,21,intermediario,43,25,5.3281999953469494e-05
+Johnson,10,21,intermediario,43,26,5.248700017546071e-05
+Johnson,10,21,intermediario,43,27,5.398999974204344e-05
+Johnson,10,21,intermediario,43,28,5.501299983734498e-05
+Johnson,10,21,intermediario,43,29,5.8027000250149285e-05
+Johnson,10,21,intermediario,43,30,5.258900000626454e-05
+Bellman-Ford repetido,10,45,denso,44,1,0.00014049999981580186
+Bellman-Ford repetido,10,45,denso,44,2,0.00012842100022680825
+Bellman-Ford repetido,10,45,denso,44,3,0.0001051600002028863
+Bellman-Ford repetido,10,45,denso,44,4,0.0001286339997932373
+Bellman-Ford repetido,10,45,denso,44,5,0.00010821099976965343
+Bellman-Ford repetido,10,45,denso,44,6,0.00010589500016067177
+Bellman-Ford repetido,10,45,denso,44,7,0.00010726699974838994
+Bellman-Ford repetido,10,45,denso,44,8,0.00010734099987530499
+Bellman-Ford repetido,10,45,denso,44,9,0.00011844200025734608
+Bellman-Ford repetido,10,45,denso,44,10,0.00011606199996094801
+Bellman-Ford repetido,10,45,denso,44,11,0.00010411899984319462
+Bellman-Ford repetido,10,45,denso,44,12,0.0001054519998433534
+Bellman-Ford repetido,10,45,denso,44,13,0.00010672799999156268
+Bellman-Ford repetido,10,45,denso,44,14,0.00010747899978014175
+Bellman-Ford repetido,10,45,denso,44,15,0.00011789100017267629
+Bellman-Ford repetido,10,45,denso,44,16,0.00010899600010816357
+Bellman-Ford repetido,10,45,denso,44,17,0.00010648999978002394
+Bellman-Ford repetido,10,45,denso,44,18,0.00010837700028787367
+Bellman-Ford repetido,10,45,denso,44,19,0.00010215299971605418
+Bellman-Ford repetido,10,45,denso,44,20,0.00010614899974825676
+Bellman-Ford repetido,10,45,denso,44,21,0.00010565100001258543
+Bellman-Ford repetido,10,45,denso,44,22,0.00010671800009731669
+Bellman-Ford repetido,10,45,denso,44,23,0.00010727300013968488
+Bellman-Ford repetido,10,45,denso,44,24,0.00010652899982233066
+Bellman-Ford repetido,10,45,denso,44,25,0.0001053930000125547
+Bellman-Ford repetido,10,45,denso,44,26,0.00010551800005487166
+Bellman-Ford repetido,10,45,denso,44,27,0.00010580000025584013
+Bellman-Ford repetido,10,45,denso,44,28,0.00010556300003372598
+Bellman-Ford repetido,10,45,denso,44,29,0.00010830999963218346
+Bellman-Ford repetido,10,45,denso,44,30,0.00010640200025591184
+Dijkstra repetido,10,45,denso,44,1,6.497899994428735e-05
+Dijkstra repetido,10,45,denso,44,2,5.90170002396917e-05
+Dijkstra repetido,10,45,denso,44,3,5.256000031295116e-05
+Dijkstra repetido,10,45,denso,44,4,5.144800024936558e-05
+Dijkstra repetido,10,45,denso,44,5,5.519700016520801e-05
+Dijkstra repetido,10,45,denso,44,6,5.468900008054334e-05
+Dijkstra repetido,10,45,denso,44,7,5.6244999996124534e-05
+Dijkstra repetido,10,45,denso,44,8,5.494800006999867e-05
+Dijkstra repetido,10,45,denso,44,9,5.361800003811368e-05
+Dijkstra repetido,10,45,denso,44,10,5.452999994304264e-05
+Dijkstra repetido,10,45,denso,44,11,5.4153000291989883e-05
+Dijkstra repetido,10,45,denso,44,12,5.3018000016891165e-05
+Dijkstra repetido,10,45,denso,44,13,6.153799995445297e-05
+Dijkstra repetido,10,45,denso,44,14,5.6354000207647914e-05
+Dijkstra repetido,10,45,denso,44,15,5.375299997467664e-05
+Dijkstra repetido,10,45,denso,44,16,5.408100014392403e-05
+Dijkstra repetido,10,45,denso,44,17,5.1839000207110075e-05
+Dijkstra repetido,10,45,denso,44,18,5.373500016503385e-05
+Dijkstra repetido,10,45,denso,44,19,5.3128000217839144e-05
+Dijkstra repetido,10,45,denso,44,20,5.4676999752700794e-05
+Dijkstra repetido,10,45,denso,44,21,5.425500012279372e-05
+Dijkstra repetido,10,45,denso,44,22,5.416699968918692e-05
+Dijkstra repetido,10,45,denso,44,23,5.442200017569121e-05
+Dijkstra repetido,10,45,denso,44,24,5.279400011204416e-05
+Dijkstra repetido,10,45,denso,44,25,5.361800003811368e-05
+Dijkstra repetido,10,45,denso,44,26,5.3531000048678834e-05
+Dijkstra repetido,10,45,denso,44,27,5.254699999568402e-05
+Dijkstra repetido,10,45,denso,44,28,5.692999957318534e-05
+Dijkstra repetido,10,45,denso,44,29,5.510200026037637e-05
+Dijkstra repetido,10,45,denso,44,30,5.2891999985149596e-05
+Floyd-Warshall,10,45,denso,44,1,7.996099975571269e-05
+Floyd-Warshall,10,45,denso,44,2,8.14250001894834e-05
+Floyd-Warshall,10,45,denso,44,3,6.785300001865835e-05
+Floyd-Warshall,10,45,denso,44,4,8.360500032722484e-05
+Floyd-Warshall,10,45,denso,44,5,7.426799993481836e-05
+Floyd-Warshall,10,45,denso,44,6,6.794199998694239e-05
+Floyd-Warshall,10,45,denso,44,7,6.892499959576526e-05
+Floyd-Warshall,10,45,denso,44,8,6.906099997650017e-05
+Floyd-Warshall,10,45,denso,44,9,6.789200006096507e-05
+Floyd-Warshall,10,45,denso,44,10,6.823800003985525e-05
+Floyd-Warshall,10,45,denso,44,11,6.891300017741742e-05
+Floyd-Warshall,10,45,denso,44,12,6.756799984941608e-05
+Floyd-Warshall,10,45,denso,44,13,6.799800030421466e-05
+Floyd-Warshall,10,45,denso,44,14,6.946900020921021e-05
+Floyd-Warshall,10,45,denso,44,15,6.880799992359243e-05
+Floyd-Warshall,10,45,denso,44,16,6.946199982849066e-05
+Floyd-Warshall,10,45,denso,44,17,7.299199978660909e-05
+Floyd-Warshall,10,45,denso,44,18,6.701799975417089e-05
+Floyd-Warshall,10,45,denso,44,19,6.763300007150974e-05
+Floyd-Warshall,10,45,denso,44,20,6.807399995523156e-05
+Floyd-Warshall,10,45,denso,44,21,6.766900014554267e-05
+Floyd-Warshall,10,45,denso,44,22,6.807499994465616e-05
+Floyd-Warshall,10,45,denso,44,23,7.028800018815673e-05
+Floyd-Warshall,10,45,denso,44,24,6.828300001870957e-05
+Floyd-Warshall,10,45,denso,44,25,6.737500007147901e-05
+Floyd-Warshall,10,45,denso,44,26,6.701700021949364e-05
+Floyd-Warshall,10,45,denso,44,27,6.731299981765915e-05
+Floyd-Warshall,10,45,denso,44,28,7.085400011419551e-05
+Floyd-Warshall,10,45,denso,44,29,6.864900024083909e-05
+Floyd-Warshall,10,45,denso,44,30,6.83879998177872e-05
+Johnson,10,45,denso,44,1,9.849700018094154e-05
+Johnson,10,45,denso,44,2,9.650299989516498e-05
+Johnson,10,45,denso,44,3,7.26619996385125e-05
+Johnson,10,45,denso,44,4,7.085499964887276e-05
+Johnson,10,45,denso,44,5,7.262600001922692e-05
+Johnson,10,45,denso,44,6,7.232500001919107e-05
+Johnson,10,45,denso,44,7,7.364799967035651e-05
+Johnson,10,45,denso,44,8,7.337299985010759e-05
+Johnson,10,45,denso,44,9,7.323899990296923e-05
+Johnson,10,45,denso,44,10,7.311400031539961e-05
+Johnson,10,45,denso,44,11,7.244400012496044e-05
+Johnson,10,45,denso,44,12,8.144699995682458e-05
+Johnson,10,45,denso,44,13,7.2260999786522e-05
+Johnson,10,45,denso,44,14,8.800999967206735e-05
+Johnson,10,45,denso,44,15,7.114700019883458e-05
+Johnson,10,45,denso,44,16,7.408800001940108e-05
+Johnson,10,45,denso,44,17,7.453499983967049e-05
+Johnson,10,45,denso,44,18,8.293699966088752e-05
+Johnson,10,45,denso,44,19,7.37469999876339e-05
+Johnson,10,45,denso,44,20,7.831599987184745e-05
+Johnson,10,45,denso,44,21,7.370399998762878e-05
+Johnson,10,45,denso,44,22,7.37459999982093e-05
+Johnson,10,45,denso,44,23,7.256000026245601e-05
+Johnson,10,45,denso,44,24,7.161099983932218e-05
+Johnson,10,45,denso,44,25,7.318100006159511e-05
+Johnson,10,45,denso,44,26,7.902700008344254e-05
+Johnson,10,45,denso,44,27,7.246099994517863e-05
+Johnson,10,45,denso,44,28,7.261200016728253e-05
+Johnson,10,45,denso,44,29,7.348899998760317e-05
+Johnson,10,45,denso,44,30,7.27370002095995e-05
+Bellman-Ford repetido,30,60,esparso,45,1,0.0006618580000576912
+Bellman-Ford repetido,30,60,esparso,45,2,0.0006596610000997316
+Bellman-Ford repetido,30,60,esparso,45,3,0.0006533279997711361
+Bellman-Ford repetido,30,60,esparso,45,4,0.0006730049999532639
+Bellman-Ford repetido,30,60,esparso,45,5,0.0006598390000362997
+Bellman-Ford repetido,30,60,esparso,45,6,0.000677819999964413
+Bellman-Ford repetido,30,60,esparso,45,7,0.0006557550000252377
+Bellman-Ford repetido,30,60,esparso,45,8,0.0006555200002367201
+Bellman-Ford repetido,30,60,esparso,45,9,0.0006618830002480536
+Bellman-Ford repetido,30,60,esparso,45,10,0.0006633500001953507
+Bellman-Ford repetido,30,60,esparso,45,11,0.0006616559999201854
+Bellman-Ford repetido,30,60,esparso,45,12,0.000654713999665546
+Bellman-Ford repetido,30,60,esparso,45,13,0.0006599309999728575
+Bellman-Ford repetido,30,60,esparso,45,14,0.0006581709999409213
+Bellman-Ford repetido,30,60,esparso,45,15,0.0006580630001735699
+Bellman-Ford repetido,30,60,esparso,45,16,0.000655546000416507
+Bellman-Ford repetido,30,60,esparso,45,17,0.0006583680001313041
+Bellman-Ford repetido,30,60,esparso,45,18,0.0006571730000359821
+Bellman-Ford repetido,30,60,esparso,45,19,0.0006578460001946951
+Bellman-Ford repetido,30,60,esparso,45,20,0.0006557050000992604
+Bellman-Ford repetido,30,60,esparso,45,21,0.0006582769997294236
+Bellman-Ford repetido,30,60,esparso,45,22,0.0006506069998977182
+Bellman-Ford repetido,30,60,esparso,45,23,0.000656651000099373
+Bellman-Ford repetido,30,60,esparso,45,24,0.0006570860000465473
+Bellman-Ford repetido,30,60,esparso,45,25,0.0006568270000570919
+Bellman-Ford repetido,30,60,esparso,45,26,0.0006557330002578965
+Bellman-Ford repetido,30,60,esparso,45,27,0.0006513249995805381
+Bellman-Ford repetido,30,60,esparso,45,28,0.0006576920000043174
+Bellman-Ford repetido,30,60,esparso,45,29,0.0006624579996241664
+Bellman-Ford repetido,30,60,esparso,45,30,0.000658460000067862
+Dijkstra repetido,30,60,esparso,45,1,0.00034892700023192447
+Dijkstra repetido,30,60,esparso,45,2,0.0002984060001836042
+Dijkstra repetido,30,60,esparso,45,3,0.0003037790002053953
+Dijkstra repetido,30,60,esparso,45,4,0.00032345199997507734
+Dijkstra repetido,30,60,esparso,45,5,0.00029898499997216277
+Dijkstra repetido,30,60,esparso,45,6,0.00030120200017336174
+Dijkstra repetido,30,60,esparso,45,7,0.0002964780001093459
+Dijkstra repetido,30,60,esparso,45,8,0.0002972610000142595
+Dijkstra repetido,30,60,esparso,45,9,0.0003011690000676026
+Dijkstra repetido,30,60,esparso,45,10,0.0003287590002400975
+Dijkstra repetido,30,60,esparso,45,11,0.00030590899996241205
+Dijkstra repetido,30,60,esparso,45,12,0.000298060000204714
+Dijkstra repetido,30,60,esparso,45,13,0.00031442899989997386
+Dijkstra repetido,30,60,esparso,45,14,0.0002998499999193882
+Dijkstra repetido,30,60,esparso,45,15,0.00029750899966529687
+Dijkstra repetido,30,60,esparso,45,16,0.00030475699986709515
+Dijkstra repetido,30,60,esparso,45,17,0.00030238199997256743
+Dijkstra repetido,30,60,esparso,45,18,0.0003075399999943329
+Dijkstra repetido,30,60,esparso,45,19,0.0002979020000566379
+Dijkstra repetido,30,60,esparso,45,20,0.0002966880001622485
+Dijkstra repetido,30,60,esparso,45,21,0.00029921999976068037
+Dijkstra repetido,30,60,esparso,45,22,0.0003005140001732798
+Dijkstra repetido,30,60,esparso,45,23,0.000303066000014951
+Dijkstra repetido,30,60,esparso,45,24,0.0003038889999515959
+Dijkstra repetido,30,60,esparso,45,25,0.00029760600000372506
+Dijkstra repetido,30,60,esparso,45,26,0.00029880299962314893
+Dijkstra repetido,30,60,esparso,45,27,0.0003013040000041656
+Dijkstra repetido,30,60,esparso,45,28,0.000325290000091627
+Dijkstra repetido,30,60,esparso,45,29,0.000299619000088569
+Dijkstra repetido,30,60,esparso,45,30,0.0003037110000150278
+Floyd-Warshall,30,60,esparso,45,1,0.0008644160002404533
+Floyd-Warshall,30,60,esparso,45,2,0.0008420379999733996
+Floyd-Warshall,30,60,esparso,45,3,0.0008036360000005516
+Floyd-Warshall,30,60,esparso,45,4,0.0008263300001090101
+Floyd-Warshall,30,60,esparso,45,5,0.0008022279998840531
+Floyd-Warshall,30,60,esparso,45,6,0.0008374280000680301
+Floyd-Warshall,30,60,esparso,45,7,0.0008147470002768387
+Floyd-Warshall,30,60,esparso,45,8,0.0008247709997704078
+Floyd-Warshall,30,60,esparso,45,9,0.0007974529999046354
+Floyd-Warshall,30,60,esparso,45,10,0.0008400619999520131
+Floyd-Warshall,30,60,esparso,45,11,0.0008108689999062335
+Floyd-Warshall,30,60,esparso,45,12,0.0008395650002057664
+Floyd-Warshall,30,60,esparso,45,13,0.0008059219999267953
+Floyd-Warshall,30,60,esparso,45,14,0.0008150529997692502
+Floyd-Warshall,30,60,esparso,45,15,0.0008080790003077709
+Floyd-Warshall,30,60,esparso,45,16,0.0008227220000662783
+Floyd-Warshall,30,60,esparso,45,17,0.0008201539999390661
+Floyd-Warshall,30,60,esparso,45,18,0.0008025309998629382
+Floyd-Warshall,30,60,esparso,45,19,0.0008032330001697119
+Floyd-Warshall,30,60,esparso,45,20,0.0008082750000539818
+Floyd-Warshall,30,60,esparso,45,21,0.0008057549998738978
+Floyd-Warshall,30,60,esparso,45,22,0.0009412090003024787
+Floyd-Warshall,30,60,esparso,45,23,0.0007979849997354904
+Floyd-Warshall,30,60,esparso,45,24,0.000818025000171474
+Floyd-Warshall,30,60,esparso,45,25,0.0007985759998518915
+Floyd-Warshall,30,60,esparso,45,26,0.0008089269999800308
+Floyd-Warshall,30,60,esparso,45,27,0.0008020559998840326
+Floyd-Warshall,30,60,esparso,45,28,0.0008185259998754191
+Floyd-Warshall,30,60,esparso,45,29,0.0008084900000540074
+Floyd-Warshall,30,60,esparso,45,30,0.0008754589998716256
+Johnson,30,60,esparso,45,1,0.00046783300012975815
+Johnson,30,60,esparso,45,2,0.0003784590003306221
+Johnson,30,60,esparso,45,3,0.0003868220001095324
+Johnson,30,60,esparso,45,4,0.00037635699982274673
+Johnson,30,60,esparso,45,5,0.000380268000299111
+Johnson,30,60,esparso,45,6,0.00038215699987631524
+Johnson,30,60,esparso,45,7,0.0003759159999390249
+Johnson,30,60,esparso,45,8,0.00037661199985450367
+Johnson,30,60,esparso,45,9,0.00038122099977044854
+Johnson,30,60,esparso,45,10,0.00038713499998266343
+Johnson,30,60,esparso,45,11,0.00037638599997080746
+Johnson,30,60,esparso,45,12,0.00037894399974902626
+Johnson,30,60,esparso,45,13,0.00037656099993910175
+Johnson,30,60,esparso,45,14,0.00037988699978086515
+Johnson,30,60,esparso,45,15,0.0003967100001318613
+Johnson,30,60,esparso,45,16,0.0003809469999396242
+Johnson,30,60,esparso,45,17,0.0003762430001188477
+Johnson,30,60,esparso,45,18,0.00037672899998142384
+Johnson,30,60,esparso,45,19,0.00037768700030937907
+Johnson,30,60,esparso,45,20,0.00038303999963318347
+Johnson,30,60,esparso,45,21,0.0003779730000132986
+Johnson,30,60,esparso,45,22,0.00038521100032085087
+Johnson,30,60,esparso,45,23,0.0003781220002565533
+Johnson,30,60,esparso,45,24,0.00038020600004529115
+Johnson,30,60,esparso,45,25,0.0003758630000447738
+Johnson,30,60,esparso,45,26,0.000379730000076961
+Johnson,30,60,esparso,45,27,0.0003823920001195802
+Johnson,30,60,esparso,45,28,0.0003829250003946072
+Johnson,30,60,esparso,45,29,0.0003785210001296946
+Johnson,30,60,esparso,45,30,0.00038044299981265794
+Bellman-Ford repetido,30,174,intermediario,46,1,0.0015784399997755827
+Bellman-Ford repetido,30,174,intermediario,46,2,0.0014954869998291542
+Bellman-Ford repetido,30,174,intermediario,46,3,0.0015060700002322847
+Bellman-Ford repetido,30,174,intermediario,46,4,0.0014949689998502436
+Bellman-Ford repetido,30,174,intermediario,46,5,0.0015082229997460672
+Bellman-Ford repetido,30,174,intermediario,46,6,0.001536724999823491
+Bellman-Ford repetido,30,174,intermediario,46,7,0.0014837749999969674
+Bellman-Ford repetido,30,174,intermediario,46,8,0.0014941919998818776
+Bellman-Ford repetido,30,174,intermediario,46,9,0.0014818439999544353
+Bellman-Ford repetido,30,174,intermediario,46,10,0.0014831050002612756
+Bellman-Ford repetido,30,174,intermediario,46,11,0.0014937580003788753
+Bellman-Ford repetido,30,174,intermediario,46,12,0.0014959059999455349
+Bellman-Ford repetido,30,174,intermediario,46,13,0.0014856749999125896
+Bellman-Ford repetido,30,174,intermediario,46,14,0.0014786970000386646
+Bellman-Ford repetido,30,174,intermediario,46,15,0.0014891329997226421
+Bellman-Ford repetido,30,174,intermediario,46,16,0.001493124000262469
+Bellman-Ford repetido,30,174,intermediario,46,17,0.001498582999829523
+Bellman-Ford repetido,30,174,intermediario,46,18,0.0014925780001249223
+Bellman-Ford repetido,30,174,intermediario,46,19,0.0014338310002131038
+Bellman-Ford repetido,30,174,intermediario,46,20,0.0014818260001447925
+Bellman-Ford repetido,30,174,intermediario,46,21,0.0014789450001444493
+Bellman-Ford repetido,30,174,intermediario,46,22,0.001495614999839745
+Bellman-Ford repetido,30,174,intermediario,46,23,0.0014939329998924222
+Bellman-Ford repetido,30,174,intermediario,46,24,0.0015313550002247212
+Bellman-Ford repetido,30,174,intermediario,46,25,0.0015113090003069374
+Bellman-Ford repetido,30,174,intermediario,46,26,0.0014957459998186096
+Bellman-Ford repetido,30,174,intermediario,46,27,0.0014930739998817444
+Bellman-Ford repetido,30,174,intermediario,46,28,0.0014865269999972952
+Bellman-Ford repetido,30,174,intermediario,46,29,0.0014789340002607787
+Bellman-Ford repetido,30,174,intermediario,46,30,0.0015056910001476354
+Dijkstra repetido,30,174,intermediario,46,1,0.0005273520000628196
+Dijkstra repetido,30,174,intermediario,46,2,0.000501306000387558
+Dijkstra repetido,30,174,intermediario,46,3,0.0004943160001857905
+Dijkstra repetido,30,174,intermediario,46,4,0.0005114890000186278
+Dijkstra repetido,30,174,intermediario,46,5,0.0005053259997112036
+Dijkstra repetido,30,174,intermediario,46,6,0.0004921180002384062
+Dijkstra repetido,30,174,intermediario,46,7,0.0005111770001349214
+Dijkstra repetido,30,174,intermediario,46,8,0.0004954519999955664
+Dijkstra repetido,30,174,intermediario,46,9,0.0004966440001226147
+Dijkstra repetido,30,174,intermediario,46,10,0.0006181890003063018
+Dijkstra repetido,30,174,intermediario,46,11,0.0005005929997423664
+Dijkstra repetido,30,174,intermediario,46,12,0.0004988599998796417
+Dijkstra repetido,30,174,intermediario,46,13,0.0004983560002074228
+Dijkstra repetido,30,174,intermediario,46,14,0.000493711000217445
+Dijkstra repetido,30,174,intermediario,46,15,0.0005010139998375962
+Dijkstra repetido,30,174,intermediario,46,16,0.0004906350000055681
+Dijkstra repetido,30,174,intermediario,46,17,0.0004980740000064543
+Dijkstra repetido,30,174,intermediario,46,18,0.0005057990001660073
+Dijkstra repetido,30,174,intermediario,46,19,0.0005178530000193859
+Dijkstra repetido,30,174,intermediario,46,20,0.000500045999615395
+Dijkstra repetido,30,174,intermediario,46,21,0.0004918649997307512
+Dijkstra repetido,30,174,intermediario,46,22,0.000494361999699322
+Dijkstra repetido,30,174,intermediario,46,23,0.0004990070001440472
+Dijkstra repetido,30,174,intermediario,46,24,0.0004937100002280204
+Dijkstra repetido,30,174,intermediario,46,25,0.0004928399998789246
+Dijkstra repetido,30,174,intermediario,46,26,0.000495469000270532
+Dijkstra repetido,30,174,intermediario,46,27,0.0004886419997092162
+Dijkstra repetido,30,174,intermediario,46,28,0.0005023590001655975
+Dijkstra repetido,30,174,intermediario,46,29,0.000497650000397698
+Dijkstra repetido,30,174,intermediario,46,30,0.0005034599998907652
+Floyd-Warshall,30,174,intermediario,46,1,0.0012317949999669509
+Floyd-Warshall,30,174,intermediario,46,2,0.0012170489999334677
+Floyd-Warshall,30,174,intermediario,46,3,0.001204617999974289
+Floyd-Warshall,30,174,intermediario,46,4,0.0011796869998761395
+Floyd-Warshall,30,174,intermediario,46,5,0.0011949220001952199
+Floyd-Warshall,30,174,intermediario,46,6,0.0011973330001637805
+Floyd-Warshall,30,174,intermediario,46,7,0.0012080779997631907
+Floyd-Warshall,30,174,intermediario,46,8,0.0012217890002830245
+Floyd-Warshall,30,174,intermediario,46,9,0.0011837659999400785
+Floyd-Warshall,30,174,intermediario,46,10,0.0011893299997609574
+Floyd-Warshall,30,174,intermediario,46,11,0.0011994060000688478
+Floyd-Warshall,30,174,intermediario,46,12,0.0012155330000496178
+Floyd-Warshall,30,174,intermediario,46,13,0.0012050960003762157
+Floyd-Warshall,30,174,intermediario,46,14,0.0011962479998146591
+Floyd-Warshall,30,174,intermediario,46,15,0.0012044779996358557
+Floyd-Warshall,30,174,intermediario,46,16,0.001201348999984475
+Floyd-Warshall,30,174,intermediario,46,17,0.0011905300002581498
+Floyd-Warshall,30,174,intermediario,46,18,0.001195194000047195
+Floyd-Warshall,30,174,intermediario,46,19,0.0011944230000153766
+Floyd-Warshall,30,174,intermediario,46,20,0.0012068420001014601
+Floyd-Warshall,30,174,intermediario,46,21,0.0012216659997648094
+Floyd-Warshall,30,174,intermediario,46,22,0.0011850890000459913
+Floyd-Warshall,30,174,intermediario,46,23,0.001203547999921284
+Floyd-Warshall,30,174,intermediario,46,24,0.0012024259999634523
+Floyd-Warshall,30,174,intermediario,46,25,0.001198845000089932
+Floyd-Warshall,30,174,intermediario,46,26,0.0011983670001427527
+Floyd-Warshall,30,174,intermediario,46,27,0.0012261080000826041
+Floyd-Warshall,30,174,intermediario,46,28,0.001209389999985433
+Floyd-Warshall,30,174,intermediario,46,29,0.0011967010000262235
+Floyd-Warshall,30,174,intermediario,46,30,0.0012019710002277861
+Johnson,30,174,intermediario,46,1,0.0006085639997763792
+Johnson,30,174,intermediario,46,2,0.0005862440002601943
+Johnson,30,174,intermediario,46,3,0.0006162729996503913
+Johnson,30,174,intermediario,46,4,0.0005807040001855057
+Johnson,30,174,intermediario,46,5,0.0005785880002804333
+Johnson,30,174,intermediario,46,6,0.0007043709997560654
+Johnson,30,174,intermediario,46,7,0.0005896739999116107
+Johnson,30,174,intermediario,46,8,0.0005765579999206238
+Johnson,30,174,intermediario,46,9,0.0005821019999530108
+Johnson,30,174,intermediario,46,10,0.0005862810003236518
+Johnson,30,174,intermediario,46,11,0.000584335999974428
+Johnson,30,174,intermediario,46,12,0.0005868670000381826
+Johnson,30,174,intermediario,46,13,0.000585993999720813
+Johnson,30,174,intermediario,46,14,0.0005761729998994269
+Johnson,30,174,intermediario,46,15,0.0005861120002919051
+Johnson,30,174,intermediario,46,16,0.000584918999720685
+Johnson,30,174,intermediario,46,17,0.0005760909998571151
+Johnson,30,174,intermediario,46,18,0.0005874200001017016
+Johnson,30,174,intermediario,46,19,0.0005887799998163246
+Johnson,30,174,intermediario,46,20,0.0005769409999629715
+Johnson,30,174,intermediario,46,21,0.0005793010000161303
+Johnson,30,174,intermediario,46,22,0.0005823720002808841
+Johnson,30,174,intermediario,46,23,0.0005770510001639195
+Johnson,30,174,intermediario,46,24,0.0005780970000159869
+Johnson,30,174,intermediario,46,25,0.00058553100006975
+Johnson,30,174,intermediario,46,26,0.0005762729997513816
+Johnson,30,174,intermediario,46,27,0.0005780579999736801
+Johnson,30,174,intermediario,46,28,0.0006091239997658704
+Johnson,30,174,intermediario,46,29,0.0005852630001754733
+Johnson,30,174,intermediario,46,30,0.0005828280000059749
+Bellman-Ford repetido,30,435,denso,47,1,0.003657154999928025
+Bellman-Ford repetido,30,435,denso,47,2,0.00358767900024759
+Bellman-Ford repetido,30,435,denso,47,3,0.0035080380002909806
+Bellman-Ford repetido,30,435,denso,47,4,0.0035971269999208744
+Bellman-Ford repetido,30,435,denso,47,5,0.0035878519997822877
+Bellman-Ford repetido,30,435,denso,47,6,0.0036555850001604995
+Bellman-Ford repetido,30,435,denso,47,7,0.003530310999849462
+Bellman-Ford repetido,30,435,denso,47,8,0.0035866619996340887
+Bellman-Ford repetido,30,435,denso,47,9,0.003572296000129427
+Bellman-Ford repetido,30,435,denso,47,10,0.003610149999985879
+Bellman-Ford repetido,30,435,denso,47,11,0.003577592000056029
+Bellman-Ford repetido,30,435,denso,47,12,0.003555267000137974
+Bellman-Ford repetido,30,435,denso,47,13,0.003570448000118631
+Bellman-Ford repetido,30,435,denso,47,14,0.0034987839999303105
+Bellman-Ford repetido,30,435,denso,47,15,0.0035796309998659126
+Bellman-Ford repetido,30,435,denso,47,16,0.003605947999858472
+Bellman-Ford repetido,30,435,denso,47,17,0.003585002999898279
+Bellman-Ford repetido,30,435,denso,47,18,0.0035841970002365997
+Bellman-Ford repetido,30,435,denso,47,19,0.0035762269999395357
+Bellman-Ford repetido,30,435,denso,47,20,0.003562936999969679
+Bellman-Ford repetido,30,435,denso,47,21,0.0035844600001837534
+Bellman-Ford repetido,30,435,denso,47,22,0.003628337999998621
+Bellman-Ford repetido,30,435,denso,47,23,0.0035722410002563265
+Bellman-Ford repetido,30,435,denso,47,24,0.003509234000375727
+Bellman-Ford repetido,30,435,denso,47,25,0.003575763000299048
+Bellman-Ford repetido,30,435,denso,47,26,0.003593887000079121
+Bellman-Ford repetido,30,435,denso,47,27,0.003595133000089845
+Bellman-Ford repetido,30,435,denso,47,28,0.0035949050002272998
+Bellman-Ford repetido,30,435,denso,47,29,0.0035815420001199527
+Bellman-Ford repetido,30,435,denso,47,30,0.0035856170002261933
+Dijkstra repetido,30,435,denso,47,1,0.0009011089996420196
+Dijkstra repetido,30,435,denso,47,2,0.0008391659998778778
+Dijkstra repetido,30,435,denso,47,3,0.0008145910001076118
+Dijkstra repetido,30,435,denso,47,4,0.0008396739999625424
+Dijkstra repetido,30,435,denso,47,5,0.000841238999782945
+Dijkstra repetido,30,435,denso,47,6,0.0008454119997622911
+Dijkstra repetido,30,435,denso,47,7,0.0008334250001098553
+Dijkstra repetido,30,435,denso,47,8,0.0008709969997653388
+Dijkstra repetido,30,435,denso,47,9,0.000823752000087552
+Dijkstra repetido,30,435,denso,47,10,0.0008266760000879003
+Dijkstra repetido,30,435,denso,47,11,0.0008257529998445534
+Dijkstra repetido,30,435,denso,47,12,0.0008791710001787578
+Dijkstra repetido,30,435,denso,47,13,0.0008328590001838165
+Dijkstra repetido,30,435,denso,47,14,0.0008343879999301862
+Dijkstra repetido,30,435,denso,47,15,0.000829808000162302
+Dijkstra repetido,30,435,denso,47,16,0.000832692000130919
+Dijkstra repetido,30,435,denso,47,17,0.0008334519998243195
+Dijkstra repetido,30,435,denso,47,18,0.0008404529999097576
+Dijkstra repetido,30,435,denso,47,19,0.0008308420001412742
+Dijkstra repetido,30,435,denso,47,20,0.0008272340000985423
+Dijkstra repetido,30,435,denso,47,21,0.0008266980003099889
+Dijkstra repetido,30,435,denso,47,22,0.0008284249997814186
+Dijkstra repetido,30,435,denso,47,23,0.000868239999817888
+Dijkstra repetido,30,435,denso,47,24,0.000844242999846756
+Dijkstra repetido,30,435,denso,47,25,0.0008679060001668404
+Dijkstra repetido,30,435,denso,47,26,0.0008335810002790822
+Dijkstra repetido,30,435,denso,47,27,0.0008476359998894623
+Dijkstra repetido,30,435,denso,47,28,0.0008468779997201636
+Dijkstra repetido,30,435,denso,47,29,0.000918472000194015
+Dijkstra repetido,30,435,denso,47,30,0.0008327179998559586
+Floyd-Warshall,30,435,denso,47,1,0.0013811290000376175
+Floyd-Warshall,30,435,denso,47,2,0.001421314999788592
+Floyd-Warshall,30,435,denso,47,3,0.001373830999909842
+Floyd-Warshall,30,435,denso,47,4,0.0014394740001080208
+Floyd-Warshall,30,435,denso,47,5,0.001413670000147249
+Floyd-Warshall,30,435,denso,47,6,0.0014151380000839708
+Floyd-Warshall,30,435,denso,47,7,0.0013969039996482024
+Floyd-Warshall,30,435,denso,47,8,0.0013985110003886803
+Floyd-Warshall,30,435,denso,47,9,0.0013862719997632666
+Floyd-Warshall,30,435,denso,47,10,0.0013953009997749177
+Floyd-Warshall,30,435,denso,47,11,0.0013811880003231636
+Floyd-Warshall,30,435,denso,47,12,0.0014287230001173157
+Floyd-Warshall,30,435,denso,47,13,0.001378960000238294
+Floyd-Warshall,30,435,denso,47,14,0.001396622999891406
+Floyd-Warshall,30,435,denso,47,15,0.0013910150000810972
+Floyd-Warshall,30,435,denso,47,16,0.0013609150000775116
+Floyd-Warshall,30,435,denso,47,17,0.0013818020001963305
+Floyd-Warshall,30,435,denso,47,18,0.0013901779998377606
+Floyd-Warshall,30,435,denso,47,19,0.0013733710002270527
+Floyd-Warshall,30,435,denso,47,20,0.001411953000115318
+Floyd-Warshall,30,435,denso,47,21,0.0013928599996688718
+Floyd-Warshall,30,435,denso,47,22,0.0014108549999036768
+Floyd-Warshall,30,435,denso,47,23,0.0013634659999297583
+Floyd-Warshall,30,435,denso,47,24,0.0014048049997654743
+Floyd-Warshall,30,435,denso,47,25,0.0013882020002711215
+Floyd-Warshall,30,435,denso,47,26,0.0014301830001386406
+Floyd-Warshall,30,435,denso,47,27,0.0013662619999195158
+Floyd-Warshall,30,435,denso,47,28,0.0013993479997225222
+Floyd-Warshall,30,435,denso,47,29,0.0013893280001866515
+Floyd-Warshall,30,435,denso,47,30,0.0014103190001151233
+Johnson,30,435,denso,47,1,0.0009729770004014426
+Johnson,30,435,denso,47,2,0.0009549279998282145
+Johnson,30,435,denso,47,3,0.0009593280001354287
+Johnson,30,435,denso,47,4,0.0009640309999667807
+Johnson,30,435,denso,47,5,0.000950005000049714
+Johnson,30,435,denso,47,6,0.0009477309999965655
+Johnson,30,435,denso,47,7,0.0009524259999125206
+Johnson,30,435,denso,47,8,0.0009534350001558778
+Johnson,30,435,denso,47,9,0.0009513989998595207
+Johnson,30,435,denso,47,10,0.0009510500003671041
+Johnson,30,435,denso,47,11,0.0009591979996912414
+Johnson,30,435,denso,47,12,0.0009561599999869941
+Johnson,30,435,denso,47,13,0.0009460060000492376
+Johnson,30,435,denso,47,14,0.0009593680001671601
+Johnson,30,435,denso,47,15,0.0009587730000930605
+Johnson,30,435,denso,47,16,0.0009560490002513689
+Johnson,30,435,denso,47,17,0.0009552379997330718
+Johnson,30,435,denso,47,18,0.0009558579999975336
+Johnson,30,435,denso,47,19,0.0009608010000192735
+Johnson,30,435,denso,47,20,0.0009469139999964682
+Johnson,30,435,denso,47,21,0.0009514109997326159
+Johnson,30,435,denso,47,22,0.0009565530003783351
+Johnson,30,435,denso,47,23,0.0009556879999763623
+Johnson,30,435,denso,47,24,0.0009468729999753123
+Johnson,30,435,denso,47,25,0.0009529509998174035
+Johnson,30,435,denso,47,26,0.0009547679997012892
+Johnson,30,435,denso,47,27,0.0009549609999339737
+Johnson,30,435,denso,47,28,0.0009523859998807893
+Johnson,30,435,denso,47,29,0.0009719019999465672
+Johnson,30,435,denso,47,30,0.0009492119997958071
+Bellman-Ford repetido,100,200,esparso,48,1,0.009501237999756995
+Bellman-Ford repetido,100,200,esparso,48,2,0.009403916999872308
+Bellman-Ford repetido,100,200,esparso,48,3,0.00940692099993612
+Bellman-Ford repetido,100,200,esparso,48,4,0.00946011800033375
+Bellman-Ford repetido,100,200,esparso,48,5,0.00936768099973051
+Bellman-Ford repetido,100,200,esparso,48,6,0.009551293000185979
+Bellman-Ford repetido,100,200,esparso,48,7,0.010028873999999632
+Bellman-Ford repetido,100,200,esparso,48,8,0.009378024999932677
+Bellman-Ford repetido,100,200,esparso,48,9,0.00946626999984801
+Bellman-Ford repetido,100,200,esparso,48,10,0.009385131999806617
+Bellman-Ford repetido,100,200,esparso,48,11,0.009372991999953229
+Bellman-Ford repetido,100,200,esparso,48,12,0.009441123000215157
+Bellman-Ford repetido,100,200,esparso,48,13,0.009417072999895026
+Bellman-Ford repetido,100,200,esparso,48,14,0.00995292800007519
+Bellman-Ford repetido,100,200,esparso,48,15,0.009418353000000934
+Bellman-Ford repetido,100,200,esparso,48,16,0.00943154400010826
+Bellman-Ford repetido,100,200,esparso,48,17,0.009411074000126973
+Bellman-Ford repetido,100,200,esparso,48,18,0.009508586999800173
+Bellman-Ford repetido,100,200,esparso,48,19,0.009488166000210185
+Bellman-Ford repetido,100,200,esparso,48,20,0.009430208000139828
+Bellman-Ford repetido,100,200,esparso,48,21,0.009450521999951889
+Bellman-Ford repetido,100,200,esparso,48,22,0.009424984000361292
+Bellman-Ford repetido,100,200,esparso,48,23,0.009465323999847897
+Bellman-Ford repetido,100,200,esparso,48,24,0.009434301000055711
+Bellman-Ford repetido,100,200,esparso,48,25,0.00936804699995264
+Bellman-Ford repetido,100,200,esparso,48,26,0.00936362199990981
+Bellman-Ford repetido,100,200,esparso,48,27,0.009477273999891622
+Bellman-Ford repetido,100,200,esparso,48,28,0.009495109999988927
+Bellman-Ford repetido,100,200,esparso,48,29,0.009439873999781412
+Bellman-Ford repetido,100,200,esparso,48,30,0.009448805999909382
+Dijkstra repetido,100,200,esparso,48,1,0.0037702810000155296
+Dijkstra repetido,100,200,esparso,48,2,0.0036947759999748087
+Dijkstra repetido,100,200,esparso,48,3,0.0037110479997863877
+Dijkstra repetido,100,200,esparso,48,4,0.0037172990000726713
+Dijkstra repetido,100,200,esparso,48,5,0.003711799000029714
+Dijkstra repetido,100,200,esparso,48,6,0.003709110999807308
+Dijkstra repetido,100,200,esparso,48,7,0.00368848700009039
+Dijkstra repetido,100,200,esparso,48,8,0.0037104269999872486
+Dijkstra repetido,100,200,esparso,48,9,0.003673089000130858
+Dijkstra repetido,100,200,esparso,48,10,0.003702687999975751
+Dijkstra repetido,100,200,esparso,48,11,0.003695614999742247
+Dijkstra repetido,100,200,esparso,48,12,0.0037068990000079793
+Dijkstra repetido,100,200,esparso,48,13,0.0036863609998363245
+Dijkstra repetido,100,200,esparso,48,14,0.003735975000381586
+Dijkstra repetido,100,200,esparso,48,15,0.003710253000008379
+Dijkstra repetido,100,200,esparso,48,16,0.0036938639996151323
+Dijkstra repetido,100,200,esparso,48,17,0.0037079349999658007
+Dijkstra repetido,100,200,esparso,48,18,0.003696470999784651
+Dijkstra repetido,100,200,esparso,48,19,0.0037003959996582125
+Dijkstra repetido,100,200,esparso,48,20,0.003702198999690154
+Dijkstra repetido,100,200,esparso,48,21,0.0037281919999259117
+Dijkstra repetido,100,200,esparso,48,22,0.0036789999999200518
+Dijkstra repetido,100,200,esparso,48,23,0.0037155330001041875
+Dijkstra repetido,100,200,esparso,48,24,0.004401308000069548
+Dijkstra repetido,100,200,esparso,48,25,0.003707821999796579
+Dijkstra repetido,100,200,esparso,48,26,0.0037272370000209776
+Dijkstra repetido,100,200,esparso,48,27,0.0037333360000957327
+Dijkstra repetido,100,200,esparso,48,28,0.0037008579997745983
+Dijkstra repetido,100,200,esparso,48,29,0.003707719999965775
+Dijkstra repetido,100,200,esparso,48,30,0.0037225400001261733
+Floyd-Warshall,100,200,esparso,48,1,0.01846814300006372
+Floyd-Warshall,100,200,esparso,48,2,0.018537953999839374
+Floyd-Warshall,100,200,esparso,48,3,0.018207987000096182
+Floyd-Warshall,100,200,esparso,48,4,0.018153639000047406
+Floyd-Warshall,100,200,esparso,48,5,0.018053254000278685
+Floyd-Warshall,100,200,esparso,48,6,0.018211570999937976
+Floyd-Warshall,100,200,esparso,48,7,0.01810397600002034
+Floyd-Warshall,100,200,esparso,48,8,0.018280205999872123
+Floyd-Warshall,100,200,esparso,48,9,0.01815300699990985
+Floyd-Warshall,100,200,esparso,48,10,0.01844320300006075
+Floyd-Warshall,100,200,esparso,48,11,0.018291744999714865
+Floyd-Warshall,100,200,esparso,48,12,0.01873984499979997
+Floyd-Warshall,100,200,esparso,48,13,0.01807720299984794
+Floyd-Warshall,100,200,esparso,48,14,0.018163144000027387
+Floyd-Warshall,100,200,esparso,48,15,0.018144280999877083
+Floyd-Warshall,100,200,esparso,48,16,0.018444734000240715
+Floyd-Warshall,100,200,esparso,48,17,0.01829093100013779
+Floyd-Warshall,100,200,esparso,48,18,0.01836457599983987
+Floyd-Warshall,100,200,esparso,48,19,0.01817275800021889
+Floyd-Warshall,100,200,esparso,48,20,0.018465643999661552
+Floyd-Warshall,100,200,esparso,48,21,0.018184167000072193
+Floyd-Warshall,100,200,esparso,48,22,0.01819202500018946
+Floyd-Warshall,100,200,esparso,48,23,0.018135057000108645
+Floyd-Warshall,100,200,esparso,48,24,0.01833480100003726
+Floyd-Warshall,100,200,esparso,48,25,0.018200304999936634
+Floyd-Warshall,100,200,esparso,48,26,0.018322014000204945
+Floyd-Warshall,100,200,esparso,48,27,0.018153837000227213
+Floyd-Warshall,100,200,esparso,48,28,0.018296198999905755
+Floyd-Warshall,100,200,esparso,48,29,0.01833832300007998
+Floyd-Warshall,100,200,esparso,48,30,0.018408011000246916
+Johnson,100,200,esparso,48,1,0.004619723000359954
+Johnson,100,200,esparso,48,2,0.004557598999781476
+Johnson,100,200,esparso,48,3,0.0045514239996009564
+Johnson,100,200,esparso,48,4,0.004690765999839641
+Johnson,100,200,esparso,48,5,0.0045643339999514865
+Johnson,100,200,esparso,48,6,0.004559282999707648
+Johnson,100,200,esparso,48,7,0.004562845999771525
+Johnson,100,200,esparso,48,8,0.0045474630001081096
+Johnson,100,200,esparso,48,9,0.0045546070000455074
+Johnson,100,200,esparso,48,10,0.004538890000276297
+Johnson,100,200,esparso,48,11,0.0045560459998341685
+Johnson,100,200,esparso,48,12,0.004568033999930776
+Johnson,100,200,esparso,48,13,0.004534556000180601
+Johnson,100,200,esparso,48,14,0.0045487140000659565
+Johnson,100,200,esparso,48,15,0.00456131800001458
+Johnson,100,200,esparso,48,16,0.004540008999811107
+Johnson,100,200,esparso,48,17,0.004552064000108658
+Johnson,100,200,esparso,48,18,0.00454193799987479
+Johnson,100,200,esparso,48,19,0.004560632999982772
+Johnson,100,200,esparso,48,20,0.004528491000201029
+Johnson,100,200,esparso,48,21,0.0045235999996293685
+Johnson,100,200,esparso,48,22,0.004569271000036679
+Johnson,100,200,esparso,48,23,0.004572556999846711
+Johnson,100,200,esparso,48,24,0.004542126000160351
+Johnson,100,200,esparso,48,25,0.0045614139999088366
+Johnson,100,200,esparso,48,26,0.004538868000054208
+Johnson,100,200,esparso,48,27,0.004542815999684535
+Johnson,100,200,esparso,48,28,0.004618212999957905
+Johnson,100,200,esparso,48,29,0.004524081999988994
+Johnson,100,200,esparso,48,30,0.004639163999854645
+Bellman-Ford repetido,100,1980,intermediario,49,1,0.06410056200002145
+Bellman-Ford repetido,100,1980,intermediario,49,2,0.06404980199977217
+Bellman-Ford repetido,100,1980,intermediario,49,3,0.0640023010000732
+Bellman-Ford repetido,100,1980,intermediario,49,4,0.06432521199985786
+Bellman-Ford repetido,100,1980,intermediario,49,5,0.06431530899999416
+Bellman-Ford repetido,100,1980,intermediario,49,6,0.06436013700022158
+Bellman-Ford repetido,100,1980,intermediario,49,7,0.06406710300007035
+Bellman-Ford repetido,100,1980,intermediario,49,8,0.06426110300026266
+Bellman-Ford repetido,100,1980,intermediario,49,9,0.06415149099984774
+Bellman-Ford repetido,100,1980,intermediario,49,10,0.06421501199974955
+Bellman-Ford repetido,100,1980,intermediario,49,11,0.06434084900001835
+Bellman-Ford repetido,100,1980,intermediario,49,12,0.06425805600019885
+Bellman-Ford repetido,100,1980,intermediario,49,13,0.06423944499965728
+Bellman-Ford repetido,100,1980,intermediario,49,14,0.06441372400013279
+Bellman-Ford repetido,100,1980,intermediario,49,15,0.06425148099970102
+Bellman-Ford repetido,100,1980,intermediario,49,16,0.0643392900001345
+Bellman-Ford repetido,100,1980,intermediario,49,17,0.0642370190003021
+Bellman-Ford repetido,100,1980,intermediario,49,18,0.06433265499981644
+Bellman-Ford repetido,100,1980,intermediario,49,19,0.06398573999967994
+Bellman-Ford repetido,100,1980,intermediario,49,20,0.06417007700019894
+Bellman-Ford repetido,100,1980,intermediario,49,21,0.06429122300005474
+Bellman-Ford repetido,100,1980,intermediario,49,22,0.06425272000024052
+Bellman-Ford repetido,100,1980,intermediario,49,23,0.06427452499974606
+Bellman-Ford repetido,100,1980,intermediario,49,24,0.06416045700007089
+Bellman-Ford repetido,100,1980,intermediario,49,25,0.06467646999999488
+Bellman-Ford repetido,100,1980,intermediario,49,26,0.06523286199990252
+Bellman-Ford repetido,100,1980,intermediario,49,27,0.06416263799974331
+Bellman-Ford repetido,100,1980,intermediario,49,28,0.0640095039998414
+Bellman-Ford repetido,100,1980,intermediario,49,29,0.06387629400023798
+Bellman-Ford repetido,100,1980,intermediario,49,30,0.06453638599987244
+Dijkstra repetido,100,1980,intermediario,49,1,0.01236922299995058
+Dijkstra repetido,100,1980,intermediario,49,2,0.012363407999600895
+Dijkstra repetido,100,1980,intermediario,49,3,0.012485719999858702
+Dijkstra repetido,100,1980,intermediario,49,4,0.01249843300001885
+Dijkstra repetido,100,1980,intermediario,49,5,0.012428472000010515
+Dijkstra repetido,100,1980,intermediario,49,6,0.012337234999904467
+Dijkstra repetido,100,1980,intermediario,49,7,0.012384529999962979
+Dijkstra repetido,100,1980,intermediario,49,8,0.01238950200013278
+Dijkstra repetido,100,1980,intermediario,49,9,0.012340411999957723
+Dijkstra repetido,100,1980,intermediario,49,10,0.012396646000070177
+Dijkstra repetido,100,1980,intermediario,49,11,0.012416210000083083
+Dijkstra repetido,100,1980,intermediario,49,12,0.012435065999852668
+Dijkstra repetido,100,1980,intermediario,49,13,0.012336970999967889
+Dijkstra repetido,100,1980,intermediario,49,14,0.012370203000045876
+Dijkstra repetido,100,1980,intermediario,49,15,0.01242285600028481
+Dijkstra repetido,100,1980,intermediario,49,16,0.012402468000345834
+Dijkstra repetido,100,1980,intermediario,49,17,0.013077456999781134
+Dijkstra repetido,100,1980,intermediario,49,18,0.013686093999695004
+Dijkstra repetido,100,1980,intermediario,49,19,0.013508911999906559
+Dijkstra repetido,100,1980,intermediario,49,20,0.013179009999930713
+Dijkstra repetido,100,1980,intermediario,49,21,0.012815115999728732
+Dijkstra repetido,100,1980,intermediario,49,22,0.013182930999846576
+Dijkstra repetido,100,1980,intermediario,49,23,0.013480552000146417
+Dijkstra repetido,100,1980,intermediario,49,24,0.013341809000394278
+Dijkstra repetido,100,1980,intermediario,49,25,0.0135392160000265
+Dijkstra repetido,100,1980,intermediario,49,26,0.013586078000116686
+Dijkstra repetido,100,1980,intermediario,49,27,0.013422371999695315
+Dijkstra repetido,100,1980,intermediario,49,28,0.013390661999892473
+Dijkstra repetido,100,1980,intermediario,49,29,0.012682562000009057
+Dijkstra repetido,100,1980,intermediario,49,30,0.013023857999996835
+Floyd-Warshall,100,1980,intermediario,49,1,0.04598924399988391
+Floyd-Warshall,100,1980,intermediario,49,2,0.04606585300007282
+Floyd-Warshall,100,1980,intermediario,49,3,0.045895229000052495
+Floyd-Warshall,100,1980,intermediario,49,4,0.04617625599985331
+Floyd-Warshall,100,1980,intermediario,49,5,0.04619188199967539
+Floyd-Warshall,100,1980,intermediario,49,6,0.046850558999722125
+Floyd-Warshall,100,1980,intermediario,49,7,0.046376362000046356
+Floyd-Warshall,100,1980,intermediario,49,8,0.04618018400014989
+Floyd-Warshall,100,1980,intermediario,49,9,0.05472952499985695
+Floyd-Warshall,100,1980,intermediario,49,10,0.04749377600001026
+Floyd-Warshall,100,1980,intermediario,49,11,0.047089177000088966
+Floyd-Warshall,100,1980,intermediario,49,12,0.046067715999924985
+Floyd-Warshall,100,1980,intermediario,49,13,0.046900730000288604
+Floyd-Warshall,100,1980,intermediario,49,14,0.04583105199981219
+Floyd-Warshall,100,1980,intermediario,49,15,0.04741826600002241
+Floyd-Warshall,100,1980,intermediario,49,16,0.047424332999980834
+Floyd-Warshall,100,1980,intermediario,49,17,0.047461895999731496
+Floyd-Warshall,100,1980,intermediario,49,18,0.04754948299978423
+Floyd-Warshall,100,1980,intermediario,49,19,0.0494912630001636
+Floyd-Warshall,100,1980,intermediario,49,20,0.04773143800002799
+Floyd-Warshall,100,1980,intermediario,49,21,0.04672643000003518
+Floyd-Warshall,100,1980,intermediario,49,22,0.046717584999896644
+Floyd-Warshall,100,1980,intermediario,49,23,0.048302170999704686
+Floyd-Warshall,100,1980,intermediario,49,24,0.04647456200018496
+Floyd-Warshall,100,1980,intermediario,49,25,0.05482869400020718
+Floyd-Warshall,100,1980,intermediario,49,26,0.05250974299997324
+Floyd-Warshall,100,1980,intermediario,49,27,0.06432737199975236
+Floyd-Warshall,100,1980,intermediario,49,28,0.056563643000117736
+Floyd-Warshall,100,1980,intermediario,49,29,0.050760179000008065
+Floyd-Warshall,100,1980,intermediario,49,30,0.049820727000224
+Johnson,100,1980,intermediario,49,1,0.014195526000094105
+Johnson,100,1980,intermediario,49,2,0.013811966000048415
+Johnson,100,1980,intermediario,49,3,0.01381260200014367
+Johnson,100,1980,intermediario,49,4,0.013449711999783176
+Johnson,100,1980,intermediario,49,5,0.013720088999889413
+Johnson,100,1980,intermediario,49,6,0.013473953999891819
+Johnson,100,1980,intermediario,49,7,0.013479075999839552
+Johnson,100,1980,intermediario,49,8,0.013814804000048753
+Johnson,100,1980,intermediario,49,9,0.013665866999872378
+Johnson,100,1980,intermediario,49,10,0.014016838000316056
+Johnson,100,1980,intermediario,49,11,0.014451701000325556
+Johnson,100,1980,intermediario,49,12,0.014664694999737549
+Johnson,100,1980,intermediario,49,13,0.014541362000272784
+Johnson,100,1980,intermediario,49,14,0.014605983999899763
+Johnson,100,1980,intermediario,49,15,0.01471118800009208
+Johnson,100,1980,intermediario,49,16,0.014895090000209166
+Johnson,100,1980,intermediario,49,17,0.014732035999713844
+Johnson,100,1980,intermediario,49,18,0.014256716000090819
+Johnson,100,1980,intermediario,49,19,0.014348217000133445
+Johnson,100,1980,intermediario,49,20,0.014208777000021655
+Johnson,100,1980,intermediario,49,21,0.014224666000245634
+Johnson,100,1980,intermediario,49,22,0.014350540999657824
+Johnson,100,1980,intermediario,49,23,0.013727841999752854
+Johnson,100,1980,intermediario,49,24,0.013678246000381478
+Johnson,100,1980,intermediario,49,25,0.013475494999966031
+Johnson,100,1980,intermediario,49,26,0.013646885000071052
+Johnson,100,1980,intermediario,49,27,0.01407371499999499
+Johnson,100,1980,intermediario,49,28,0.015014376000181073
+Johnson,100,1980,intermediario,49,29,0.015031409000130225
+Johnson,100,1980,intermediario,49,30,0.014617297999848233
+Bellman-Ford repetido,100,4950,denso,50,1,0.15263246799986518
+Bellman-Ford repetido,100,4950,denso,50,2,0.14020662299981268
+Bellman-Ford repetido,100,4950,denso,50,3,0.1393012649996308
+Bellman-Ford repetido,100,4950,denso,50,4,0.1398569950001729
+Bellman-Ford repetido,100,4950,denso,50,5,0.14002145699987523
+Bellman-Ford repetido,100,4950,denso,50,6,0.14319594699964
+Bellman-Ford repetido,100,4950,denso,50,7,0.14456227899972873
+Bellman-Ford repetido,100,4950,denso,50,8,0.15127515999984098
+Bellman-Ford repetido,100,4950,denso,50,9,0.14374679299999116
+Bellman-Ford repetido,100,4950,denso,50,10,0.1403784210001504
+Bellman-Ford repetido,100,4950,denso,50,11,0.13880078600004708
+Bellman-Ford repetido,100,4950,denso,50,12,0.14453545800006395
+Bellman-Ford repetido,100,4950,denso,50,13,0.14618013800009066
+Bellman-Ford repetido,100,4950,denso,50,14,0.13986583899986726
+Bellman-Ford repetido,100,4950,denso,50,15,0.1414385529997162
+Bellman-Ford repetido,100,4950,denso,50,16,0.1393061819999275
+Bellman-Ford repetido,100,4950,denso,50,17,0.14032895200034545
+Bellman-Ford repetido,100,4950,denso,50,18,0.13938737199987372
+Bellman-Ford repetido,100,4950,denso,50,19,0.1395554919999995
+Bellman-Ford repetido,100,4950,denso,50,20,0.13929120200009493
+Bellman-Ford repetido,100,4950,denso,50,21,0.14049704099988958
+Bellman-Ford repetido,100,4950,denso,50,22,0.13891386800014516
+Bellman-Ford repetido,100,4950,denso,50,23,0.13972112000010384
+Bellman-Ford repetido,100,4950,denso,50,24,0.13991523899994718
+Bellman-Ford repetido,100,4950,denso,50,25,0.1385769309999887
+Bellman-Ford repetido,100,4950,denso,50,26,0.14041732000032425
+Bellman-Ford repetido,100,4950,denso,50,27,0.13930203399968377
+Bellman-Ford repetido,100,4950,denso,50,28,0.13956593000011708
+Bellman-Ford repetido,100,4950,denso,50,29,0.1478403480000452
+Bellman-Ford repetido,100,4950,denso,50,30,0.14927339500036396
+Dijkstra repetido,100,4950,denso,50,1,0.023550865000288468
+Dijkstra repetido,100,4950,denso,50,2,0.02334429199981969
+Dijkstra repetido,100,4950,denso,50,3,0.025374059000114357
+Dijkstra repetido,100,4950,denso,50,4,0.023822295000172744
+Dijkstra repetido,100,4950,denso,50,5,0.02434429100003399
+Dijkstra repetido,100,4950,denso,50,6,0.023383033000300202
+Dijkstra repetido,100,4950,denso,50,7,0.022773949000111315
+Dijkstra repetido,100,4950,denso,50,8,0.023521282999809046
+Dijkstra repetido,100,4950,denso,50,9,0.029626692999954685
+Dijkstra repetido,100,4950,denso,50,10,0.03799393700001019
+Dijkstra repetido,100,4950,denso,50,11,0.0249778770003104
+Dijkstra repetido,100,4950,denso,50,12,0.023756813000090915
+Dijkstra repetido,100,4950,denso,50,13,0.023304085999825475
+Dijkstra repetido,100,4950,denso,50,14,0.02520928299963998
+Dijkstra repetido,100,4950,denso,50,15,0.024557510999784427
+Dijkstra repetido,100,4950,denso,50,16,0.02334458800032735
+Dijkstra repetido,100,4950,denso,50,17,0.022272696000072756
+Dijkstra repetido,100,4950,denso,50,18,0.02251745400008076
+Dijkstra repetido,100,4950,denso,50,19,0.02238827000019228
+Dijkstra repetido,100,4950,denso,50,20,0.02258747299993047
+Dijkstra repetido,100,4950,denso,50,21,0.02240651900001467
+Dijkstra repetido,100,4950,denso,50,22,0.022666358999686054
+Dijkstra repetido,100,4950,denso,50,23,0.02281857299976764
+Dijkstra repetido,100,4950,denso,50,24,0.023187284999949043
+Dijkstra repetido,100,4950,denso,50,25,0.02326559500033909
+Dijkstra repetido,100,4950,denso,50,26,0.023551618000055896
+Dijkstra repetido,100,4950,denso,50,27,0.022530147999987093
+Dijkstra repetido,100,4950,denso,50,28,0.02299511100000018
+Dijkstra repetido,100,4950,denso,50,29,0.022710413999902812
+Dijkstra repetido,100,4950,denso,50,30,0.022930651000024227
+Floyd-Warshall,100,4950,denso,50,1,0.05549935399994865
+Floyd-Warshall,100,4950,denso,50,2,0.05324642999994467
+Floyd-Warshall,100,4950,denso,50,3,0.05068193400029486
+Floyd-Warshall,100,4950,denso,50,4,0.050368709999929706
+Floyd-Warshall,100,4950,denso,50,5,0.04993576300012137
+Floyd-Warshall,100,4950,denso,50,6,0.05051847599997927
+Floyd-Warshall,100,4950,denso,50,7,0.05254565199993522
+Floyd-Warshall,100,4950,denso,50,8,0.056041349999759404
+Floyd-Warshall,100,4950,denso,50,9,0.05076665300020977
+Floyd-Warshall,100,4950,denso,50,10,0.05120928499991351
+Floyd-Warshall,100,4950,denso,50,11,0.05145615599985831
+Floyd-Warshall,100,4950,denso,50,12,0.0531929300000229
+Floyd-Warshall,100,4950,denso,50,13,0.050563574000079825
+Floyd-Warshall,100,4950,denso,50,14,0.05056527799979449
+Floyd-Warshall,100,4950,denso,50,15,0.0519257649998508
+Floyd-Warshall,100,4950,denso,50,16,0.05454869300001519
+Floyd-Warshall,100,4950,denso,50,17,0.05191136400026153
+Floyd-Warshall,100,4950,denso,50,18,0.05333780499995555
+Floyd-Warshall,100,4950,denso,50,19,0.052981933999944886
+Floyd-Warshall,100,4950,denso,50,20,0.055199721999997564
+Floyd-Warshall,100,4950,denso,50,21,0.05539112699989346
+Floyd-Warshall,100,4950,denso,50,22,0.05050368599995636
+Floyd-Warshall,100,4950,denso,50,23,0.05026535400020293
+Floyd-Warshall,100,4950,denso,50,24,0.051411626000117394
+Floyd-Warshall,100,4950,denso,50,25,0.05214594600010969
+Floyd-Warshall,100,4950,denso,50,26,0.05065198100010093
+Floyd-Warshall,100,4950,denso,50,27,0.05151427400005559
+Floyd-Warshall,100,4950,denso,50,28,0.05004072100018675
+Floyd-Warshall,100,4950,denso,50,29,0.060188186000232236
+Floyd-Warshall,100,4950,denso,50,30,0.056107504999999946
+Johnson,100,4950,denso,50,1,0.02355641200028913
+Johnson,100,4950,denso,50,2,0.023037330999613914
+Johnson,100,4950,denso,50,3,0.023759490999964328
+Johnson,100,4950,denso,50,4,0.023305136000089988
+Johnson,100,4950,denso,50,5,0.02322946599997522
+Johnson,100,4950,denso,50,6,0.023424506000083056
+Johnson,100,4950,denso,50,7,0.023020051999992575
+Johnson,100,4950,denso,50,8,0.023265270000138116
+Johnson,100,4950,denso,50,9,0.023555498999940028
+Johnson,100,4950,denso,50,10,0.023312521000207198
+Johnson,100,4950,denso,50,11,0.02370488699989437
+Johnson,100,4950,denso,50,12,0.023159176999797637
+Johnson,100,4950,denso,50,13,0.023865654000019276
+Johnson,100,4950,denso,50,14,0.02511812100010502
+Johnson,100,4950,denso,50,15,0.025427822999972705
+Johnson,100,4950,denso,50,16,0.02579776899983699
+Johnson,100,4950,denso,50,17,0.02566199400007463
+Johnson,100,4950,denso,50,18,0.025146242999653623
+Johnson,100,4950,denso,50,19,0.025981149000017467
+Johnson,100,4950,denso,50,20,0.02569636999987779
+Johnson,100,4950,denso,50,21,0.02547183800015773
+Johnson,100,4950,denso,50,22,0.025110178999966593
+Johnson,100,4950,denso,50,23,0.024567072999616357
+Johnson,100,4950,denso,50,24,0.023742552999920008
+Johnson,100,4950,denso,50,25,0.024702466999769968
+Johnson,100,4950,denso,50,26,0.032822318999933486
+Johnson,100,4950,denso,50,27,0.024276711999846157
+Johnson,100,4950,denso,50,28,0.02656196500038277
+Johnson,100,4950,denso,50,29,0.026156195000112348
+Johnson,100,4950,denso,50,30,0.024925938000251335
