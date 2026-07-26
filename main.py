@@ -18,7 +18,7 @@ def criar_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--somente-testes", action="store_true")
     parser.add_argument("--pular-testes", action="store_true")
-    parser.add_argument("--tamanhos", nargs="+", type=int, default=[10, 30, 100])
+    parser.add_argument("--tamanhos", nargs="+", type=int, default=[30, 60, 100, 150])
     parser.add_argument("--repeticoes", type=int, default=30)
     parser.add_argument("--aquecimentos", type=int, default=3)
     parser.add_argument("--saida", default="resultados")
