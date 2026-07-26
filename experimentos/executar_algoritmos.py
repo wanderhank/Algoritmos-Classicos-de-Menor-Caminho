@@ -19,11 +19,11 @@ class ResultadoResumo:
     densidade: str
     semente: int
     repeticoes: int
-    media_segundos: float
-    desvio_padrao_segundos: float
-    mediana_segundos: float
-    minimo_segundos: float
-    maximo_segundos: float
+    media_ms: float
+    desvio_padrao_ms: float
+    mediana_ms: float
+    minimo_ms: float
+    maximo_ms: float
     memoria_pico_bytes: int
 
 
@@ -37,15 +37,21 @@ def executar_uma_configuracao(
     semente: int,
     repeticoes: int,
     aquecimentos: int,
-) -> tuple[ResultadoResumo, list[float]]:
-    tempos = medir_tempos(
+    ) -> tuple[ResultadoResumo, list[float]]:
+        tempos_segundos = medir_tempos(
         algoritmo,
         vertices,
         grafo,
         repeticoes,
         aquecimentos,
     )
-    estatisticas = resumir_tempos(tempos)
+    
+    tempos_ms = [
+        tempo * 1000
+        for tempo in tempos_segundos
+    ]
+    
+    estatisticas = resumir_tempos(tempos_ms)
     memoria = medir_memoria_pico(algoritmo, vertices, grafo)
 
     return ResultadoResumo(
@@ -55,21 +61,32 @@ def executar_uma_configuracao(
         densidade=densidade,
         semente=semente,
         repeticoes=repeticoes,
-        media_segundos=estatisticas.media,
-        desvio_padrao_segundos=estatisticas.desvio_padrao,
-        mediana_segundos=estatisticas.mediana,
-        minimo_segundos=estatisticas.minimo,
-        maximo_segundos=estatisticas.maximo,
+        media_ms=estatisticas.media,
+        desvio_padrao_ms=estatisticas.desvio_padrao,
+        mediana_ms=estatisticas.mediana,
+        minimo_ms=estatisticas.minimo,
+        maximo_ms=estatisticas.maximo,
         memoria_pico_bytes=memoria,
-    ), tempos
+    ), tempos_ms
 
 
 def salvar_csv(caminho: Path, campos: list[str], linhas: list[dict]) -> None:
     caminho.parent.mkdir(parents=True, exist_ok=True)
-    with caminho.open("w", newline="", encoding="utf-8") as arquivo:
-        escritor = csv.DictWriter(arquivo, fieldnames=campos)
+    with caminho.open(
+        "w",
+        newline="",
+        encoding="utf-8-sig",
+    ) as arquivo:
+       escritor = csv.DictWriter(
+            arquivo,
+            fieldnames=campos,
+            delimiter=";",
+        )
         escritor.writeheader()
-        escritor.writerows(linhas)
+        escritor.writerows(
+            formatar_linha_csv(linha)
+            for linha in linhas
+        )
 
 
 def executar_experimentos(
@@ -106,7 +123,7 @@ def executar_experimentos(
                     f"{nome} produziu uma matriz diferente da referência."
                 )
 
-            resumo, tempos = executar_uma_configuracao(
+            resumo, tempos_ms = executar_uma_configuracao(
                 nome,
                 algoritmo,
                 vertices,
@@ -119,7 +136,7 @@ def executar_experimentos(
             )
             resumos.append(resumo)
 
-            for repeticao, tempo in enumerate(tempos, 1):
+            for repeticao, tempo_ms in enumerate(tempos_ms, 1):
                 brutos.append(
                     {
                         "algoritmo": nome,
@@ -128,13 +145,13 @@ def executar_experimentos(
                         "densidade": densidade,
                         "semente": semente,
                         "repeticao": repeticao,
-                        "tempo_segundos": tempo,
+                        "tempo_ms": tempo_ms,
                     }
                 )
 
             print(
                 f"{nome:23s} | V={vertices:4d} | E={quantidade_arestas:7d} | "
-                f"{densidade:13s} | média={resumo.media_segundos:.6f}s"
+                f"{densidade:13s} | média={resumo.media_ms:.6f} ms"
             )
 
     pasta = Path(diretorio_saida)
@@ -143,6 +160,20 @@ def executar_experimentos(
         list(ResultadoResumo.__dataclass_fields__.keys()),
         [asdict(resultado) for resultado in resumos],
     )
+
+    def formatar_valor_csv(valor):
+    if isinstance(valor, float):
+        return f"{valor:.6f}".replace(".", ",")
+
+    return valor
+
+
+    def formatar_linha_csv(linha: dict) -> dict:
+        return {
+        campo: formatar_valor_csv(valor)
+        for campo, valor in linha.items()
+    }
+    
     salvar_csv(
         pasta / "algoritmos_tempos_brutos.csv",
         [
@@ -152,7 +183,7 @@ def executar_experimentos(
             "densidade",
             "semente",
             "repeticao",
-            "tempo_segundos",
+            "tempo_ms",
         ],
         brutos,
     )
