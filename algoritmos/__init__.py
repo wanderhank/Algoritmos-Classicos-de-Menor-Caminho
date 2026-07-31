@@ -4,8 +4,8 @@ from algoritmos.floyd_warshall import floyd_warshall
 from algoritmos.johnson import johnson
 
 ALGORITMOS = {
-    "Bellman-Ford repetido": bellman_ford_todos_os_pares,
-    "Dijkstra repetido": dijkstra_todos_os_pares,
+    "Bellman-Ford": bellman_ford_todos_os_pares,
+    "Dijkstra": dijkstra_todos_os_pares,
     "Floyd-Warshall": floyd_warshall,
     "Johnson": johnson,
 }
