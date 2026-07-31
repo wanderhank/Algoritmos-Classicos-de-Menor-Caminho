@@ -210,6 +210,24 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 > Para cada combinação de tamanho e densidade, o grafo será gerado antes da medição e fornecido igualmente aos quatro algoritmos. Cada algoritmo realizará três execuções de aquecimento e, em seguida, trinta execuções oficiais. A memória será avaliada separadamente, e as operações internas serão contabilizadas por contadores específicos de cada implementação. Os resultados serão armazenados em arquivos CSV para posterior organização em tabelas, gráficos e análise 
 > comparativa.
 
+
+### Resultados Esperados
+
+>Considerando as características teóricas dos algoritmos, espera-se que o aumento da quantidade de vértices provoque crescimento no tempo de execução e no consumo de memória de todas as abordagens. Entretanto, esse crescimento deve ocorrer de maneira diferente para cada algoritmo, de acordo com sua complexidade e com a quantidade de arestas presentes no grafo.
+>
+> **Dijkstra**
+>> Como os grafos utilizados possuem apenas pesos positivos, espera-se que o algoritmo os menores tempos de execução, principalmente nos grafos esparsos e intermediários. 
+> 
+> **Johnson**
+>> Também deve apresentar bom desempenho nos grafos esparsos. Entretanto, espera-se que ele seja um pouco mais lento que o Dijkstra repetido, pois realiza uma execução inicial do Bellman-Ford, a reponderação das arestas e, posteriormente, uma execução do Dijkstra para cada vértice.
+> 
+> **Floyd-Warshall**
+>> Espera-se que o tempo de execução seja influenciado principalmente pela quantidade de vértices. Como sua complexidade é O(V³), o algoritmo realiza essencialmente a mesma estrutura de operações em grafos esparsos e densos com a mesma quantidade de vértices. Por isso, ele deve ser menos afetado pelo aumento da quantidade de arestas e pode se tornar relativamente mais competitivo nos grafos densos.
+> 
+> **Bellman-Ford**
+>> Deve apresentar o maior crescimento de tempo conforme a quantidade de arestas aumenta. Como o algoritmo percorre repetidamente todas as arestas para cada vértice de origem, espera-se que seu pior desempenho ocorra nos grafos intermediários e densos.
+>
+> Também se espera que todos os algoritmos produzam a mesma matriz de menores distâncias. Essa verificação é necessária antes da análise de desempenho, pois garante que as diferenças de tempo e memória estejam relacionadas ao custo computacional de cada abordagem, e não a erros na implementação.
 ## Executando o Experimento
 
 >Para executar o experimento, na raiz do projeto execute:
@@ -220,5 +238,7 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 > 
 > Agora acesse a visualização em:
 >> http://localhost:8080/
+
+## Resultados
 
 
