@@ -197,7 +197,7 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 
 ### Carga de Trabalho
 
-> A tarefa submetida aos algoritmos será calcular a matriz de menores distâncias entre todos os pares de vértices do grafo. Serão utilizados grafos de diferentes tamanhos, inicialmente com 10, 30 e 100 vértices, e com três níveis de 
+> A tarefa submetida aos algoritmos será calcular a matriz de menores distâncias entre todos os pares de vértices do grafo. Serão utilizados grafos de diferentes tamanhos, inicialmente com 30, 60, 100 e 150 vértices, e com três níveis de 
 > densidade: esparso, intermediário e denso. Dessa forma, será possível observar como o aumento do número de vértices e da quantidade de arestas influencia o comportamento e o desempenho de cada algoritmo.
 
 ### Métricas 
@@ -209,5 +209,16 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 
 > Para cada combinação de tamanho e densidade, o grafo será gerado antes da medição e fornecido igualmente aos quatro algoritmos. Cada algoritmo realizará três execuções de aquecimento e, em seguida, trinta execuções oficiais. A memória será avaliada separadamente, e as operações internas serão contabilizadas por contadores específicos de cada implementação. Os resultados serão armazenados em arquivos CSV para posterior organização em tabelas, gráficos e análise 
 > comparativa.
+
+## Executando o Experimento
+
+>Para executar o experimento, na raiz do projeto execute:
+>> docker compose run --rm experimento
+> 
+> Para visualizar os resultados, execute:
+>> docker compose up -d visualizacao
+> 
+> Agora acesse a visualização em:
+>> http://localhost:8080/
 
 
