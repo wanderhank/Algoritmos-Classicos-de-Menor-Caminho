@@ -54,3 +54,14 @@ services:
         "1",
         "--pular-testes"
       ]
+
+  visualizacao:
+    image: nginx:alpine
+    container_name: visualizacao-algoritmos
+    ports:
+      - "8080:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
+      - ./grafico.js:/usr/share/nginx/html/grafico.js:ro
+      - ./resultados:/usr/share/nginx/html/resultados:ro
+    restart: unless-stopped
