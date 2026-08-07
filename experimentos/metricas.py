@@ -22,11 +22,11 @@ class EstatisticasTempo:
 
 
 def medir_tempos(
-    algoritmo: Algoritmo,
-    numero_vertices: int,
-    arestas: list[Aresta],
-    repeticoes: int = 30,
-    aquecimentos: int = 3,
+        algoritmo: Algoritmo,
+        numero_vertices: int,
+        arestas: list[Aresta],
+        repeticoes: int = 30,
+        aquecimentos: int = 3,
 ) -> list[float]:
     if repeticoes < 2:
         raise ValueError("Use pelo menos duas repetições.")
@@ -60,9 +60,9 @@ def resumir_tempos(tempos: list[float]) -> EstatisticasTempo:
 
 
 def medir_memoria_pico(
-    algoritmo: Algoritmo,
-    numero_vertices: int,
-    arestas: list[Aresta],
+        algoritmo: Algoritmo,
+        numero_vertices: int,
+        arestas: list[Aresta],
 ) -> int:
     gc.collect()
     tracemalloc.start()

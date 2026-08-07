@@ -1,185 +1,3 @@
-# Algoritmos Clássicos de Menor Caminho
-
-## Grafos
-> Grafos são estruturas matemáticas utilizadas para representar relações entre diferentes elementos. Eles são formados por vértices, que representam os pontos ou entidades do problema, e por arestas, que representam as conexões
-> existentes entre esses vértices. Dependendo da situação analisada, as arestas podem possuir direção, peso ou outras propriedades.
-> <img src="/images/grafo-simples.png" alt="Grafo Direcionado" width="400">
-
-> Em um **grafo direcionado**, cada aresta possui um sentido definido, de modo que uma conexão de um vértice (u) para um vértice (v) não implica necessariamente a existência do caminho inverso.
-> 
-> <img src="/images/grafo-direcionado.png" alt="Grafo Direcionado" width="400">
-
-> Em um **grafo ponderado**, cada aresta recebe um valor numérico que pode representar distância, custo, tempo, consumo de recursos ou qualquer
-> outra medida relevante.
->
-> <img src="/images/grafo-ponderado.png" alt="Grafo Direcionado" width="400">
-
-> Também é possível classificar os grafos de acordo com a quantidade de conexões: **grafos esparsos** possuem poucas arestas em relação ao total possível, enquanto **grafos densos** apresentam um número elevado de conexões.
-> <table><tr><td><img src="/images/grafo-esparso.png" alt="Grafo Esparso" width="300"></td><td><img src="/images/grafo-denso.png" alt="Grafo Denso" width="300"></td></tr></table>
-
-## Algoritmos de Menor Caminho
-
-> Um algoritmo de menor caminho (ou shortest path algorithm) é um método usado para encontrar o caminho de menor custo entre dois pontos (vértices) em um grafo.
-> O objetivo do algoritmo é encontrar a sequência de arestas que liga a origem ao destino com o menor custo total, que pode ser a menor distância, o menor tempo, o menor número de nós visitados.
-
-### Algoritmo de Floyd-Warshall
-
-#### Origem
-
-> O algoritmo de Floyd-Warshall surgiu de duas publicações separadas, no mesmo ano de 1962. Warshall publicou um método para calcular o fecho transitivo de um grafo — basicamente, descobrir quais pares de vértices têm algum caminho entre si, sem se importar com o custo. Floyd, por conta própria, adaptou basicamente a mesma lógica para resolver um problema mais útil aqui: calcular o custo do menor caminho entre cada par de vértices de um grafo ponderado. É por isso que o algoritmo carrega os dois nomes, mesmo eles não tendo trabalhado juntos.
-
-#### Objetivo
-
-> O Floyd-Warshall é um algoritmo utilizado para encontrar as menores distâncias entre **todos** os pares de vértices de um grafo direcionado e ponderado — não parte de uma única origem, como o Dijkstra ou o Bellman-Ford. Na literatura, esse problema é chamado de All-Pairs Shortest Path (APSP): dado um grafo G = (V, E), formalmente, o objetivo é encontrar, para cada par (i, j), o valor do caminho de menor custo entre eles, ou infinito, caso não exista nenhum caminho.
->
-> Dava pra resolver isso rodando Dijkstra a partir de cada vértice, um de cada vez. O que o Floyd-Warshall faz de diferente é resolver tudo numa formulação só de programação dinâmica, sem tratar cada vértice como um problema separado.
-
-#### Funcionamento
-
-> A ideia central do algoritmo é testar, para cada par (i, j), se passar por um vértice intermediário k encurta o caminho já conhecido:
->
->> **dist[i][k] + dist[k][j] < dist[i][j]**
->
-> Cormen (2009, cap. 25) formaliza isso definindo d_ij^(k) como o menor caminho de i até j usando só os vértices {1, ..., k} como intermediários possíveis. A recorrência sai naturalmente disso: ou o caminho ótimo não passa por k (e o valor não muda em relação à rodada anterior), ou passa por k (e o caminho se quebra em dois pedaços — i até k, e k até j — cada um já resolvido na rodada anterior).
->
-> Por exemplo, considere um grafo com as arestas C→A (peso 5) e A→B (peso 3), sem aresta direta de C para B. Ao liberar A como intermediário (k = A), o algoritmo testa:
->
->> **5 + 3 = 8**
->
-> Como não existia caminho de C para B antes, esse valor passa a ser a nova distância registrada: dist[C][B] = 8.
->
-> O processo se repete para cada vértice do grafo como intermediário (k percorre todos os vértices), sempre atualizando a matriz de distâncias quando um caminho mais curto é encontrado. Um detalhe que exige atenção na implementação é que a matriz é atualizada "em cima dela mesma" — um único `dist`, sendo sobrescrito a cada rodada de k, em vez de uma cópia nova por rodada. Isso só é seguro porque, na hora de atualizar dist[i][j], os valores usados (dist[i][k] e dist[k][j]) nunca foram alterados durante essa mesma rodada — para isso acontecer, seria necessário ter i = k ou j = k, e nesse caso a comparação não muda nada (comparar um caminho com ele mesmo).
->
-> A corretude do algoritmo é provada por indução em k: no caso base (k = 0, nenhum intermediário liberado), a matriz reflete só os pesos das arestas diretas — trivialmente correto. Supondo que até k-1 a matriz esteja certa, a rodada de k testa se vale a pena passar por esse vértice novo. Como nenhum caminho simples num grafo de V vértices passa por mais de V vértices intermediários, depois das V rodadas a matriz reflete o menor caminho de verdade, sem restrição de quais vértices podem ser usados no meio.
-
-#### Complexidade
-
-> O algoritmo tem três laços aninhados percorrendo os V vértices do grafo. Sua complexidade de tempo é:
->
->> O(V³)
->
-> E a complexidade de espaço, referente ao armazenamento da matriz de distâncias, é:
->
->> O(V²)
->
-> Uma característica importante é que essa complexidade **não muda com a quantidade de arestas** — grafo esparso ou denso, o algoritmo realiza a mesma quantidade de operações.
-
-#### Vantagens e Desvantagens
-
-> As principais vantagens do algoritmo de Floyd-Warshall são:
->
->> - resolve todos os pares de vértices numa única execução, sem precisar rodar o algoritmo várias vezes;
->> - funciona mesmo com arestas de peso negativo, desde que não exista ciclo negativo alcançável;
->> - detecta ciclos de peso negativo de graça: se, ao final, algum valor da diagonal principal (dist[i][i]) ficar negativo, é sinal de que existe um ciclo negativo passando por aquele vértice;
->> - desempenho previsível e competitivo em grafos densos, onde o número de arestas se aproxima de V².
->
-> Em contrapartida, sua principal limitação é que o custo O(V³) é fixo, independente da densidade do grafo. Em grafos esparsos, algoritmos como Dijkstra ou Bellman-Ford, que exploram apenas as arestas que existem, tendem a ter desempenho melhor.
-
-### Dijkstra
-
-#### Objetivo
-
-> O objetivo do Dijkstra é determinar a rota de menor custo a partir de um ponto inicial específico para todos os outros pontos de um grafo.
-
-#### Funcionamento
-
-> O algoritmo opera por meio de uma estratégia de exploração em camadas, partindo da origem. Ele mantém uma lista de distâncias provisórias para cada nó, inicializadas como infinitas, exceto a origem, que começa com zero. A mecânica central consiste em selecionar, a cada etapa, o nó ainda não finalizado que possui a menor distância acumulada até o momento — na prática, essa seleção costuma ser feita com uma fila de prioridade (min-heap), o que impacta diretamente a eficiência do algoritmo.
->
-> Ao fixar esse nó, o algoritmo faz o chamado "relaxamento": ele analisa todos os vizinhos conectados a ele e calcula se chegar até eles passando por esse nó atual é mais barato do que o caminho registrado anteriormente. Em pseudocódigo, o relaxamento de uma aresta (u, v) é:
->
-> ```
-> se dist[v] > dist[u] + peso(u, v):
->     dist[v] = dist[u] + peso(u, v)
-> ```
->
-> Se a condição for verdadeira, a distância é atualizada. Esse processo se repete até que todos os pontos acessíveis tenham sido fixados.
-
-#### Limitação Teórica
-
-> A lógica do Dijkstra assume que caminhar pelo grafo sempre acumula custos positivos. Por conta disso, uma vez que um nó é marcado como "resolvido", o algoritmo nunca mais recalcula sua distância. Se o grafo contiver arestas com valores negativos, essa premissa é quebrada, pois um caminho mais longo no início poderia se tornar mais barato posteriormente através de uma aresta negativa — algo que o Dijkstra é estruturalmente incapaz de detectar.
-
-#### Complexidade
-
-> Com array simples: **O(V²)**
-> Com heap binário: **O((V + E) log V)**
-
----
-### Johnson
-
-#### Objetivo
-
-> O algoritmo de Johnson é projetado para resolver o problema de caminhos mínimos entre todos os pares de nós de um grafo, sendo uma solução otimizada para cenários onde o grafo possui muitas conexões distribuídas de forma esparsa. Ele combina a segurança do Bellman-Ford contra pesos negativos com a velocidade do Dijkstra.
-
-#### Funcionamento
-
-> O processo ocorre em quatro etapas:
->
-> **1. Inserção de Vértice Base**
-> Um nó fictício é temporariamente adicionado ao grafo, conectado a todos os outros nós reais por arestas de custo zero.
->
-> **2. Cálculo dos Potenciais**
-> O algoritmo executa o método de Bellman-Ford a partir desse nó fictício. Os valores resultantes dessas distâncias são armazenados como "potenciais" (h) de cada vértice. Se um ciclo negativo for detectado nesta fase, o processo é interrompido.
->
-> **3. Reponderação**
-> Utilizando os potenciais calculados, o algoritmo transforma o peso de todas as arestas originais do grafo segundo a fórmula:
->
->> **w'(u, v) = w(u, v) + h(u) − h(v)**
->
-> Essa transformação garante que todas as arestas passem a ter peso ≥ 0, sem alterar qual é o caminho mais curto entre dois nós — isso acontece porque, ao longo de qualquer caminho completo, os termos h(u) e h(v) intermediários se cancelam, preservando a ordem relativa dos custos originais.
->
-> **4. Mapeamento Total**
-> Com o grafo reconfigurado contendo apenas custos positivos, o algoritmo executa o método de Dijkstra a partir de cada um dos vértices do grafo. Ao final, a alteração nos pesos é revertida aritmeticamente para exibir os custos reais de cada caminho.
-
-#### Complexidade
-
-> **O(V · E)** do Bellman-Ford + **O(V · (V + E) log V)** das V execuções de Dijkstra
-
----
-
-### Algoritmo de Bellman-Ford
-
-#### Origem
-> O algoritmo de Bellman-Ford recebeu esse nome em referência aos matemáticos Richard Bellman e Lester Randolph Ford Jr., que publicaram trabalhos relacionados ao método em 1958 e 1956, respectivamente. Entretanto, uma ideia semelhante já havia 
-> sido apresentada por Alfonso Shimbel, em 1955. Em 1959, Edward F. Moore publicou outra variação, razão pela qual o método também pode ser chamado de algoritmo de Bellman-Ford-Moore.
-
-#### Objetivo
-> O Bellman-Ford é um algoritmo utilizado para encontrar as menores distâncias entre um vértice de origem e todos os demais vértices de um grafo direcionado e ponderado. Sua principal vantagem é funcionar mesmo quando algumas arestas possuem pesos 
-> negativos, desde que não exista um ciclo de peso negativo alcançável a partir da origem.
-> Um ciclo negativo é um caminho fechado cuja soma dos pesos é menor que zero. Quando esse tipo de ciclo existe, não há uma menor distância bem definida, pois seria possível percorrer o ciclo repetidamente e diminuir o custo indefinidamente.
-
-#### Funcionamento
-> Inicialmente, o algoritmo atribui distância zero ao vértice de origem e distância infinita aos demais vértices. Em seguida, percorre todas as arestas do grafo e realiza o processo de relaxamento.
-> Relaxar uma aresta significa verificar se ela oferece uma forma mais barata de chegar ao seu vértice de destino. Para uma aresta que liga o vértice (u) ao vértice (v), com peso (w), é feita a comparação:
->> **dist[u] + w < dist[v]**
-> 
-> Se essa condição for verdadeira, a distância de (v) é atualizada:
->> **dist[v] = dist[u] + w**
-> 
-> Por exemplo, considere que a distância conhecida até o vértice (A) seja 4, a distância conhecida até (B) seja 10 e a aresta (A → B) tenha peso 3. Passar por (A) produziria um custo igual a:
->> **4 + 3 = 7**
-> 
-> Como 7 é menor que 10, a aresta (A → B) é relaxada e a distância de (B) passa a ser 7.
-> O processo de relaxamento de todas as arestas é repetido, no máximo, (V-1) vezes, sendo (V) a quantidade de vértices. Isso ocorre porque um menor caminho simples pode conter, no máximo, (V-1) arestas.
-> Depois dessas repetições, o algoritmo percorre novamente todas as arestas. Se alguma distância ainda puder ser reduzida, isso indica a existência de um ciclo de peso negativo alcançável pela origem.
-#### Complexidade
-> Para uma única origem, o Bellman-Ford percorre todas as (E) arestas até (V-1) vezes. Sua complexidade de tempo é:
->> O(VE)
-> 
-> Quando o algoritmo é executado a partir de cada vértice para calcular os menores caminhos entre todos os pares, sua complexidade passa a ser:
->> O(V²E)
-> 
-#### Vantagens e Desvantagens
-> As principais vantagens do algoritmo de Bellman-Ford são:
->
->> - aceita arestas com pesos negativos;
->> - detecta ciclos de peso negativo alcançáveis;
->> - possui funcionamento relativamente simples;
->> - permite reconstruir os caminhos por meio dos predecessores;
->> - pode ser adaptado para calcular menores caminhos entre todos os pares.
->
-> Em contrapartida, sua principal limitação é o custo computacional elevado. Em grafos que possuem somente pesos positivos, algoritmos como Dijkstra geralmente apresentam desempenho melhor.
-Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode crescer significativamente, sobretudo em grafos grandes e densos.
-
 ## O Experimento
 
 ### Objetivo
@@ -231,7 +49,17 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 ## Executando o Experimento
 
 >Para executar o experimento, na raiz do projeto execute:
->> docker compose run --rm experimento
+>> docker compose build
+> 
+> Para cada experimento, execute:
+> 
+>> docker compose run --rm bellman-ford
+> 
+>> docker compose run --rm dijkstra
+> 
+>> docker compose run --rm floyd-warshall
+> 
+>> docker compose run --rm johnson
 > 
 > Para visualizar os resultados, execute:
 >> docker compose up -d visualizacao
@@ -239,6 +67,5 @@ Quando Bellman-Ford é executado a partir de todos os vértices, seu custo pode 
 > Agora acesse a visualização em:
 >> http://localhost:8080/
 
-## Resultados
 
 

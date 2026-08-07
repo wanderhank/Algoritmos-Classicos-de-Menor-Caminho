@@ -94,32 +94,32 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Desempenho dos algoritmos de menor caminho</h1>
-    <p class="descricao">
-      Comparação por quantidade de vértices, mantendo a classe de densidade controlada.
-      A quantidade de arestas aparece como informação complementar.
-    </p>
+<header>
+  <h1>Desempenho dos algoritmos de menor caminho</h1>
+  <p class="descricao">
+    Comparação por quantidade de vértices, mantendo a classe de densidade controlada.
+    A quantidade de arestas aparece como informação complementar.
+  </p>
 
-    <div class="controles">
-      <label for="filtro-densidade"><strong>Densidade:</strong></label>
-      <select id="filtro-densidade" aria-label="Selecionar densidade"></select>
+  <div class="controles">
+    <label for="filtro-densidade"><strong>Densidade:</strong></label>
+    <select id="filtro-densidade" aria-label="Selecionar densidade"></select>
 
-      <button id="botao-atualizar" type="button">Atualizar agora</button>
-      <span id="status">Aguardando carregamento...</span>
-    </div>
-  </header>
+    <button id="botao-atualizar" type="button">Atualizar agora</button>
+    <span id="status">Aguardando carregamento...</span>
+  </div>
+</header>
 
-  <main>
-    <section class="painel">
-      <div id="grafico-tempo" class="grafico"></div>
-    </section>
+<main>
+  <section class="painel">
+    <div id="grafico-tempo" class="grafico"></div>
+  </section>
 
-    <section class="painel">
-      <div id="grafico-memoria" class="grafico"></div>
-    </section>
-  </main>
+  <section class="painel">
+    <div id="grafico-memoria" class="grafico"></div>
+  </section>
+</main>
 
-  <script src="./grafico.js"></script>
+<script src="./grafico.js"></script>
 </body>
 </html>

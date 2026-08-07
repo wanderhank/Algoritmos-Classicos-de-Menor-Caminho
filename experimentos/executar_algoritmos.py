@@ -4,6 +4,8 @@ import csv
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
+import re
+import unicodedata
 
 from algoritmos import ALGORITMOS
 from algoritmos.comum import matrizes_iguais, validar_grafo
@@ -158,12 +160,21 @@ def salvar_csv(
         )
 
 
+
+def normalizar_nome_arquivo(nome: str) -> str:
+    """Converte o nome do algoritmo em um prefixo seguro para arquivos."""
+
+    sem_acentos = unicodedata.normalize("NFKD", nome)
+    somente_ascii = sem_acentos.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", "_", somente_ascii.lower()).strip("_")
+
 def executar_experimentos(
         tamanhos: list[int],
         repeticoes: int = 30,
         aquecimentos: int = 3,
         semente_base: int = 42,
         diretorio_saida: str = "resultados",
+        algoritmo_selecionado: str = "todos",
 ) -> None:
     """
     Executa o experimento comparativo dos algoritmos.
@@ -180,6 +191,22 @@ def executar_experimentos(
 
     resumos: list[ResultadoResumo] = []
     brutos: list[dict[str, Any]] = []
+
+    if algoritmo_selecionado == "todos":
+        algoritmos_executados = ALGORITMOS
+        nome_base_arquivo = "algoritmos"
+    else:
+        if algoritmo_selecionado not in ALGORITMOS:
+            nomes = ", ".join(ALGORITMOS)
+            raise ValueError(
+                f"Algoritmo inválido: {algoritmo_selecionado}. "
+                f"Escolha entre: {nomes}."
+            )
+
+        algoritmos_executados = {
+            algoritmo_selecionado: ALGORITMOS[algoritmo_selecionado]
+        }
+        nome_base_arquivo = normalizar_nome_arquivo(algoritmo_selecionado)
 
     configuracoes = configuracoes_de_carga(tamanhos)
 
@@ -213,7 +240,7 @@ def executar_experimentos(
             grafo,
         )
 
-        for nome, algoritmo in ALGORITMOS.items():
+        for nome, algoritmo in algoritmos_executados.items():
             # Verifica se o algoritmo produz a matriz correta.
             matriz = algoritmo(
                 vertices,
@@ -269,7 +296,7 @@ def executar_experimentos(
     pasta = Path(diretorio_saida)
 
     salvar_csv(
-        caminho=pasta / "algoritmos_resumo.csv",
+        caminho=pasta / f"{nome_base_arquivo}_resumo.csv",
         campos=list(
             ResultadoResumo.__dataclass_fields__.keys()
         ),
@@ -280,7 +307,7 @@ def executar_experimentos(
     )
 
     salvar_csv(
-        caminho=pasta / "algoritmos_tempos_brutos.csv",
+        caminho=pasta / f"{nome_base_arquivo}_tempos_brutos.csv",
         campos=[
             "algoritmo",
             "vertices",

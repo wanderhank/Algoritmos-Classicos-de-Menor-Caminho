@@ -1,24 +1,57 @@
+x-experimento-base: &experimento-base
+  build:
+    context: .
+    dockerfile: Dockerfile
+  image: projeto-menor-caminho:latest
+  volumes:
+    - ./resultados:/app/resultados
+
 services:
-  experimento:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: projeto-menor-caminho:latest
-    volumes:
-      - ./resultados:/app/resultados
+  bellman-ford:
+    <<: *experimento-base
     command:
       [
-        "python",
-        "main.py",
-        "--tamanhos",
-        "30",
-        "60",
-        "100",
-        "150",
-        "--repeticoes",
-        "30",
-        "--aquecimentos",
-        "3",
+        "python", "main.py",
+        "--algoritmo", "Bellman-Ford",
+        "--tamanhos", "30", "60", "100", "150",
+        "--repeticoes", "30",
+        "--aquecimentos", "3",
+        "--pular-testes"
+      ]
+
+  dijkstra:
+    <<: *experimento-base
+    command:
+      [
+        "python", "main.py",
+        "--algoritmo", "Dijkstra",
+        "--tamanhos", "30", "60", "100", "150",
+        "--repeticoes", "30",
+        "--aquecimentos", "3",
+        "--pular-testes"
+      ]
+
+  floyd-warshall:
+    <<: *experimento-base
+    command:
+      [
+        "python", "main.py",
+        "--algoritmo", "Floyd-Warshall",
+        "--tamanhos", "30", "60", "100", "150",
+        "--repeticoes", "30",
+        "--aquecimentos", "3",
+        "--pular-testes"
+      ]
+
+  johnson:
+    <<: *experimento-base
+    command:
+      [
+        "python", "main.py",
+        "--algoritmo", "Johnson",
+        "--tamanhos", "30", "60", "100", "150",
+        "--repeticoes", "30",
+        "--aquecimentos", "3",
         "--pular-testes"
       ]
 
@@ -27,33 +60,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: projeto-menor-caminho:latest
-    command:
-      [
-        "python",
-        "main.py",
-        "--somente-testes"
-      ]
-
-  rapido:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: projeto-menor-caminho:latest
-    volumes:
-      - ./resultados:/app/resultados
-    command:
-      [
-        "python",
-        "main.py",
-        "--tamanhos",
-        "30",
-        "60",
-        "--repeticoes",
-        "3",
-        "--aquecimentos",
-        "1",
-        "--pular-testes"
-      ]
+    command: ["python", "main.py", "--somente-testes"]
 
   visualizacao:
     image: nginx:alpine

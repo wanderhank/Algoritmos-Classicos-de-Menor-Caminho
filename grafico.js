@@ -1,4 +1,9 @@
-const CSV_URL = './resultados/algoritmos_resumo.csv';
+const CSV_URLS = [
+  './resultados/bellman_ford_resumo.csv',
+  './resultados/dijkstra_resumo.csv',
+  './resultados/floyd_warshall_resumo.csv',
+  './resultados/johnson_resumo.csv'
+];
 const INTERVALO_ATUALIZACAO_MS = 5000;
 
 const elementoTempo = document.getElementById('grafico-tempo');
@@ -29,54 +34,54 @@ let carregamentoEmAndamento = false;
 
 function converterCsv(texto) {
   const linhas = texto
-    .replace(/^\uFEFF/, '')
-    .trim()
-    .split(/\r?\n/)
-    .filter((linha) => linha.trim() !== '');
+      .replace(/^\uFEFF/, '')
+      .trim()
+      .split(/\r?\n/)
+      .filter((linha) => linha.trim() !== '');
 
   if (linhas.length < 2) {
     throw new Error('O CSV está vazio ou não possui resultados.');
   }
 
   const cabecalhos = linhas[0]
-    .split(';')
-    .map((cabecalho) => cabecalho.trim());
+      .split(';')
+      .map((cabecalho) => cabecalho.trim());
 
   return linhas
-    .slice(1)
-    .map((linha) => {
-      const valores = linha.split(';');
-      const registro = {};
+      .slice(1)
+      .map((linha) => {
+        const valores = linha.split(';');
+        const registro = {};
 
-      cabecalhos.forEach((cabecalho, indice) => {
-        const valorOriginal = (valores[indice] ?? '').trim();
+        cabecalhos.forEach((cabecalho, indice) => {
+          const valorOriginal = (valores[indice] ?? '').trim();
 
-        if (COLUNAS_NUMERICAS.has(cabecalho)) {
-          registro[cabecalho] = Number(valorOriginal.replace(',', '.'));
-        } else {
-          registro[cabecalho] = valorOriginal;
-        }
-      });
+          if (COLUNAS_NUMERICAS.has(cabecalho)) {
+            registro[cabecalho] = Number(valorOriginal.replace(',', '.'));
+          } else {
+            registro[cabecalho] = valorOriginal;
+          }
+        });
 
-      return registro;
-    })
-    .filter((registro) =>
-      registro.algoritmo &&
-      registro.densidade &&
-      Number.isFinite(registro.vertices) &&
-      Number.isFinite(registro.arestas) &&
-      Number.isFinite(registro.media_ms) &&
-      Number.isFinite(registro.memoria_pico_bytes)
-    );
+        return registro;
+      })
+      .filter((registro) =>
+          registro.algoritmo &&
+          registro.densidade &&
+          Number.isFinite(registro.vertices) &&
+          Number.isFinite(registro.arestas) &&
+          Number.isFinite(registro.media_ms) &&
+          Number.isFinite(registro.memoria_pico_bytes)
+      );
 }
 
 function escaparHtml(valor) {
   return String(valor)
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#039;');
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
 }
 
 function formatarNumero(valor, casas = 2) {
@@ -166,9 +171,9 @@ function obterDadosFiltrados() {
   const densidadeSelecionada = filtroDensidade.value;
 
   return ordenarDados(
-    dadosAtuais.filter(
-      (registro) => registro.densidade === densidadeSelecionada
-    )
+      dadosAtuais.filter(
+          (registro) => registro.densidade === densidadeSelecionada
+      )
   );
 }
 
@@ -334,25 +339,25 @@ function criarOpcaoBase(titulo, subtitulo, dados, campoY, nomeEixoY, tooltipForm
 
 function criarOpcaoTempo(dados) {
   return criarOpcaoBase(
-    'Vértices × tempo médio',
-    'Menor valor indica execução mais rápida',
-    dados,
-    'media_ms',
-    'Tempo médio (ms)',
-    criarTooltipTempo,
-    (valor) => `${formatarNumero(valor, 0)} ms`
+      'Vértices × tempo médio',
+      'Menor valor indica execução mais rápida',
+      dados,
+      'media_ms',
+      'Tempo médio (ms)',
+      criarTooltipTempo,
+      (valor) => `${formatarNumero(valor, 0)} ms`
   );
 }
 
 function criarOpcaoMemoria(dados) {
   return criarOpcaoBase(
-    'Vértices × memória de pico',
-    'Menor valor indica menor consumo de memória',
-    dados,
-    'memoria_pico_bytes',
-    'Memória de pico',
-    criarTooltipMemoria,
-    formatarBytes
+      'Vértices × memória de pico',
+      'Menor valor indica menor consumo de memória',
+      dados,
+      'memoria_pico_bytes',
+      'Memória de pico',
+      criarTooltipMemoria,
+      formatarBytes
   );
 }
 
@@ -383,36 +388,61 @@ async function carregarCsv(forcarAtualizacao = false) {
   try {
     atualizarStatus('Verificando resultados...');
 
-    const resposta = await fetch(`${CSV_URL}?timestamp=${Date.now()}`, {
-      cache: 'no-store'
-    });
+    const respostas = await Promise.all(
+        CSV_URLS.map(async (url) => {
+          const resposta = await fetch(`${url}?timestamp=${Date.now()}`, {
+            cache: 'no-store'
+          });
 
-    if (!resposta.ok) {
-      throw new Error(`Não foi possível carregar o CSV (HTTP ${resposta.status}).`);
+          if (resposta.status === 404) {
+            return null;
+          }
+
+          if (!resposta.ok) {
+            throw new Error(`Não foi possível carregar ${url} (HTTP ${resposta.status}).`);
+          }
+
+          return {
+            url,
+            texto: await resposta.text()
+          };
+        })
+    );
+
+    const arquivosEncontrados = respostas.filter(Boolean);
+
+    if (!arquivosEncontrados.length) {
+      throw new Error(
+          'Nenhum CSV separado foi encontrado. Execute ao menos um serviço de algoritmo.'
+      );
     }
 
-    const texto = await resposta.text();
+    const conteudoAtual = arquivosEncontrados
+        .map((arquivo) => `${arquivo.url}\n${arquivo.texto}`)
+        .join('\n---\n');
 
-    if (!forcarAtualizacao && texto === ultimoConteudoCsv) {
+    if (!forcarAtualizacao && conteudoAtual === ultimoConteudoCsv) {
       atualizarStatus(`Sem alterações — verificado às ${new Date().toLocaleTimeString('pt-BR')}.`);
       return;
     }
 
-    const novosDados = converterCsv(texto);
+    const novosDados = arquivosEncontrados.flatMap((arquivo) =>
+        converterCsv(arquivo.texto)
+    );
 
     if (!novosDados.length) {
-      throw new Error('Nenhum registro válido foi encontrado no CSV.');
+      throw new Error('Nenhum registro válido foi encontrado nos arquivos CSV.');
     }
 
     dadosAtuais = novosDados;
-    ultimoConteudoCsv = texto;
+    ultimoConteudoCsv = conteudoAtual;
 
     atualizarOpcoesDensidade(dadosAtuais);
     desenharGraficos();
 
     atualizarStatus(
-      `Atualizado às ${new Date().toLocaleTimeString('pt-BR')} — ` +
-      `${dadosAtuais.length} resultados carregados.`
+        `Atualizado às ${new Date().toLocaleTimeString('pt-BR')} — ` +
+        `${dadosAtuais.length} resultados de ${arquivosEncontrados.length} algoritmo(s).`
     );
   } catch (erro) {
     console.error(erro);
